@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-01-03T18:19:54+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">NynaSunner’s site</title><subtitle>Cock and balls</subtitle><author><name>NynaSunner</name></author><entry><title type="html">Finding a decent Minecraft launcher</title><link href="http://localhost:4000/blog/finding-a-decent-minecraft-launcher/" rel="alternate" type="text/html" title="Finding a decent Minecraft launcher" /><published>2023-12-20T14:25:00+01:00</published><updated>2023-12-20T14:25:00+01:00</updated><id>http://localhost:4000/blog/finding-a-decent-minecraft-launcher</id><content type="html" xml:base="http://localhost:4000/blog/finding-a-decent-minecraft-launcher/">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;I don’t have a Minecraft account because I bought the game in 2011 and lost my account, yet I refuse to buy the game again for twice its original price. Screw you Microsoft I’m not paying for Bedrock edition.&lt;/p&gt;
+
+&lt;p&gt;I’ve been using TLauncher - the ORIGINAL TLauncher - for many years now, but as I switched from PC to PC I ended up with the infamous clone that was accused of being full of spyware not too long ago. I haven’t played Minecraft in a good while so I didn’t bother switching clients until a few days ago when I wanted to play for a bit and kept hearing that TLauncher isn’t safe.&lt;/p&gt;
+
+&lt;p&gt;Blindly looking for a cracked Minecraft client that isn’t full of malware is a difficult task, so I asked for recomendations and tried them all, then I got into the MultiMC forks rabbithole and tried some more.&lt;/p&gt;
+
+&lt;p&gt;In particular I was looking for a client to play 1.20.2 with Forge and a few specific mods, and for it to have some sort of skin support. These are the ones I tried, split into the ones I deleted and the ones I kept.&lt;/p&gt;
+
+&lt;h2 id=&quot;clients-i-deleted&quot;&gt;Clients I deleted&lt;/h2&gt;
+
+&lt;h3 id=&quot;multimc&quot;&gt;MultiMC&lt;/h3&gt;
+
+&lt;p&gt;This was one I got recommended but it isn’t cracked so it’s useless for me. Nearly every client in this list is a fork of this one lmao.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://multimc.org/&quot;&gt;MultiMC website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;salwyrr&quot;&gt;Salwyrr&lt;/h3&gt;
+
+&lt;p&gt;According to the website they don’t have the version I want (it said 1.8.9 - 1.19.2) but I decided to try nonetheless. I downloaded the .jar version and it told me to download the other version. uh. ok i guess.&lt;/p&gt;
+
+&lt;p&gt;I installed the .exe one and for some reason it opened up in windowed full screen in my second monitor. Weird. It also didn’t load so I only had a dark gray window. Re-installed it and it finally worked. I rejected their cookies and opened up the settings but the only two settings are “RAM” and to modify my cookie preferences. I assume the RAM thing is maximum RAM.&lt;/p&gt;
+
+&lt;p&gt;The website was indeed correct and they only had up to version 1.19.2, but I still wanted to try it out so I launched version 1.12.2. It froze for a good while but it did work at the end. The menu and settings is completely revamped to match their dark gray minimalistic theme with iOS emojis, and they had a bunch of Hypixel specific mods and settings that I didn’t touch. I tried creating a world aaaaand it’s premium only. Apparently they removed offline accounts in March of this year for legal and partnership reasons.&lt;/p&gt;
+
+&lt;p&gt;So to the trash bin it goes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.salwyrr.com/&quot;&gt;Salwyrr website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;prismlauncher&quot;&gt;PrismLauncher&lt;/h3&gt;
+
+&lt;p&gt;MultiMC fork. It’s not cracked :(&lt;/p&gt;
+
+&lt;p&gt;Apparently you can allow offline accounts by modifying the code and compiling it yourself but it’s a bother and wouldn’t let me use skins.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://prismlauncher.org/&quot;&gt;PrismLauncher website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;clients-i-kept&quot;&gt;Clients I kept&lt;/h2&gt;
+
+&lt;h3 id=&quot;ultimmc&quot;&gt;UltimMC&lt;/h3&gt;
+
+&lt;p&gt;Another MultiMC fork, this one cracked, that allows local and Ely.by accounts.&lt;/p&gt;
+
+&lt;p&gt;Everything was perfect with this one but then I tried adding Forge to my 1.20.2 instance and it just wouldn’t launch. I tried switching to every Java version I have (which are A LOT ngl) and still didn’t work. Disabling Forge made it able to launch again and I also tried making a 1.12.2 Forge instance and it did work. So I have no clue of what’s wrong.&lt;/p&gt;
+
+&lt;p&gt;Even though it didn’t work at the end it seems like a puntual error (?) so I’m keeping it. I opened an issue on its repo so hopefully they’ll fix it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/UltimMC/Launcher&quot;&gt;UltimMC github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;pollymc&quot;&gt;PollyMC&lt;/h3&gt;
+
+&lt;p&gt;A fork of PrismLauncher (and by extension a MultiMC fork) that allows offline accounts and alternative auth servers, like Ely.by or LittleSkin. Getting the alt auth servers to work is a bit trickier than in UltimMC since you need to input the URL of the page you’re using but it’s easy enough and explained in the documentation. It also lets you choose a mod loader as you create the instance instead of adding it later, which is nice.&lt;/p&gt;
+
+&lt;p&gt;However, unlike UltimMC, this one did manage to launch my beloved 1.20.2 Forge instance. 💞&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/fn2006/PollyMC&quot;&gt;PollyMC github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;sklauncher&quot;&gt;SKlauncher&lt;/h3&gt;
+
+&lt;p&gt;The website is SO SLOW??? Huh????????&lt;/p&gt;
+
+&lt;p&gt;After waiting FOREVER to make an account and FOREVER to load my profile to edit it and EVEN MORE FOREVERS for the downloads page to work I finally got it and installed it. Loading also took forever, but that didn’t bother me as much.&lt;/p&gt;
+
+&lt;p&gt;Sometimes it refuses to launch, though. Idk why.&lt;/p&gt;
+
+&lt;p&gt;The website has a whole section where you choose your skin and everything, but for some reason the client only lets you login with Microsoft or use an offline account. I thought “What? So there’s no way of having skins? What was that section of the website for then?” but it turns out that the offline account takes the skin from the SKlauncher account from the website. Without asking for a password. Strange, but the only “stealable” thing there is your skin so it doesn’t matter much.&lt;/p&gt;
+
+&lt;p&gt;The client itself has a modern minimalistic look and you can create instances with Forge, Fabric, Quill and everything. It also has a section for downloading modpacks and it seems that individual mod downloading is planned for version 3.3 of the launcher (I’m using 3.2).&lt;/p&gt;
+
+&lt;p&gt;I created the 1.20.2 instance and launched it, it uses the same folder as TLauncher so I was greeted by the mods I already had, which was a nice surprise since that meant that I didn’t have to move anything.&lt;/p&gt;
+
+&lt;p&gt;Overall, it’s good and it did what I wanted. I wish the program didn’t give up on loading sometimes, though.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://skmedix.pl/&quot;&gt;SKlauncher website&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The conclusion is that my cheap forgetful ass wouldn’t have so many problems if it stoped being cheap or forgetful. Since I would have a legal Minecraft account.&lt;/p&gt;
+
+&lt;p&gt;Currently I’m using PollyMC on virtue of it loading faster than SKlauncher, and I’m making sure that my old TLauncher stuff is in SKlauncher so that I can delete it for good. I’ll probably end up keeping the one with the best skin support or one of the Github ones since they’re FOSS.&lt;/p&gt;</content><author><name>NynaSunner</name></author><category term="minecraft" /><category term="gaming" /><category term="review" /><summary type="html">Intro</summary></entry><entry><title type="html">Hello world</title><link href="http://localhost:4000/blog/hello-world/" rel="alternate" type="text/html" title="Hello world" /><published>2022-04-28T16:40:00+01:00</published><updated>2022-04-28T16:40:00+01:00</updated><id>http://localhost:4000/blog/test</id><content type="html" xml:base="http://localhost:4000/blog/hello-world/">&lt;h1 id=&quot;epic-title&quot;&gt;Epic title&lt;/h1&gt;
+
+&lt;p&gt;This is some sample text&lt;/p&gt;
+
+&lt;p&gt;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat sed, odio ab fugit tempora facere, libero, inventore atque tenetur eos! Voluptas eos, quis distinctio ipsum sed qui sapiente autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat sed, odio ab fugit tempora facere, libero, inventore atque tenetur eos! Voluptas eos, quis distinctio ipsum sed qui sapiente autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat sed, odio ab fugit tempora facere, libero, inventore atque tenetur eos! Voluptas eos, quis distinctio ipsum sed qui sapiente autem.&lt;/p&gt;
+
+&lt;p&gt;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat sed, odio ab fugit tempora facere, libero, inventore atque tenetur eos! Voluptas eos, quis distinctio ipsum sed qui sapiente autem.&lt;/p&gt;
+
+&lt;p&gt;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat sed, odio ab fugit tempora facere, libero, inventore atque tenetur eos! Voluptas eos, quis distinctio ipsum sed qui sapiente autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat sed, odio ab fugit tempora facere, libero, inventore atque tenetur eos! Voluptas eos, quis distinctio ipsum sed qui sapiente autem.&lt;/p&gt;
+
+&lt;h1 id=&quot;lists&quot;&gt;Lists&lt;/h1&gt;
+
+&lt;h2 id=&quot;unordered&quot;&gt;Unordered&lt;/h2&gt;
+
+&lt;p&gt;This is an unordered list:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;First item on the list
+    &lt;ul&gt;
+      &lt;li&gt;Indented list&lt;/li&gt;
+      &lt;li&gt;Same list
+        &lt;ul&gt;
+          &lt;li&gt;Whoops&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;This one goes after the indented list&lt;/li&gt;
+  &lt;li&gt;Fin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ordered&quot;&gt;Ordered&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ordered list&lt;/li&gt;
+  &lt;li&gt;Second item
+    &lt;ol&gt;
+      &lt;li&gt;Indented
+        &lt;ol&gt;
+          &lt;li&gt;Super indented&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Last item&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;embeds&quot;&gt;Embeds&lt;/h1&gt;
+
+&lt;p&gt;Here’s a youtube embed&lt;/p&gt;
+&lt;center&gt;&lt;iframe class=&quot;ytvideo&quot; src=&quot;https://www.youtube-nocookie.com/embed/B56YquscI6o?si=jEWwFzguGt7Ft733&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+
+&lt;p&gt;Here’s a tumblr embed&lt;/p&gt;
+&lt;center&gt;&lt;div class=&quot;tumblr-post&quot; data-href=&quot;https://embed.tumblr.com/embed/post/w3hjnbtuRnKlWnGkugJCKA/698444298515021824&quot; data-did=&quot;da39a3ee5e6b4b0d3255bfef95601890afd80709&quot;&gt;&lt;a href=&quot;https://nynasunner.tumblr.com/post/698444298515021824&quot;&gt;https://nynasunner.tumblr.com/post/698444298515021824&lt;/a&gt;&lt;/div&gt;  &lt;script async=&quot;&quot; src=&quot;https://assets.tumblr.com/post.js&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+
+&lt;p&gt;Here’s a twitter embed&lt;/p&gt;
+&lt;center&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;This one has made me laugh for YEARS &lt;a href=&quot;https://t.co/ecjSne9J8z&quot;&gt;https://t.co/ecjSne9J8z&lt;/a&gt; &lt;a href=&quot;https://t.co/SehgNnTKPo&quot;&gt;pic.twitter.com/SehgNnTKPo&lt;/a&gt;&lt;/p&gt;&amp;mdash; Heli 🌙 (@LunarRavana) &lt;a href=&quot;https://twitter.com/LunarRavana/status/1664794621765992448?ref_src=twsrc%5Etfw&quot;&gt;June 3, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+
+&lt;h1 id=&quot;other-stuff&quot;&gt;Other stuff&lt;/h1&gt;
+
+&lt;p&gt;Still trying to figure out how to change the color of a disabled textbox without &lt;em&gt;making&lt;/em&gt; another textbox and hiding the original&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Check&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Checkn’t&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I wanted my emojis to look the same across all platforms so I included twemoji! 😊 Though the way I’m implementing them might make the page slow down 😔 If only the twemoji gem worked in GH Pages… 🥺&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;A term&lt;/dt&gt;
+  &lt;dd&gt;its definition?&lt;/dd&gt;
+  &lt;dd&gt;I’m not really sure of what this is&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;figure class=&quot;pic&quot;&gt;
+    &lt;picture&gt;
+        &lt;source srcset=&quot;/assets/img/momazos%20nyna.png&quot; /&gt;
+        &lt;a href=&quot;/assets/img/momazos%20nyna.png&quot; target=&quot;_blank&quot;&gt;
+            &lt;img src=&quot;/assets/img/momazos%20nyna.png&quot; alt=&quot;Literally me fr&quot; title=&quot;&quot; width=&quot;&quot; height=&quot;&quot; /&gt;
+        &lt;/a&gt;
+    &lt;/picture&gt;
+    &lt;figcaption&gt;Literally me fr&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can click on images to view them in a new tab. If the image comes from an specific source (like a twitter post) clicking on it will lead you to said post instead&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote!
+Lorem ipsum dolor sit amet, did you know that fish only have two heart chambers? That means that the blood flows through all of the body before being pumped by the heart again, unlike in us mammals where the blood is pumped twice per cycle&lt;/p&gt;
+
+  &lt;p&gt;:O&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here’s a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bit of code&lt;/code&gt; teehee&lt;/p&gt;
+
+&lt;p&gt;Fenced codeblock with no format&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+  &quot;firstName&quot;: &quot;John&quot;,
+  &quot;lastName&quot;: &quot;Smith&quot;,
+  &quot;age&quot;: 25
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Fenced codeblock with format, using the dark monokai theme because it’s the best&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;example&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Waow, an example&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here’s a sentence with a footnote&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Idk how I want to style tables yet&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Syntax&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Header&lt;/td&gt;
+      &lt;td&gt;Title&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Paragraph&lt;/td&gt;
+      &lt;td&gt;Text&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;For the icons I’m using simpleicons! Like this: &lt;img height=&quot;32&quot; width=&quot;32&quot; src=&quot;https://cdn.simpleicons.org/simpleicons/white&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re on PC you’ll see a sidebar on the right that indicates on what part of the post you’re at. It disappears if your screen isn’t wide enough so it isn’t visible on mobile&lt;/p&gt;
+
+&lt;p&gt;This is the end of the post! Below is the footnote and a Disqus comment section. I don’t like Disqus and I’ve tried disabling its ads but it was the only free comment section that didn’t force you to log in even to leave anonymous messages (like Commentbox)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This is the footnote! &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>NynaSunner</name></author><category term="test" /><summary type="html">Epic title</summary></entry></feed>
