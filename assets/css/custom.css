@@ -334,14 +334,14 @@ nav a, .dropdown > label{
     z-index: 999;
     display: block;
     left: -100vw;
-    top: calc(1.5em + 1.6rem);
+    top: 3.4em;
     border: 1px solid var(--accent);
     background: var(--accent-bg);
     border-radius: 15px;
     padding: 0;
     margin: 0;
     list-style: none;
-    width: 100%;
+    width: max-content;
 }
 
 .dropdown > ul a {
@@ -353,7 +353,7 @@ nav a, .dropdown > label{
 
 .dropdown > input[type="checkbox"]:checked ~ ul,
 .dropdown > ul:target {
-  left: 0;
+  left: -40%;
 }
 
 .dropdown > [type="checkbox"]:checked + label:before,
