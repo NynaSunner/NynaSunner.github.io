@@ -333,7 +333,7 @@ nav a, .dropdown > label{
     position: absolute;
     z-index: 999;
     display: block;
-    left: -100vw;
+    left: -120vw;
     top: 3.4em;
     border: 1px solid var(--accent);
     background: var(--accent-bg);
