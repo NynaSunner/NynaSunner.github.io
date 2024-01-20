@@ -163,7 +163,7 @@ figure{
 }
 
 .pic img{
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 figure figcaption {
@@ -209,6 +209,10 @@ pre{
     overflow:auto;
     line-height: 1.245rem;
     padding: 1rem;
+}
+
+.center{
+    text-align: center;
 }
 
 /* Abbr */
