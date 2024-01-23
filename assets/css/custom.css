@@ -301,7 +301,7 @@ a button, button, input[type="submit"], input[type="reset"], input[type="button"
 
 /* Navbar */
 
-nav a, .dropdown > label{
+nav a, .dropdown > summary{
     border: 1px solid var(--accent);
     background: var(--accent-bg);
     margin: .7rem .3rem; 
@@ -312,7 +312,8 @@ nav a, .dropdown > label{
     text-decoration: none;
     text-shadow: none;
     transition: .4s;
-    vertical-align:top
+    vertical-align:top;
+    font-size: unset;
 }
 
 .dropdown {
@@ -320,16 +321,11 @@ nav a, .dropdown > label{
     display: inline-block;
 }
 
-.dropdown > input[type="checkbox"] {
-    position: absolute;
-    left: -100vw;
-}
-
-.dropdown > label{
+.dropdown > summary{
   cursor: pointer;
 }
 
-.dropdown > label:before{
+.dropdown summary:before{
   content: "⏵";
 }
 
@@ -337,7 +333,7 @@ nav a, .dropdown > label{
     position: absolute;
     z-index: 999;
     display: block;
-    left: -120vw;
+    left: -40%;
     top: 3.4em;
     border: 1px solid var(--accent);
     background: var(--accent-bg);
@@ -355,13 +351,7 @@ nav a, .dropdown > label{
     margin: .3rem .3rem;
 }
 
-.dropdown > input[type="checkbox"]:checked ~ ul,
-.dropdown > ul:target {
-  left: -40%;
-}
-
-.dropdown > [type="checkbox"]:checked + label:before,
-.dropdown > ul:target ~ a:before {
+.dropdown[open] summary:before {
   content: "⏷";
 }
 
@@ -372,7 +362,7 @@ nav a.nav-current, .pagination a.pag-current{
     font-weight: bold;
 }
 
-nav a:hover, .dropdown > label:hover, .pagination a:hover{
+nav a:hover, .dropdown > summary:hover, .pagination a:hover{
     color: var(--bg) !important;
     border-color: var(--accent);
     background: var(--accent);
