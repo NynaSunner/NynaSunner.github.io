@@ -10,7 +10,7 @@
     --accent-bg: #20113C;
     --text: #F4DFB3; /* #e6d7ae */
     --text-light: #e7e1d0;
-    --text-bg: 230, 215, 174;
+    --text-bg: #e6d7ae1a;
     --caption: #A6D3A0;
     --accent: #8c6ae8; /* #8A69D8 */
     --accent-light: #c2b2eb;
@@ -22,8 +22,9 @@
 
 html[data-theme='light'] {
     --bg: #ffffffe5;
+    --accent-bg: #fff;
     --text: #000000;
-    --text-bg: 0, 0, 0;
+    --text-bg: #0000001a;
     --caption: #007d00;
     --accent: #794ddf;
     --accent-light: #00988a;
@@ -32,7 +33,7 @@ html[data-theme='light'] {
 html[data-theme='light'] body{
     text-shadow: none;
 
-    nav a, .dropdown > label{
+    nav a, .dropdown > summary{
         background: var(--accent);
         color: white !important;
     }
@@ -42,7 +43,7 @@ html[data-theme='light'] body{
         color: var(--bg) !important;
         font-weight: bold;
     }
-    nav a:hover, .dropdown > label:hover{
+    nav a:hover, .dropdown > summary:hover{
         color: var(--text) !important;
         border-color: var(--accent-light);
         background: var(--accent-light);
@@ -177,7 +178,7 @@ mark, .marker{ /* I copied this from Carrd ngl */
     padding: 0.25em 0.5em;
     border-radius: 0.25em;
     color: var(--text)!important;
-    background-color: rgba(var(--text-bg), .1)!important;
+    background-color: var(--text-bg) !important;
 }
 
 blockquote{
@@ -246,7 +247,7 @@ table{
 }
 
 table th{
-    background-color: rgba(var(--text-bg), .1);
+    background-color: var(--text-bg);
 }
 
 table th, table td{
@@ -255,7 +256,7 @@ table th, table td{
 }
 
 tr:nth-child(even) {
-    background-color: rgba(var(--text-bg), .1);
+    background-color: var(--text-bg);
 }
 
 /* Links, buttons, tags, and such*/
@@ -277,9 +278,16 @@ a button, button, input[type="submit"], input[type="reset"], input[type="button"
     background: var(--accent-bg);
     color: var(--text);
     text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
     padding: .7rem .9rem;
     margin: .5rem .1rem;
     transition: .4s;
+}
+
+a button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover{
+    background: var(--accent);
+    color: var(--accent-bg);
 }
 
 .tag, .tag:visited{
@@ -479,7 +487,7 @@ footer{
 
 .yellow-wrapper{
     padding: .5em;
-    background-color: rgba(var(--text-bg), .1);
+    background-color: var(--text-bg);
 	border-radius: 15px;
     padding: 1rem;
     margin-bottom: 1em;
@@ -500,6 +508,7 @@ footer{
 #theme-btn{
     vertical-align: top;
     margin: .7rem .3rem;
+    font-size: .8em;
 }
 
 input{

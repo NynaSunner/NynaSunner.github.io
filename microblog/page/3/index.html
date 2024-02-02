@@ -28,7 +28,7 @@
         <div id="banner" class="banner"></div>
         <script> // Randomize the header banner
             var path = '/assets/img/headers/';
-            var bgm = ['firework.jpg','wysteria.jpg','aoe.gif','lake.jpg','yorozuya.png','lightsky.jpg','magicka.png','sea.jpg','flowerhill.jpg','streetlight.jpg'];
+            var bgm = ['firework.jpg','wysteria.jpg','castle.jpg','lake.jpg','yorozuya.png','tree.jpg','magicka.png','sea.jpg','flowerhill.jpg','streetlight.jpg'];
             var header = document.querySelector("#banner");
             header.style.backgroundImage = 'url(' + path + bgm[Math.floor(Math.random() * bgm.length)] + ')';
         </script>
@@ -63,11 +63,13 @@
             <summary>Misc</summary>
             <ul>
                 
+                    <li><a href="/tags/">Tags</a></li>
+                
+                    <li><a href="/misc/guestbook/">Guestbook</a></li>
+                
                     <li><a href="/misc/hex-to-percent/">Hex to percent</a></li>
                 
                     <li><a href="/misc/gintamachatango/">Gintama chat</a></li>
-                
-                    <li><a href="/tags/">Tags</a></li>
                 
             </ul>
         </details>
@@ -90,6 +92,14 @@
         <h1>Microblog</h1>
         <main id="content">
             
+<h3>21/11/2023 🛠</h3>
+<p>On sunday I played Lethal Company with the bros. Played only one hour and refunded it because I’ll barely have any chances of playing with them again and I’m poor asf. Still, it was fun and the game is really good so I’d buy it again in a heartbeat if I were able to play more. El vale se la come</p>
+
+<p>I wish the bestiary was better tho, Sigurd’s “non sense” is funny but I ended up relying more on guides for facing things like the bees</p>
+
+<p>Also uhhh I did this days ago but I re-added the links section and put some Gintama resources there. MadaoBlooms asked me to put him in and I really want to but I’m still not sure where. Might do an honorary mentions thing, Mr. Blooms really deserves it</p>
+
+
 <h3>17/11/2023 🛠</h3>
 <p>Finally added light mode to the site, though it’s ugly as hell and I don’t like it. It’s my first time making a light theme (because I hate them), so hopefully I’ll get better at it over time and make it decent</p>
 
@@ -144,10 +154,6 @@
 <p>Dreamt that the students of this medical school had their own subreddit and all their posts were basically just “uni hard” and “uni expensive”. They also had a shared Notion board full of aesthetic introductions and one of them was obsessed with Registeel</p>
 
 
-<h3>27/10/2023 🛠</h3>
-<p>Changed the text shadow to make it more noticeable, but it still doesn’t convince me. Also, this is my first time figuring out Jekyll collections. Hi future me!</p>
-
-
 
 
     <div class="pagination">
@@ -158,19 +164,21 @@
   
         <a href="/microblog/page/3/index.html" title="Microblog - page 3" class="pag-current">3</a>
   
+        <a href="/microblog/page/4/index.html" title="Microblog - page 4" >4</a>
+  
     </div>
 
         </main>
 
         <footer>
             <hr>
-            <div class="center">This website was last updated on 23/01/2024</div>
+            <div class="center">This website was last updated on 02/02/2024</div>
             <hr>
             <div class="center">
                 <p>©2021-2024 NynaSunner - Site licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons"   style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> unless stated otherwise</p>
             </div>
         </footer>
-        <button id="backtotop" title="Back to top" onclick="window.location.href='#top'">^</button>
+        <button id="backtotop" title="Back to top" onclick="window.location.href='#top'">⬆</button>
     </div>
 
 <script>
@@ -209,7 +217,7 @@
         visible: 'always',
         icon: '#'
     };
-    anchors.add('h1, h2, h3, h4, h5, h6').remove('.noanchor');
+    anchors.add('h2, h3, h4, h5, h6').remove('.noanchor');
 </script>
 
 </body>

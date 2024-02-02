@@ -28,7 +28,7 @@
         <div id="banner" class="banner"></div>
         <script> // Randomize the header banner
             var path = '/assets/img/headers/';
-            var bgm = ['firework.jpg','wysteria.jpg','aoe.gif','lake.jpg','yorozuya.png','lightsky.jpg','magicka.png','sea.jpg','flowerhill.jpg','streetlight.jpg'];
+            var bgm = ['firework.jpg','wysteria.jpg','castle.jpg','lake.jpg','yorozuya.png','tree.jpg','magicka.png','sea.jpg','flowerhill.jpg','streetlight.jpg'];
             var header = document.querySelector("#banner");
             header.style.backgroundImage = 'url(' + path + bgm[Math.floor(Math.random() * bgm.length)] + ')';
         </script>
@@ -63,11 +63,13 @@
             <summary>Misc</summary>
             <ul>
                 
+                    <li><a href="/tags/">Tags</a></li>
+                
+                    <li><a href="/misc/guestbook/">Guestbook</a></li>
+                
                     <li><a href="/misc/hex-to-percent/">Hex to percent</a></li>
                 
                     <li><a href="/misc/gintamachatango/">Gintama chat</a></li>
-                
-                    <li><a href="/tags/">Tags</a></li>
                 
             </ul>
         </details>
@@ -89,7 +91,9 @@
 
         <h1>Gintama discord Chatango chat</h1>
         <main id="content">
-            <p>I’ll keep this locked until Discord decides to brutally die again</p>
+            <p>This is a Chatango chatroom I made years ago when Discord’s servers temporarily died, to keep chatting with people at the Gintama discord server. I want to have it here so it’s easier to find and share, but it’ll be kept locked down for now.</p>
+
+<p><strong>Warning</strong>: might not work on mobile and smaller screens</p>
 
 <script id="cid0020000359660165566" data-cfasync="false" async="" src="//st.chatango.com/js/gz/emb.js" style="width: 100%;height: 600px;">{"handle":"googledeadgintama","arch":"js","styles":{"a":"8c6ae8","c":"f4dfb3","d":"f4dfb3","e":"20113C","f":0,"g":"f4dfb3","h":"20113c","i":0,"j":"f4dfb3","k":"f4dfb3","l":"8c6ae8","m":"8c6ae8","p":"13","q":"8c6ae8","cnrs":"0.5","showx":0,"fwtickm":1}}</script>
 
@@ -98,13 +102,13 @@
 
         <footer>
             <hr>
-            <div class="center">This website was last updated on 23/01/2024</div>
+            <div class="center">This website was last updated on 02/02/2024</div>
             <hr>
             <div class="center">
                 <p>©2021-2024 NynaSunner - Site licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons"   style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> unless stated otherwise</p>
             </div>
         </footer>
-        <button id="backtotop" title="Back to top" onclick="window.location.href='#top'">^</button>
+        <button id="backtotop" title="Back to top" onclick="window.location.href='#top'">⬆</button>
     </div>
 
 <script>
@@ -143,7 +147,7 @@
         visible: 'always',
         icon: '#'
     };
-    anchors.add('h1, h2, h3, h4, h5, h6').remove('.noanchor');
+    anchors.add('h2, h3, h4, h5, h6').remove('.noanchor');
 </script>
 
 </body>
