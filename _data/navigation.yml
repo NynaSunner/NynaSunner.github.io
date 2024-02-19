@@ -1,0 +1,19 @@
+- name: Home
+  link: /
+- name: Posts
+  link: /posts/
+- name: Resources
+  link: /resources/
+- name: Misc
+  link: /misc/
+  subitems:
+    - name: Tags
+      link: /tags/
+    - name: Guestbook
+      link: /misc/guestbook/
+    - name: Hex to percent
+      link: /misc/hex-to-percent/
+    - name: Gintama chat
+      link: /misc/gintamachatango/
+- name: About
+  link: /about/

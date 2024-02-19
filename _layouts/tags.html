@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% for tag in site.tags%}
+	{% if page.tag-name == tag[0] %}
+	<h1 class="noanchor">Posts tagged: {{ page.tag-name }} [{{ tag[1].size }}]</h1>
+    <p><a href="/feeds/{{ page.tag-name }}.xml/">RSS feed</a></p>
+	{% endif %}
+{% endfor %}
+
+
+<div class="posts">  
+{% for post in site.posts %}
+<ul>
+	{% if post.tags contains page.tag-name %}
+	<li>{{ post.date | date: "%Y %a %d"}}: <a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endif %}
+</ul>
+{% endfor %}
+</div>

@@ -220,10 +220,9 @@ pre{
 
 abbr[title] {
     position: relative;
-  }
+}
   
-  abbr[title]:hover::after,
-  abbr[title]:focus::after {
+abbr[title]:hover::after, abbr[title]:focus::after {
     content: attr(title);
     position: absolute;
     left: 10px;
@@ -237,7 +236,42 @@ abbr[title] {
     border: 1px solid #aaa;
     font-size: .87em;
     padding: 0 5px;
-  }
+}
+
+/* Tooltip */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  
+.tooltip .tooltiptext {
+    opacity: 0;
+    transition: opacity 0.2s;
+    visibility: hidden;
+    width: 14rem;
+    max-width: 60vw;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: var(--accent-bg);
+    border: 1px solid var(--accent);
+    
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0%;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip:focus-within .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
 
 /* Tables - Idk how I want to style them yet */
 table{
@@ -513,6 +547,13 @@ footer{
 
 input{
     accent-color: var(--accent);
+}
+
+/* Freezeframe */
+
+.ff-container .ff-overlay{
+    margin-top: .5em !important;
+    margin-bottom: .5em !important;
 }
 
 /* TOC list */

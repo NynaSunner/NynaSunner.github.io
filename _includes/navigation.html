@@ -1,0 +1,23 @@
+<nav>
+{% for item in site.data.navigation %}
+    {% if item.subitems[0] %}
+        <details class="dropdown">
+            <summary>{{ item.name }}</summary>
+            <ul>
+                {% for subitem in item.subitems %}
+                    <li><a href="{{ subitem.link }}">{{ subitem.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </details>
+    {% else %}
+        {% if item.link == page.url %}
+            <a class="nav-current" href="{{ item.link }}">{{ item.name }}</a>
+        {% elsif page.url != item.link %}
+            <a href="{{ item.link }}">{{ item.name }}</a>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+<button id="theme-btn">🌓</button>
+</nav>
+
+

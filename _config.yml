@@ -1,0 +1,33 @@
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+#  - jemoji
+gems:
+#  - jekyll/twemoji
+  
+
+# SEO Stuff
+title: "NynaSunner's site"
+author: NynaSunner
+description: My cringe site
+lang: en
+timezone: Europe/Madrid
+locale: en_US
+highlighter: rouge
+url: "https://nynasunner.github.io/"
+baseurl: ""
+include:
+  - _redirects
+# RSS feeds
+feed:
+  posts_limit: 10
+  tags: 
+    path: "feeds/"
+# Collections
+collections:
+  - microblog
+# Other
+#markdown: CommonMarkGhPages
+#commonmark:
+#  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+#  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
