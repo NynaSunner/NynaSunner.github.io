@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
-    /* Line height is set to the "Golden ratio" for optimal legibility */
+    /* Line height is set to the golden ratio */
     --line-height: 1.618;
-    /* No actual light mode yet, sorry */
+    
     --bg: #170d29ea;
     --outer-bg: url(../img/background.webp);
     --accent-bg: #20113C;

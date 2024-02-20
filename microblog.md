@@ -4,9 +4,6 @@ title: Microblog
 header: Microblog
 description: An archive of all my microblogs, including both site and life updates! Wow, wombo combo!
 permalink: /microblog/
-pagination: 
-  enabled: true
-  collection: microblog
 ---
 
 {% for microblog in site.microblog reversed %}
