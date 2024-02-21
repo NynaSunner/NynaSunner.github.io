@@ -26,7 +26,12 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 <div>
 	<ul>
 		<li>Gintama ☆</li>
-		<li><abbr tabindex="0" title="Specially FE7, FE4, and FE5">Fire Emblem</abbr> ★</li>
+		<li>Fire Emblem ★</li>
+		<ul>
+			<li>Genealogy of The Holy War ★</li>
+			<li>Thracia 776 ★</li>
+			<li>Blazing Sword ☆</li>
+		</ul>
 		<li>Web developing & design ☆</li>
 		<li><abbr tabindex="0" title="Early manga/season zero is my fave">Yu-gi-oh! manga</abbr></li>
 		<li>VGM arrangements, <abbr tabindex="0" title="SiIvagunner, TTGD, Myskit, IkaGunner, etc">and HQ rips</abbr></li>
@@ -93,16 +98,6 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 - **<img class="svg" src="https://cdn.simpleicons.org/gmail/black"/> [Email](mailto:nynasunner@gmail.com)** If you don't wanna contact me through social media
 
 I also play Fire Emblem Heroes! My friend code is `6594639314`, [here's an image](/assets/img/feh.webp){:target="_blank"} of my lead unit
-
-## Site credits
-
-- [purple-aesthetica](https://www.tumblr.com/purple-aesthetica) for most of the banner images
-- [PJ](https://cdn.discordapp.com/emojis/786968545506492427.webp){:target="_blank"} for help with Liquid. I still owe him my firstborn child
-- [Pure-liquid by allejo](https://pure-liquid.allejo.org) for the TOCs
-- [Jekyll Codex](https://jekyllcodex.org) for plugin-less scripts
-- [Simple Icons](https://simpleicons.org) for the SVG logos
-- [Freezeframe.js](https://github.com/ctrl-freaks/freezeframe.js) for the play-on-hover gifs
-- [Twemoji](https://github.com/twitter/twemoji) for the cooler emojis
 
 ## Button
 

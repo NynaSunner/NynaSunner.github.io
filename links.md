@@ -1,27 +1,17 @@
 ---
-title: Resources
-header: Resources
+title: Links
+header: Links
 description: My stash of links to cool resources and sites
-permalink: /resources/
-layout: default
+permalink: /links/
+layout: withtoc
 ---
 
-1. [Tools I use](#tools-i-use)
-2. [Specific stuff](#specific-stuff)
-    1. [Coding](#coding)
-    1. [Gintama](#gintama)
-    1. [Wizard101](#wizard101)
-    1. [The Sims](#the-sims)
-3. [Misc stuff](#misc-stuff)
-    1. [Misc games](#misc-games)
-    1. [Sus stuff](#sus-stuff-tread-carefully)
-
-<hr>
-
-## Tools I use
+## Things I use
 - **<img class="svg" src="/assets/img/earth.svg"/> [7-Zip](https://www.7-zip.org/)** Simply the best tool for compressed files
 - **<img class="svg" src="/assets/img/earth.svg"/> [Vencord](https://vencord.dev/)** Discord client mod. Way more stable than BetterDiscord
 - **<img class="svg" src="/assets/img/earth.svg"/> [Ruffle](https://ruffle.rs/)** Open source Adobe Flash emulator
+
+***
 
 ## Specific stuff
 ### Coding
@@ -81,10 +71,13 @@ layout: default
 - **<img class="svg" src="/assets/img/earth.svg"/> [The Sims Resource](https://www.thesimsresource.com/)** (TS1/TS2/TS3/TS4) More oriented towards cosmetics than game mods
 - **<img class="svg" src="https://cdn.simpleicons.org/curseforge/black"/> [CurseForge](https://www.curseforge.com/sims4)** (TS4) This is where the [Sims 4 Mods Manager](https://gametimedev.de/S4MM/) pulls mods from
 
+***
+
 ## Misc stuff
 ### Misc games
 - **<img class="svg" src="/assets/img/earth.svg"/> [Flashpoint Archive](https://flashpointarchive.org/)** An archive of Adobe Flash games that you can download and play locally
 - **<img class="svg" src="/assets/img/earth.svg"/> [aBowman](https://www.abowman.com/)** A collection of small HTML5 and Flash games that you can embed on your site
+- **<img class="svg" src="/assets/img/earth.svg"/> [Vimm's Lair](https://vimm.net/)** Massive archive of old console videogames and emulators
 
 ### Sus stuff (TREAD CAREFULLY!!)
 Some of these are not linked just in case, you should be able to find them easily
@@ -95,3 +88,17 @@ Some of these are not linked just in case, you should be able to find them easil
 - **<img class="svg" src="https://cdn.simpleicons.org/blogger/black"/> [Coto39 Sims 4 blog](https://sims4coto39.blogspot.com/)** (spanish) has light versions of TS4 DLCs, as well as guides for mods and using the legal base game with the cracked DLCs
 - **<img class="svg" src="/assets/img/earth.svg"/> Anadius DLC Unlocker** Allows you to use cracked DLCs on legal *Electronic Arts* games
 - **<img class="svg" src="/assets/img/earth.svg"/> Anadius Sims 4 Updater** Updates your game if it's cracked and allows you to download DLCs directly from it (not recommended, try looking for repacks instead)
+
+***
+
+## Site credits
+
+- **<img class="svg" src="https://cdn.simpleicons.org/discord/black"/> [PJ](https://cdn.discordapp.com/emojis/786968545506492427.webp){:target="_blank"}** for help with Liquid. I still owe him my firstborn child
+- **<img class="svg" src="https://cdn.simpleicons.org/tumblr/black"/> [purple-aesthetica](https://www.tumblr.com/purple-aesthetica)** for most of the banner images
+- **<img class="svg" src="/assets/img/earth.svg"/> [Pure-liquid by allejo](https://pure-liquid.allejo.org)**
+- **<img class="svg" src="/assets/img/earth.svg"/> [Jekyll Codex](https://jekyllcodex.org)**
+- **<img class="svg" src="https://cdn.simpleicons.org/simpleicons/black"/> [Simple Icons](https://simpleicons.org)**
+- **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Freezeframe.js](https://github.com/ctrl-freaks/freezeframe.js)**
+- **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Twemoji](https://github.com/twitter/twemoji)**
+- **<img class="svg" src="/assets/img/earth.svg"/> [Luke Lowrey's theme switcher](https://lukelowrey.com/css-variable-theme-switcher/)**
+- **<img class="svg" src="/assets/img/earth.svg"/> [GoatCounter](https://www.goatcounter.com/)**

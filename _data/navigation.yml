@@ -2,8 +2,8 @@
   link: /
 - name: Posts
   link: /posts/
-- name: Resources
-  link: /resources/
+- name: Links
+  link: /links/
 - name: Misc
   link: /misc/
   subitems:
