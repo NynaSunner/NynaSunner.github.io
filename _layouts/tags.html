@@ -4,7 +4,7 @@ layout: default
 {% for tag in site.tags%}
 	{% if page.tag-name == tag[0] %}
 	<h1 class="noanchor">Posts tagged: {{ page.tag-name }} [{{ tag[1].size }}]</h1>
-    <p><a href="/feeds/{{ page.tag-name }}.xml/">RSS feed</a></p>
+    <p><a href="/feeds//{{ page.tag-name }}.xml">RSS feed</a></p>
 	{% endif %}
 {% endfor %}
 
