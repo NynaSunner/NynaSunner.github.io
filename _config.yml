@@ -14,7 +14,7 @@ lang: en
 timezone: Europe/Madrid
 locale: en_US
 highlighter: rouge
-url: "https://nynasunner.github.io/"
+url: "https://nynasunner.space/"
 baseurl: ""
 include:
   - _redirects
