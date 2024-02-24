@@ -88,14 +88,14 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 
 ## Socials and stuff
 
-- **<img class="svg" src="https://cdn.simpleicons.org/discord/black"/> [Discord](https://discordapp.com/users/378953414740148228)** as `@nynasunner`. You can find me at the [Gintama server](https://discord.gg/gintama)
-- **<img class="svg" src="https://cdn.simpleicons.org/tumblr/black"/> [Tumblr](https://nynasunner.tumblr.com)** Full of shitty reblogs
-- **<img class="svg" src="https://cdn.simpleicons.org/gamebanana/black"/> [Gamebanana](https://gamebanana.com/members/2174941)** Watch me make the worst mods known to man
-- **<img class="svg" src="https://cdn.simpleicons.org/bluesky/black"/> [Bluesky](https://bsky.app/profile/nynasunner.bsky.social)** Idk how to use this thang, also no I don't use twitter
-- **<img class="svg" src="https://cdn.simpleicons.org/youtube/black"/> [YouTube](https://www.youtube.com/channel/UC0N-oSjxH0Rkqlf8Rc6HGEg)** I only upload Bad Quality Rips™
-- **<img class="svg" src="https://cdn.simpleicons.org/steam/black"/> [Steam](https://steamcommunity.com/id/nynasunner)** Add me and I'll invite spam you to play Chicken Invaders 3
-- **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Github](https://github.com/NynaSunner)** Where you can see how awful this site is
-- **<img class="svg" src="https://cdn.simpleicons.org/gmail/black"/> [Email](mailto:nynasunner@gmail.com)** If you don't wanna contact me through social media
+- **<img class="svg" src="https://cdn.simpleicons.org/discord/black"/> [Discord](https://discordapp.com/users/378953414740148228){:rel="me"}** as `@nynasunner`. You can find me at the [Gintama server](https://discord.gg/gintama)
+- **<img class="svg" src="https://cdn.simpleicons.org/tumblr/black"/> [Tumblr](https://nynasunner.tumblr.com){:rel="me"}** Full of shitty reblogs
+- **<img class="svg" src="https://cdn.simpleicons.org/gamebanana/black"/> [Gamebanana](https://gamebanana.com/members/2174941){:rel="me"}** Watch me make the worst mods known to man
+- **<img class="svg" src="https://cdn.simpleicons.org/bluesky/black"/> [Bluesky](https://bsky.app/profile/nynasunner.bsky.social){:rel="me"}** Idk how to use this thang, also no I don't use twitter
+- **<img class="svg" src="https://cdn.simpleicons.org/youtube/black"/> [YouTube](https://www.youtube.com/channel/UC0N-oSjxH0Rkqlf8Rc6HGEg){:rel="me"}** I only upload Bad Quality Rips™
+- **<img class="svg" src="https://cdn.simpleicons.org/steam/black"/> [Steam](https://steamcommunity.com/id/nynasunner){:rel="me"}** Add me and I'll invite spam you to play Chicken Invaders 3
+- **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Github](https://github.com/NynaSunner){:rel="me"}** Where you can see how awful this site is
+- **<img class="svg" src="https://cdn.simpleicons.org/gmail/black"/> [Email](mailto:nynasunner@gmail.com){:rel="me"}** If you don't wanna contact me through social media
 
 I also play Fire Emblem Heroes! My friend code is `6594639314`, [here's an image](/assets/img/feh.webp){:target="_blank"} of my lead unit
 

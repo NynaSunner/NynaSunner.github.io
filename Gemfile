@@ -19,4 +19,5 @@ group :jekyll_plugins do
   gem 'webrick'
 #  gem "jekyll-twemoji"
   gem 'jekyll-commonmark-ghpages'
+  gem 'jekyll-target-blank'
 end

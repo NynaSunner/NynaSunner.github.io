@@ -2,6 +2,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 #  - jemoji
+  - jekyll-target-blank
 gems:
 #  - jekyll/twemoji
   
@@ -14,7 +15,7 @@ lang: en
 timezone: Europe/Madrid
 locale: en_US
 highlighter: rouge
-url: "https://nynasunner.space/"
+url: "https://nynasunner.space"
 baseurl: ""
 include:
   - _redirects
