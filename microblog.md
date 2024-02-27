@@ -7,20 +7,21 @@ permalink: /microblog/
 ---
 
 {% for microblog in site.microblog reversed %}
+{% assign title = microblog.date | date: "%d/%m/%Y" %}
 {% if microblog == site.microblog.last %}
 <details open>
-<summary class="anchor">{{ microblog.title }}</summary>
+<summary class="anchor">{{ title }}</summary>
 <div>
-<h3 class="noanchor">{{ microblog.title }}{% if microblog.code-upd8 %} 🛠{% endif %}</h3>
+<h3 class="noanchor">{{ title }}{% if microblog.code-upd8 %} 🛠{% endif %}</h3>
 {{ microblog.content | markdownify }}
 </div>
 </details>
 <h2>Older entries</h2>
 {% else %}
 <details>
-<summary class="anchor">{{ microblog.title }}</summary>
+<summary class="anchor">{{ title }}</summary>
 <div>
-<h3 class="noanchor">{{ microblog.title }}{% if microblog.code-upd8 %} 🛠{% endif %}</h3>
+<h3 class="noanchor">{{ title }}{% if microblog.code-upd8 %} 🛠{% endif %}</h3>
 {{ microblog.content | markdownify }}
 </div>
 </details>

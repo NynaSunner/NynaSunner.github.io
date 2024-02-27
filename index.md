@@ -28,7 +28,7 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 
   <div class="yellow-wrapper">
 {% assign microblog = site.microblog.last %}
-    <b><a href="/microblog/">{{ microblog.title }}</a>{% if microblog.code-upd8 %} 🛠{% endif %}</b>
+    <b><a href="/microblog/">{{ microblog.date | date: "%d/%m/%Y" }}</a>{% if microblog.code-upd8 %} 🛠{% endif %}</b>
 {{ microblog.content | markdownify | strip_html | truncate: 145 }} <!-- truncatewords: 25 -->
   </div>
 </div>
