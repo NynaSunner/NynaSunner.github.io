@@ -1,0 +1,147 @@
+---
+layout: none
+title: Listfauxgraphy
+header: Listfauxgraphy
+description:
+permalink: /listfauxgraphy/
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ page.title }} 🟊 NynaSunner</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/listfauxgraphy/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="start"></div>
+
+<header id="top">
+<div id="infocontainer">
+<h1>YOUR NAME'S listfauxgraphy</h1>
+<img src="https://placekitten.com/170/170" alt="" class="header-icon" /> <!-- Optional, feel free to delete -->
+<p>Bio here</p>
+</div>
+
+<nav>
+<ul>
+    <li><a href="">main</a></li>
+    <li><a href="">ongoing</a></li>
+    <li><a href="">archive</a></li>
+</ul>
+</nav>
+
+</div>
+</header>
+
+<main>
+{% assign col1 = "" | split: ',' %}
+{% assign col2 = "" | split: ',' %}
+{% assign col3 = "" | split: ',' %}
+
+{% assign elements = site.pages | where:"type","note" | sort: "order" %}
+{% for element in elements %}
+    {% capture column %}{% cycle 'one', 'two', 'three' %}{% endcapture %}
+    {% case column %}
+
+        {% when 'one'%}
+            {% assign col1 = col1 | push: element%}
+        {% when 'two'%}
+            {% assign col2 = col2 | push: element%}
+        {% when 'three'%}
+            {% assign col3 = col3 | push: element%}
+        {% else %}
+
+    {% endcase %}
+
+{% endfor %}
+
+
+
+<!-- FIRST COLUMN -->
+<div class="column">
+
+{% for note in col1 %}
+
+<section id={{note.title | replace: ' ', '-'}} class={{note.color}}>
+    <header class="listheader">
+    <h2><a href="#{{note.title | replace: ' ', '-'}}">{{note.title}} <span class="subtitle">{{note.description}}</span></a></h2>
+    </header>
+    <div class="listtext">
+        {% if note.image %}<img src={{note.image}} class="listicon" alt="" />{% endif %}
+        {{note.content}}
+    </div>
+    <footer class="foot">
+    <p>{{note.creation_date}} &infin;</p>
+    <p>{{note.edit_date}} +</p>
+    </footer>
+</section>
+
+{% endfor %}
+
+</div>
+<!-- END FIRST COLUMN -->
+
+<!-- SECOND COLUMN -->
+<div class="column">
+
+{% for note in col2 %}
+
+    <section id={{note.title | replace: ' ', '-'}} class={{note.color}}>
+        <header class="listheader">
+        <h2><a href="#{{note.title | replace: ' ', '-'}}">{{note.title}} <span class="subtitle">{{note.description}}</span></a></h2>
+        </header>
+        <div class="listtext">
+            {% if note.image %}<img src={{note.image}} class="listicon" alt="" />{% endif %}
+            {{note.content}}
+        </div>
+        <footer class="foot">
+        <p>{{note.creation_date}} &infin;</p>
+        <p>{{note.edit_date}} +</p>
+        </footer>
+    </section>
+    
+{% endfor %}
+
+</div>
+<!-- END SECOND COLUMN -->
+
+<!-- THIRD COLUMN -->
+<div class="column">
+
+{% for note in col3 %}
+
+<section id={{note.title | replace: ' ', '-'}} class={{note.color}}>
+    <header class="listheader">
+    <h2><a href="#{{note.title | replace: ' ', '-'}}">{{note.title}} <span class="subtitle">{{note.description}}</span></a></h2>
+    </header>
+    <div class="listtext">
+        {% if note.image %}<img src={{note.image}} class="listicon" alt="" />{% endif %}
+        {{note.content}}
+    </div>
+    <footer class="foot">
+    <p>{{note.creation_date}} &infin;</p>
+    <p>{{note.edit_date}} +</p>
+    </footer>
+</section>
+
+{% endfor %}
+
+</div>
+<!-- END THIRD COLUMN -->
+
+</main>
+
+<!-- It would be nice if you didn't remove the links here, but I'm not your mom -->
+<footer id="bottom">
+<p>Original Listfauxgraphy concept by <a href="https://desertjaguar.casa" target="_blank">Desert Jaguar</a>, code by <a href="http://kalechips.net" target="_blank">Kalechips</a></p>
+
+<p><a href="#start">Back to top</a></p>
+</footer>
+
+</body>
+</html>
