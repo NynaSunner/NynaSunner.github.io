@@ -20,5 +20,4 @@ group :jekyll_plugins do
 #  gem "jekyll-twemoji"
   gem 'jekyll-commonmark-ghpages'
   gem 'jekyll-target-blank'
-  gem 'jekyll-minifier'
 end

@@ -3,7 +3,6 @@ plugins:
   - jekyll-sitemap
 #  - jemoji
   - jekyll-target-blank
-  - jekyll-minifier
 gems:
 #  - jekyll/twemoji
   
