@@ -32,3 +32,9 @@ collections:
 #commonmark:
 #  options: ["UNSAFE", "SMART", "FOOTNOTES"]
 #  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+
+exclude:
+  - CNAME
+  - gem.bak
+  - LICENSE
+  - README.MD
