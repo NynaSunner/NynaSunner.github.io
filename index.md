@@ -14,6 +14,8 @@ layout: default
 
 # Welcome to my mess of a site
 
+- Do you come from nynasunner.**github.io**? My new URL is nynasunner.**space**!
+
 Heya! Welcome to my site!
 
 This is the place where I plan to share and post stuff I come across while sailing the internet, along with any projects I might work in. If you find something that might interest me don't hesitate to message me! 💜
@@ -34,17 +36,21 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 </div>
 
 ***
-## Latest posts
+## To do
 
-{% for post in site.posts limit:5 %}
-<div class="yellow-wrapper">
+- Make a site button that isn't ugly as hell
+- Add a higher contrast dark theme for accessibility
+- Fix current tooltips overflowing to the right
+- Let the user enable or disable gifs altogether, with the current play-on-hover being the default setting. Take `prefers-reduced-motion` into account
+- Have gifs (at least dangerous ones) stop without javascript with `prefers-reduced-motion`
+- Add a font picker maybe?
+- Better organize links page by categories
+- **Switch to PHP! Maybe with Twig?**
+- Remember this:
 
-  <span class="post-title"><a href="{{ post.url }}"><b>{{ post.title }}</b></a> </span><small>- {{ post.date | date: "%d/%m/%Y" }} {% for tag in post.tags %}<a class="tag" href="/tags/{{ tag }}">{{ tag }}</a> {% endfor %}</small><br>
-{{ post.description }}
+<div class="center">
+{% include img.html image="https://i.kym-cdn.com/photos/images/original/001/939/802/cb2.jpg" alt="The first rule of Fight Club is to have fun and be yourself :)" %}
 </div>
-{% endfor %} 
-
-<p><a href="/posts">See all posts</a> | <a href="{{ site.url }}/feed.xml">RSS feed</a></p>
 
 ***
 

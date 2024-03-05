@@ -216,6 +216,10 @@ pre{
     text-align: center;
 }
 
+.center figure{
+    width: unset;
+}
+
 /* Abbr */
 
 abbr[title] {

@@ -102,3 +102,5 @@ Some of these are not linked just in case, you should be able to find them easil
 - **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Twemoji](https://github.com/twitter/twemoji)**
 - **<img class="svg" src="/assets/img/earth.svg"/> [Luke Lowrey's theme switcher](https://lukelowrey.com/css-variable-theme-switcher/)**
 - **<img class="svg" src="/assets/img/earth.svg"/> [GoatCounter](https://www.goatcounter.com/)**
+- **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Jekyll Posts Heatmap Calendar by cagrimmett](https://github.com/cagrimmett/jekyll-tools#posts-heatmap-calendar)**
+- **<img class="svg" src="/assets/img/earth.svg"/> [Dateformat lib](https://blog.stevenlevithan.com/archives/javascript-date-format)**
