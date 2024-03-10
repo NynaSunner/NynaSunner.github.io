@@ -71,7 +71,7 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 </details>
 
 <details>
-	<summary>Miscelaneous things</summary>
+	<summary>Miscellaneous things</summary>
 <div>
 	<ul>
 		<li>Memes that everyone hates like amogus and morbius</li>
@@ -101,6 +101,6 @@ I also play Fire Emblem Heroes! My friend code is `6594639314`, [here's an image
 
 ## Button
 
-I've cooked a lame ass placeholder button because I have zero artistic or aesthetic sense. It's awful and I love it
+You can use this button to link back to my site! You can hotlink it but I'd prefer if you didn't
 
-![button](/assets/img/button.gif)
+<img src="/assets/img/button.gif" style="image-rendering: crisp-edges;">

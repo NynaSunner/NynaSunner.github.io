@@ -38,7 +38,6 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 ***
 ## To do
 
-- Make a site button that isn't ugly as hell
 - Add a higher contrast dark theme for accessibility
 - Fix current tooltips overflowing to the right
 - Let the user enable or disable gifs altogether, with the current play-on-hover being the default setting. Take `prefers-reduced-motion` into account
