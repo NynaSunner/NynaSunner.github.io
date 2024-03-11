@@ -20,7 +20,9 @@ Heya! Welcome to my site!
 
 This is the place where I plan to share and post stuff I come across while sailing the internet, along with any projects I might work in. If you find something that might interest me don't hesitate to message me! 💜
 
-This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.org/jekyll/black"/>Jekyll, and it's mobile-friendly! It's a WIP, so please message me if something is wrong or if you have a suggestion
+This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.org/jekyll/black"/>Jekyll, and it's mobile-friendly! It's a WIP, so please message me if something is wrong or if you have a suggestion ^^
+
+<a href="https://hillhouse.neocities.org/journal/notes/palestine"><img src="/assets/img/standwith.png" alt="88x31 button with the flag of Palestine and the text 'Stand with Palestine'" title="Free Palestine!"></a>
 
 ***
 ## Status & updates
