@@ -11,32 +11,38 @@
     --accent: #56a8ff;
     --accent-light: #c0dfff;
     --border: #dadada;
+
+    --border-shadow: 0 0 10px #dadadaad;
 }
 
 html{
     background-color: var(--outer-bg);
     color:var(--text);
     padding: 1em;
+    background: url('/assets/img/shrines/homosuck/skaia.webp') no-repeat fixed;
+    background-size: cover;
+    image-rendering: crisp-edges;
 }
 
 body{
-    text-shadow: -2px 2px 4px rgb(0, 0, 0);
     font-family: 'Courier Prime', monospace;
     font-weight: 400;
-    line-height: 1.75;
+    line-height: var(--line-height);
     max-width: 60rem;
     margin: 0 auto;
     font-size: 17px;
 }
 
 header{
-    background: url('/assets/img/shrines/homosuck/skaia.webp') center no-repeat;
+    background: url('https://images-4.gog-statics.com/82c1d64e42646a81e08b371d9729cf000034f72d27506332e1915ed9ee06a9e6.jpg') no-repeat;
     background-size: cover;
     height: 6em;
     border: 1px solid var(--border);
+    box-shadow: var(--border-shadow);
     
     text-align: center;
     padding-top: 5em;
+    color: black;
 }
 
 .wrapper{
@@ -50,6 +56,7 @@ nav{
     background-color: var(--bg);
     padding: 0 1.5em;
     border: 1px solid var(--border);
+    box-shadow: var(--border-shadow);
     height: fit-content;
     margin-right: 1em;
     position: sticky;
@@ -70,6 +77,7 @@ main{
     flex: 1 1 calc(80% - 3em - 2px);
     background-color: var(--bg);
     border: 1px solid var(--border);
+    box-shadow: var(--border-shadow);
     padding: .5em 1.5em;
 }
 

@@ -30,7 +30,7 @@ Only the parts I give a fuck about. These are:
 
 You won't see me talking about the characters (except as references) because I generally don't care or like them much. If you're wondering, though, my fave is John. He's baby. Karkat has my favorite classpect for characters so I like him too. Knight gang 🤝
 
-I won't even mention the Epilogue or Homestuck^2 because I haven't bothered to read about how they keep massacring the story and the characters, and it's not even truly canon. It doesn't have anything from the list above so I'm not missing on anything anyway. Damn Homestuck writters, they ruined Homestuck!
+I won't even mention the Epilogue or Homestuck^2 because I haven't bothered to read about how they keep massacring the story and the characters, and it's not even truly canon. It doesn't have anything from the list above so I'm not missing on anything anyway. Damn Homestuck writers, they ruined Homestuck!
 
 Btw I fucking hate Dirk.
 

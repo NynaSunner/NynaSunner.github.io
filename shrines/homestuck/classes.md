@@ -44,11 +44,19 @@ If being a "manipulating" Class sounds bad it's because it kind of is. Witches b
 
 A Mage once described to me their own class as "the most autistic one". It's not correct but I get what they were trying to say.
 
-It's commonly said that a Mage "suffers" their aspect. Some try to argue that it's not true, but it is. However, most of the time it's the Mage's own fault.
+It's commonly said that a Mage "suffers" their Aspect, but the more correct word would be "experimenting". However, this experimenting sure does bring a lot of suffering to the Mage. It's usually their own fault, though.
 
-As a knowledge class, a Mage's goal is to learn about their aspect. And how do they do it? By pure trial and error. While Seers learn by studying, Mages learn through practise. They will shove a metal fork into an electric socket for the sake of knowledge.
+As a knowledge class, a Mage's goal is to learn about their aspect. And how do they do it? By pure trial and error. While Seers learn by studying, Mages learn through practice and personal experiences. They will throw themselves to their aspect to learn. They know not to shove a metal fork into an electric socket because they've already done it.
 
-Their inversion is the [Sylph](#sylph), where they give up and desperately try to manipulate their opposite Aspect.
+It is because they learn about their aspect so personally, by feeling it in their bones, that they're so knowledgeable about it.
+
+Mages understand their aspect, but they aren't good at explaining it to others. Which is why the Mage has an active role as a guide. They're about using their own knowledge to guide, not about sharing it like the Seer does.
+
+Mages tend to be paranoid and afraid of making mistakes, because know that bad things happen when they're wrong, which can render them frozen and unable to act and progress. Mages also tend to be very stubborn, believing that their problems can be solved by trying and trying no matter how much they suffer in the process. The more failed they are the more their perspective on their aspect is reinforced and the more they refuse to accept other points of view.
+
+Their goal is to learn that this paranoia is bad for them, and to open their mind to other points of view besides their own.
+
+Their inversion is the [Sylph](#sylph), where they become afraid of their own Aspect and desperately try to manipulate their opposite Aspect.
 
 ## Maid
 
@@ -59,9 +67,19 @@ Their inversion is the [Sylph](#sylph), where they give up and desperately try t
 
 I like to describe Maid as "doormat to girlboss".
 
-A Maid starts off relying on others for their own aspect. A Maid of Hope will believe what others tell them to, a Space one will create the way others tell them to, a blood one will form bonds in the way others tell them to. Pushovers, basically.
+A Maid's growth is, like the Bard's, split into two parts: dependency and balance.
 
-Their goal is to learn to rely on themselves, they're more than capable to handle themselves even if they don't believe they are.
+A Maid starts off relying on others for their own aspect. They tend to be submissive and obedient (like an actual maid), and haven't formed their own criterion on their aspect. Because of this, they're insecure on their opinion on their own Aspect, and seek validation and for others to tell them what to do. They live to serve others (again, like a maid).
+
+Here, a Maid can completely disregard themselves for the sake of blindly following orders.
+
+However, as the Maid grows, they start to develop their own idea of what their Aspect is without having someone else tell them. They start to focus on their own needs and wants, becoming more confident and “““egoistical””” and starting to refuse to serve when they don't want to. They become independent.
+
+Maids are typically selfless and compassionate, and as they develop they grow to have a very strong character. Firm, confident, determined, and just.
+
+Refusing to serve altogether makes Maids grow bitter and fall into self-loathing, or even becoming destructive and a rebel.
+
+Their goal is to strike the balance between serving others and serving themselves. Fulfilling their role by providing but knowing when to say "no", and being independent to confidently be themselves.
 
 Powers wise, Maids create their aspect.
 
@@ -78,17 +96,19 @@ Saw it described as "toxic masculinity Class". Honestly? True.
 
 As my own Class it's the one I know the most about lol. Also I swear it's not as edgy as it sounds.
 
-Knights go through a traumatic event (not necessarily a PTSD inducing one) that causes them to become insecure about a part of themselves, in this case part of their Aspect, which makes them try to hide behind a mask.
+Knights have suffered a deep, personal wound (sometimes even referred to as a trauma) that causes them to become insecure about a part of themselves, in this case part of their Aspect, which makes them hide their true selves behind a mask.
 
-Some people refer to the behavior of a Knight hiding themselves as "turtling". Like a turtle hiding in its shell. Safe from the outside world, safe from further harm, safe from judgement.
+They will try to only show their best side, often by overcompensating with other parts of their own Aspect. Hiding their insecurities, Knights struggle opening up to others, asking for help and showing weakness.
+
+Some people refer to the behavior of a Knight hiding themselves as "turtling". Like a turtle hiding in its shell. Safe from the outside world, safe from judgement, safe from further harm.
 
 A Knight's goal is to overcome their insecurities and take off their mask, showing who they truly are to the world.
 
-Knights in SBURB have the role of helping the Space player breed the Genesis frog, needed to win the game. It's also theorised that a session will lack the Knight's Aspect, since the beta kids' session is rushed and they have a Knight of Time, and the beta trolls' session has a lack of unity and they have a Knight of Blood.
+Knights in SBURB have the added role of helping the Space player breed the Genesis frog, needed to win the game. It's also theorized that a session will lack the Knight's Aspect, since the beta kids' session is rushed and they have a Knight of Time, and the beta trolls' session has a lack of unity and they have a Knight of Blood.
 
 This last point should not be an issue if the Knight does their job, since their power is to exploit their aspect. They will take whatever little of their Aspect there is and milk it 'til it's dry. They know what they need and where to get it and they will optimize the hell out of it.
 
-Knights also seem to have or gain a little of their God Tier powers before ascending.
+Knights are naturally skilled in using their aspect, and they also seem to have or gain a little of their God Tier powers before Ascending.
 
 Their inversion is the [Rogue](#rogue), where they are at their most insecure and start gifting their opposite Aspect.
 
