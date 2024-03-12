@@ -1,5 +1,10 @@
 ---
+title: Aspects
+header: Aspects
+toc: true
+description: Let me tell you about Hom- *gets shot*
 permalink: /shrines/homestuck/aspects/
+layout: hs-shrine
 ---
 ## Space
 

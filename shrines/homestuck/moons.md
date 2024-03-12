@@ -1,5 +1,10 @@
 ---
+title: Moons
+header: Moons
+toc: true
+description: Let me tell you about Hom- *gets shot*
 permalink: /shrines/homestuck/moons/
+layout: hs-shrine
 ---
 Skaia is orbited by two moons: the close, white caparace inhabited, yellow and light Prospit; and the distant, black caparace inhabited, purple and dark Derse.
 

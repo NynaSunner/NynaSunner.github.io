@@ -1,6 +1,11 @@
 ---
+title: Homestuck
+header: Let me tell you about Homestuck
+description: Let me tell you about Hom- *gets shot*
 permalink: /shrines/homestuck/
+layout: hs-shrine
 ---
+
 - English is not my first language and Homestuck is written in a very "unfriendly" way. Understanding the writing takes me a lot of effort and I might understand or interpret it wrongly.
 - If my tone is different in this page compared to the rest it's because I hate Homestuck and talking about it makes me more snarky.
 

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>{{ page.title }} 🟊 NynaSunner</title>
+    <link rel="icon" href="/assets/img/favicon.ico" />
+    <meta name="description" content="{{ page.description }}"/>
+    <!-- Embed shit here -->
+	<meta property="og:site_name" content="NynaSunner.space"/>
+	<meta property="og:title" content="{{ page.title }}"/>
+	<meta property="og:description" content="{{ page.description }}">
+	<meta property="og:image" content="/assets/img/momazos-nyna.png"/>
+	<meta name="theme-color" content="#a100d8">
+
+    <link rel="stylesheet" href="/assets/css/hs-shrine.css">
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <script data-goatcounter="https://nynasunner.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
+
+</head>
+<body>
+    <header>homosuck.</header>
+    <div class="wrapper">
+        <nav>
+            <p>MAIN</p>
+            <ul>
+                <li><a href="/shrines/homestuck/">Home</a></li>
+                <li><a href="/">Go back</a></li>
+            </ul>
+            <p>CLASSPECT</p>
+            <ul>
+                <li><a href="/shrines/homestuck/classes">Classes</a></li>
+                <li><a href="/shrines/homestuck/aspects">Aspects</a></li>
+                <li><a href="/shrines/homestuck/moons">Moons</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>{{ page.header }}</h1>
+            {% if page.toc %}
+            <details>
+                <summary>Table of contents</summary>
+            {% include toc.html html=content class="toc" item_class="toc-item" ordered=true h_max=3 %}
+            </details>
+            <hr>
+            {% endif %}
+            {{ content }}
+        </main>
+    </div>
+</body>
+
+<script src="/assets/js/anchor.min.js"></script>
+<script>
+    anchors.options = {
+        visible: 'always',
+        icon: '#'
+    };
+    anchors.add('h2, h3, h4, h5, h6, .anchor').remove('.noanchor');
+</script>
+
+<script>
+    new Freezeframe({
+        responsive: false,
+        overlay: true
+    });
+</script>
+
+<script> // Twemoji :D
+    twemoji.parse(document.body);
+</script>
+
+<script> // Lil easter egg
+    console.log("Oh god why are you looking at my mess of a code I am not good with conputer");
+</script>
+
+</html>
