@@ -111,7 +111,19 @@ img{
 hr{
     border: none;
     border-top: 1px solid var(--border);
-  }
+}
+
+ol{
+    counter-reset: item;
+    list-style-type: none;
+}
+
+ol>li:not([id*="fn"]){
+    counter-increment: item;
+}
+ol>li:not([id*="fn"])::before{
+    content: counters(item, '.') '. '; 
+}
 
 /* Extra text shit styling */
 

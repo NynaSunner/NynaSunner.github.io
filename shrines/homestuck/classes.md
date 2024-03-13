@@ -52,9 +52,9 @@ It is because they learn about their aspect so personally, by feeling it in thei
 
 Mages understand their aspect, but they aren't good at explaining it to others. Which is why the Mage has an active role as a guide. They're about using their own knowledge to guide, not about sharing it like the Seer does.
 
-Mages tend to be paranoid and afraid of making mistakes, because know that bad things happen when they're wrong, which can render them frozen and unable to act and progress. Mages also tend to be very stubborn, believing that their problems can be solved by trying and trying no matter how much they suffer in the process. The more failed they are the more their perspective on their aspect is reinforced and the more they refuse to accept other points of view.
+Mages tend to be paranoid and afraid of making mistakes, because bad things happen when they're wrong, which can render them frozen and unable to act and progress. Mages also tend to be very stubborn, believing that their problems can be solved by trying again and again no matter how much they suffer in the process. The more failed they are the more their perspective on their aspect is reinforced and the more they refuse to accept other points of view (and thus, not changing their ways and preventing them from learning further).
 
-Their goal is to learn that this paranoia is bad for them, and to open their mind to other points of view besides their own.
+Their goal is to understand that this paranoia is bad for them, and to open their mind to other points of view besides their own.
 
 Their inversion is the [Sylph](#sylph), where they become afraid of their own Aspect and desperately try to manipulate their opposite Aspect.
 
@@ -94,17 +94,15 @@ Their inversion is the [Bard](#bard), where they reject their own Aspect and sta
 
 Saw it described as "toxic masculinity Class". Honestly? True.
 
-As my own Class it's the one I know the most about lol. Also I swear it's not as edgy as it sounds.
-
 Knights have suffered a deep, personal wound (sometimes even referred to as a trauma) that causes them to become insecure about a part of themselves, in this case part of their Aspect, which makes them hide their true selves behind a mask.
 
-They will try to only show their best side, often by overcompensating with other parts of their own Aspect. Hiding their insecurities, Knights struggle opening up to others, asking for help and showing weakness.
+They will try to only show their best side, often by overcompensating with other parts of their own Aspect. Hiding their insecurities, Knights struggle opening up to others, asking for help, and showing weakness.
 
 Some people refer to the behavior of a Knight hiding themselves as "turtling". Like a turtle hiding in its shell. Safe from the outside world, safe from judgement, safe from further harm.
 
 A Knight's goal is to overcome their insecurities and take off their mask, showing who they truly are to the world.
 
-Knights in SBURB have the added role of helping the Space player breed the Genesis frog, needed to win the game. It's also theorized that a session will lack the Knight's Aspect, since the beta kids' session is rushed and they have a Knight of Time, and the beta trolls' session has a lack of unity and they have a Knight of Blood.
+Knights in SBURB have the added role of helping the Space player breed the Genesis Frog, needed to win the game. Also, a session will lack the Knight's Aspect (since the beta kids' session is rushed and they have a Knight of Time, and the beta trolls' session has a lack of unity and they have a Knight of Blood).
 
 This last point should not be an issue if the Knight does their job, since their power is to exploit their aspect. They will take whatever little of their Aspect there is and milk it 'til it's dry. They know what they need and where to get it and they will optimize the hell out of it.
 
