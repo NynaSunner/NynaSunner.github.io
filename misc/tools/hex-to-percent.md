@@ -2,12 +2,12 @@
 title: Hex to percent converter
 header: Hex to percent converter
 description: A tool to convert a hexadecimal color to a percentual one, and vice-versa.
-permalink: /misc/hex-to-percent/
+permalink: /misc/tools/hex-to-percent/
 layout: default
 ---
 (and vice-versa)
 
-<script src="/misc/hex_to_percent.js" type="text/javascript"></script>
+<script src="/misc/tools/hex-to-percent.js" type="text/javascript"></script>
 
 <label for="color">Output color</label>
 <div id="color" style="height:100px; width:100px; background-color:black; border:2px solid gray;"></div>

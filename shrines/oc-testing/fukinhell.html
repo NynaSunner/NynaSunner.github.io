@@ -6,7 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    <p>uwu</p>
+    <nav class="center">
+        <a href="/">GO BACK!!!!</a>
+    </nav>
+    <main>
+        <div class="left-sidebar">
+            <div class="discord-card">
+                <div class="card-bg"></div>
+                <img src="https://www.theiphonewiki.com/w/images/0/05/Ness_Icon.png">
+                <div class="card-desc">
+                    <p style="margin-top: 0"><span style="font-size: 1.5em; font-weight: bolder">Name</span> <span style="font-size: .8em; vertical-align: text-top">age | pro/nouns</span></p>
+                    <ul>
+                        <li>Lorem ipsum</li>
+                        <li>Dolor sit amet</li>
+                        <li>yada yada yada yada yada yada yada yada</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="data"></div>
+            <div class="starter"></div>
+        </div>
+        <article>
+            <p>uwu</p>
+        </article>
+    </main>
 </body>
 </html>
 
@@ -17,6 +40,7 @@
     :root{
         /* Line height is set to the golden ratio */
         --line-height: 1.618;
+        --border-radius: 20px;
         
         --bg: #222222;
         --outer-bg: #111111;
@@ -37,10 +61,52 @@
         font-family: 'Source Code Pro', 'Courier Prime', monospace;
         font-weight: 400;
         line-height: var(--line-height);
-        max-width: 60rem;
+        max-width: 80rem;
         margin: 0 auto;
-        font-size: 17px;
+        font-size: 16px;
+    }
+
+    main{
         background-color: var(--bg);
+    }
+
+    /* Left sidebar stuff */
+
+    .left-sidebar{
+        width: 30%;
+    }
+
+    .left-sidebar > div{
+        border-radius: var(--border-radius);
+        border: 1px solid var(--border);
+    }
+
+    /* Discord card stuff */
+
+    .discord-card .card-bg{
+        height: 5em;
+        background: url('https://tenor.com/es/view/ness-bike-earthbound-mother2-gif-21509297.gif') no-repeat center;
+        background-size: cover;
+        border-top-right-radius: var(--border-radius);
+        border-top-left-radius: var(--border-radius);
+    }
+
+    .discord-card img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: 1.5em;
+        margin-top: -3em;
+        border: 5px solid var(--bg);
+    }
+
+    .discord-card .card-desc{
+        padding: 1em;
+        padding-top: 0;
+    }
+
+    .card-desc ul{
+        padding-left: 1em;
     }
 
 </style>

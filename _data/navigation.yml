@@ -11,9 +11,7 @@
       link: /tags/
     - name: Guestbook
       link: /misc/guestbook/
-    - name: Hex to percent
-      link: /misc/hex-to-percent/
-    - name: Gintama chat
-      link: /misc/gintamachatango/
+    - name: Tools
+      link: /misc/tools/
 - name: About
   link: /about/

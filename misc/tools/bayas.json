@@ -1,0 +1,682 @@
+[
+    {
+      "id": 1,
+      "nombre": "Zreza",
+      "picante": 10,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 25
+    },
+    {
+      "id": 2,
+      "nombre": "Atania",
+      "picante": 0,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 25
+    },
+    {
+      "id": 3,
+      "nombre": "Meloc",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 10,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 25
+    },
+    {
+      "id": 4,
+      "nombre": "Safre",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 10,
+      "acido": 0,
+      "tersura": 25
+    },
+    {
+      "id": 5,
+      "nombre": "Perasi",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 10,
+      "tersura": 25
+    },
+    {
+      "id": 6,
+      "nombre": "Zanama",
+      "picante": 10,
+      "seco": 0,
+      "dulce": 10,
+      "amargo": 10,
+      "acido": 10,
+      "tersura": 20
+    },
+    {
+      "id": 7,
+      "nombre": "Aranja",
+      "picante": 10,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 10,
+      "acido": 10,
+      "tersura": 20
+    },
+    {
+      "id": 8,
+      "nombre": "Caquic",
+      "picante": 10,
+      "seco": 10,
+      "dulce": 10,
+      "amargo": 0,
+      "acido": 10,
+      "tersura": 20
+    },
+    {
+      "id": 9,
+      "nombre": "Ziuela",
+      "picante": 10,
+      "seco": 10,
+      "dulce": 10,
+      "amargo": 10,
+      "acido": 0,
+      "tersura": 20
+    },
+    {
+      "id": 10,
+      "nombre": "Zidra",
+      "picante": 0,
+      "seco": 10,
+      "dulce": 10,
+      "amargo": 10,
+      "acido": 10,
+      "tersura": 20
+    },
+    {
+      "id": 11,
+      "nombre": "Higog",
+      "picante": 15,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 25
+    },
+    {
+      "id": 12,
+      "nombre": "Wiki",
+      "picante": 0,
+      "seco": 15,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 25
+    },
+    {
+      "id": 13,
+      "nombre": "Ango",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 15,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 25
+    },
+    {
+      "id": 14,
+      "nombre": "Guaya",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 15,
+      "acido": 0,
+      "tersura": 25
+    },
+    {
+      "id": 15,
+      "nombre": "Pabaya",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 15,
+      "tersura": 25
+    },
+    {
+      "id": 16,
+      "nombre": "Frambu",
+      "picante": 10,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 20
+    },
+    {
+      "id": 17,
+      "nombre": "Oram",
+      "picante": 0,
+      "seco": 10,
+      "dulce": 10,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 20
+    },
+    {
+      "id": 18,
+      "nombre": "Latano",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 10,
+      "amargo": 10,
+      "acido": 0,
+      "tersura": 20
+    },
+    {
+      "id": 19,
+      "nombre": "Peragu",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 10,
+      "acido": 10,
+      "tersura": 20
+    },
+    {
+      "id": 20,
+      "nombre": "Pinia",
+      "picante": 10,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 10,
+      "tersura": 20
+    },
+    {
+      "id": 21,
+      "nombre": "Grana",
+      "picante": 10,
+      "seco": 0,
+      "dulce": 10,
+      "amargo": 10,
+      "acido": 0,
+      "tersura": 20
+    },
+    {
+      "id": 22,
+      "nombre": "Algama",
+      "picante": 0,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 10,
+      "acido": 10,
+      "tersura": 20
+    },
+    {
+      "id": 23,
+      "nombre": "Ispero",
+      "picante": 10,
+      "seco": 0,
+      "dulce": 10,
+      "amargo": 0,
+      "acido": 10,
+      "tersura": 20
+    },
+    {
+      "id": 24,
+      "nombre": "Meluce",
+      "picante": 10,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 10,
+      "acido": 0,
+      "tersura": 20
+    },
+    {
+      "id": 25,
+      "nombre": "Uvav",
+      "picante": 0,
+      "seco": 10,
+      "dulce": 10,
+      "amargo": 0,
+      "acido": 10,
+      "tersura": 20
+    },
+    {
+      "id": 26,
+      "nombre": "Tamate",
+      "picante": 20,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 30
+    },
+    {
+      "id": 27,
+      "nombre": "Mais",
+      "picante": 0,
+      "seco": 20,
+      "dulce": 10,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 30
+    },
+    {
+      "id": 28,
+      "nombre": "Aostan",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 20,
+      "amargo": 10,
+      "acido": 0,
+      "tersura": 30
+    },
+    {
+      "id": 29,
+      "nombre": "Rautan",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 20,
+      "acido": 10,
+      "tersura": 30
+    },
+    {
+      "id": 30,
+      "nombre": "Monli",
+      "picante": 10,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 20,
+      "tersura": 30
+    },
+    {
+      "id": 31,
+      "nombre": "Wikano",
+      "picante": 30,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 70
+    },
+    {
+      "id": 32,
+      "nombre": "Plama",
+      "picante": 0,
+      "seco": 30,
+      "dulce": 10,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 70
+    },
+    {
+      "id": 33,
+      "nombre": "Sambia",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 30,
+      "amargo": 10,
+      "acido": 0,
+      "tersura": 70
+    },
+    {
+      "id": 34,
+      "nombre": "Ruidon",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 30,
+      "acido": 10,
+      "tersura": 70
+    },
+    {
+      "id": 35,
+      "nombre": "Andano",
+      "picante": 10,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 30,
+      "tersura": 70
+    },
+    {
+      "id": 36,
+      "nombre": "Lichi",
+      "picante": 30,
+      "seco": 10,
+      "dulce": 30,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 80
+    },
+    {
+      "id": 37,
+      "nombre": "Gonlan",
+      "picante": 0,
+      "seco": 30,
+      "dulce": 10,
+      "amargo": 30,
+      "acido": 0,
+      "tersura": 80
+    },
+    {
+      "id": 38,
+      "nombre": "Aslac",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 30,
+      "amargo": 10,
+      "acido": 30,
+      "tersura": 80
+    },
+    {
+      "id": 39,
+      "nombre": "Yapati",
+      "picante": 30,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 30,
+      "acido": 10,
+      "tersura": 80
+    },
+    {
+      "id": 40,
+      "nombre": "Aricoc",
+      "picante": 10,
+      "seco": 30,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 30,
+      "tersura": 80
+    },
+    {
+      "id": 41,
+      "nombre": "Zonlan",
+      "picante": 30,
+      "seco": 10,
+      "dulce": 30,
+      "amargo": 10,
+      "acido": 30,
+      "tersura": 30
+    },
+    {
+      "id": 42,
+      "nombre": "Arabol",
+      "picante": 30,
+      "seco": 10,
+      "dulce": 30,
+      "amargo": 10,
+      "acido": 30,
+      "tersura": 30
+    },
+    {
+      "id": 43,
+      "nombre": "Enigma",
+      "picante": 40,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 40
+    },
+    {
+      "id": 44,
+      "nombre": "Caoca",
+      "picante": 15,
+      "seco": 0,
+      "dulce": 10,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 30
+    },
+    {
+      "id": 45,
+      "nombre": "Pasio",
+      "picante": 0,
+      "seco": 15,
+      "dulce": 0,
+      "amargo": 10,
+      "acido": 0,
+      "tersura": 30
+    },
+    {
+      "id": 46,
+      "nombre": "Gualot",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 15,
+      "amargo": 0,
+      "acido": 10,
+      "tersura": 30
+    },
+    {
+      "id": 47,
+      "nombre": "Tamar",
+      "picante": 10,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 15,
+      "acido": 0,
+      "tersura": 30
+    },
+    {
+      "id": 48,
+      "nombre": "Rimoya",
+      "picante": 0,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 15,
+      "tersura": 30
+    },
+    {
+      "id": 49,
+      "nombre": "Pomaro",
+      "picante": 15,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 10,
+      "acido": 0,
+      "tersura": 30
+    },
+    {
+      "id": 50,
+      "nombre": "Kebia",
+      "picante": 0,
+      "seco": 15,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 10,
+      "tersura": 30
+    },
+    {
+      "id": 51,
+      "nombre": "Acardo",
+      "picante": 10,
+      "seco": 0,
+      "dulce": 15,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 30
+    },
+    {
+      "id": 52,
+      "nombre": "Kouba",
+      "picante": 0,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 15,
+      "acido": 0,
+      "tersura": 30
+    },
+    {
+      "id": 53,
+      "nombre": "Payapa",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 10,
+      "amargo": 0,
+      "acido": 15,
+      "tersura": 30
+    },
+    {
+      "id": 54,
+      "nombre": "Yecana",
+      "picante": 20,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 10,
+      "tersura": 35
+    },
+    {
+      "id": 55,
+      "nombre": "Alcho",
+      "picante": 10,
+      "seco": 20,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 35
+    },
+    {
+      "id": 56,
+      "nombre": "Drasi",
+      "picante": 0,
+      "seco": 10,
+      "dulce": 20,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 35
+    },
+    {
+      "id": 57,
+      "nombre": "Anjiro",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 10,
+      "amargo": 20,
+      "acido": 0,
+      "tersura": 35
+    },
+    {
+      "id": 58,
+      "nombre": "Dillo",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 10,
+      "acido": 20,
+      "tersura": 35
+    },
+    {
+      "id": 59,
+      "nombre": "Baribá",
+      "picante": 25,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 35
+    },
+    {
+      "id": 60,
+      "nombre": "Chilan",
+      "picante": 0,
+      "seco": 25,
+      "dulce": 10,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 35
+    },
+    {
+      "id": 61,
+      "nombre": "Lagro",
+      "picante": 0,
+      "seco": 40,
+      "dulce": 10,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 60
+    },
+    {
+      "id": 62,
+      "nombre": "Chiri",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 40,
+      "amargo": 10,
+      "acido": 0,
+      "tersura": 60
+    },
+    {
+      "id": 63,
+      "nombre": "Jaboca",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 40,
+      "acido": 10,
+      "tersura": 60
+    },
+    {
+      "id": 64,
+      "nombre": "Magua",
+      "picante": 10,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 40,
+      "tersura": 60
+    },
+    {
+      "id": 65,
+      "nombre": "Hibis",
+      "picante": 40,
+      "seco": 10,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 60
+    },
+    {
+      "id": 66,
+      "nombre": "Maranga",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 25,
+      "amargo": 10,
+      "acido": 0,
+      "tersura": 35
+    },
+    {
+      "id": 67,
+      "nombre": "Biglia",
+      "picante": 0,
+      "seco": 0,
+      "dulce": 0,
+      "amargo": 25,
+      "acido": 10,
+      "tersura": 35
+    },
+    {
+      "id": 68,
+      "nombre": "Lupu",
+      "picante": 10,
+      "seco": 25,
+      "dulce": 0,
+      "amargo": 0,
+      "acido": 0,
+      "tersura": 35
+    }
+  ]

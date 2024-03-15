@@ -379,7 +379,7 @@ nav a, .dropdown > summary{
     position: absolute;
     z-index: 999;
     display: block;
-    left: -40%;
+    left: -20%;
     top: 3.4em;
     border: 1px solid var(--accent);
     background: var(--accent-bg);
