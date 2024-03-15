@@ -6,6 +6,10 @@ description: Let me tell you about Hom- *gets shot*
 permalink: /shrines/homestuck/aspects/
 layout: hs-shrine
 ---
+<div class="center">
+    <img src="http://hs.hiveswap.com/ezodiac/images/aspects.png" style="image-rendering:auto" alt="Aspect wheel">
+</div>
+
 ## Space
 
 > Those bound to the aspect of Space are, as the name suggests, concerned with the big picture. They are patient, masters of the art of 'wait-and-see', and are inclined to take things as they come. That isn't to say that they're pushovers or willing to let injustice lie-they just choose their battles wisely, understanding that sometimes you have to let something burn to the ground in order to build it back better and stronger than before. To this effect, they tend to be innovators, concerned with creation and redemption. Catch them recycling the old to make the new, the fresh, and the beautiful. For the Space-bound, the journey is as, if not more, important than the destination; how they do something is as important as what they do. At their best, they are steady, impartial, and creative. At their worst, they can be detached, apathetic, and vague.

@@ -56,6 +56,10 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 ***
 
 <div class="center">
+  <div id="bisexualism" style="display: inline">
+    <script type="text/javascript" src="https://emeowly.github.io/bi/onionring-variables.js" defer></script>
+    <script type="text/javascript" src="https://emeowly.github.io/bi/onionring-img-widget.js" defer></script>
+  </div>
   <a href="https://fire.norvrandt.org/fan" target="_blank" alt="Fire Emblem Fanlisting" title="Pick A God And Pray fanlisting"><img src="/assets/img/pagap.png"></a>
   <a href="https://kalechips.net/responsive" target="_blank" alt="Responsive Web Directory" title="Responsive Web Directory"><img src="/assets/img/rwd.png"></a>
   <a href="http://pkmn.caelestis.nu" target="_blank" rel="noopener noreferrer" style="border: 0px none; background: transparent;" title="I Choose You! :: GARCHOMP"><img src="/assets/img/garchomp.png" alt="I Choose You Pokémon clique" style="margin: auto -15px;"></a>

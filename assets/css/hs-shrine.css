@@ -138,3 +138,7 @@ blockquote{
     height: 1.3em;
     vertical-align: text-bottom;
 }
+
+.center{
+    text-align: center;
+}
