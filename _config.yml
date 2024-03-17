@@ -37,4 +37,4 @@ exclude:
   - CNAME
   - gem.bak
   - LICENSE
-  - README.MD
+  - README.md

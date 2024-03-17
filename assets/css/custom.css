@@ -553,6 +553,18 @@ input{
     accent-color: var(--accent);
 }
 
+/* Bi webring */
+
+#bisexualism table{
+    width: auto;
+    font-size: inherit !important;
+}
+
+#bisexualism td{
+    padding: 0;
+    border: none;
+}
+
 /* Freezeframe */
 
 .ff-container .ff-overlay{

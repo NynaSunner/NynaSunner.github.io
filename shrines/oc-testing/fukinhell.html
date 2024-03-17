@@ -13,7 +13,12 @@
         <div class="left-sidebar">
             <div class="discord-card">
                 <div class="card-bg"></div>
-                <img src="https://www.theiphonewiki.com/w/images/0/05/Ness_Icon.png">
+                <img src="/assets/img/momazos-nyna.png" alt="pfp" id="pfp">
+                <div class="pride-flags">
+                    <img src="https://raw.githubusercontent.com/H077y/pride-flag-emojis/main/emojis/sexuality/flag_bisexual.png" alt="Bisexual">&nbsp;
+                    <img src="https://github.com/H077y/pride-flag-emojis/blob/main/emojis/gender/flag_agender.png?raw=true" alt="Agender">&nbsp;
+                    <img src="https://raw.githubusercontent.com/H077y/pride-flag-emojis/main/emojis/attraction/flag_ambiamorous.png" alt="Ambiamorous">
+                </div>
                 <div class="card-desc">
                     <p style="margin-top: 0"><span style="font-size: 1.5em; font-weight: bolder">Name</span> <span style="font-size: .8em; vertical-align: text-top">age | pro/nouns</span></p>
                     <ul>
@@ -23,10 +28,15 @@
                     </ul>
                 </div>
             </div>
-            <div class="data"></div>
-            <div class="starter"></div>
+            <div class="main-pic">
+                <img src="https://wallpapers.com/images/featured/mobile-58g8gv3r23zg29kw.jpg" alt="ficha">
+            </div>
+            <div class="starter">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/155.png" alt="starter">
+            </div>
         </div>
         <article>
+            <h1>Título</h1>
             <p>uwu</p>
         </article>
     </main>
@@ -42,14 +52,12 @@
         --line-height: 1.618;
         --border-radius: 20px;
         
-        --bg: #222222;
-        --outer-bg: #111111;
+        --bg: #3a3639;
+        --outer-bg: #322f31;
         --text: #dadada;
         --accent: #56a8ff;
         --accent-light: #c0dfff;
-        --border: #dadada;
-
-        --border-shadow: 0 0 10px #dadadaad;
+        --border: #534f52;
     }
 
     html{
@@ -63,50 +71,107 @@
         line-height: var(--line-height);
         max-width: 80rem;
         margin: 0 auto;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     main{
+        display: flex;
+        flex-wrap: wrap;
+        margin:auto;
+        width: 100%;
+    }
+
+    article{
         background-color: var(--bg);
+        border-radius: var(--border-radius);
+        border: 1px solid var(--border);
+        flex: 2 1;
+        margin: 1em;
+        margin-left: 0;
+        padding: 1.5em;
+    }
+
+    /* Basic styling */
+
+    img{
+        max-width: 100%;
+    }
+
+    h1{
+        font-size: 3em;
+        margin-top: 0;
     }
 
     /* Left sidebar stuff */
 
     .left-sidebar{
-        width: 30%;
+        flex: 1 1;
+        min-width: 25em;
     }
 
     .left-sidebar > div{
+        background-color: var(--bg);
         border-radius: var(--border-radius);
         border: 1px solid var(--border);
+        overflow: hidden;
+        margin: 1em;
     }
 
     /* Discord card stuff */
 
-    .discord-card .card-bg{
-        height: 5em;
-        background: url('https://tenor.com/es/view/ness-bike-earthbound-mother2-gif-21509297.gif') no-repeat center;
-        background-size: cover;
-        border-top-right-radius: var(--border-radius);
-        border-top-left-radius: var(--border-radius);
+    .discord-card{
+        position: relative;
     }
 
-    .discord-card img{
+    .discord-card .card-bg{
+        height: 6em;
+        background: url('https://tenor.com/es/view/ness-bike-earthbound-mother2-gif-21509297.gif') no-repeat center;
+        background-size: cover;
+    }
+
+    .discord-card #pfp{
         width: 100px;
         height: 100px;
         border-radius: 100%;
         margin-left: 1.5em;
-        margin-top: -3em;
+        margin-top: -3.5em;
         border: 5px solid var(--bg);
+    }
+
+    .discord-card .pride-flags{
+        position: absolute;
+        right: 1em;
+        top: 7em;
+        display: flex;
+    }
+
+    .discord-card .pride-flags img{
+        width: 2em;
+        height: fit-content;
     }
 
     .discord-card .card-desc{
         padding: 1em;
+        padding-left: 1.5em;
         padding-top: 0;
     }
 
     .card-desc ul{
         padding-left: 1em;
+    }
+
+    /* Media queries */
+
+    @media screen and (max-width: 800px){
+        main{
+            display: block;
+        }
+        article{
+            margin: 1em;
+        }
+        .left-sidebar{
+            min-width: unset;
+        }
     }
 
 </style>

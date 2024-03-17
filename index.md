@@ -56,7 +56,7 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 ***
 
 <div class="center">
-  <div id="bisexualism" style="display: inline">
+  <div id="bisexualism" style="display: inline-flex">
     <script type="text/javascript" src="https://emeowly.github.io/bi/onionring-variables.js" defer></script>
     <script type="text/javascript" src="https://emeowly.github.io/bi/onionring-img-widget.js" defer></script>
   </div>

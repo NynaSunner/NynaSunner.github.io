@@ -117,3 +117,8 @@ You can use this button to link back to my site! You can hotlink it but I'd pref
 	</ul>
 </div>
 </details>
+
+Here's also a gamer card thingie that idk where else to put
+<div class="center">
+	<a href="https://www.exophase.com/user/NynaSunner/"><img src="https://card.exophase.com/2/0/255356.png?1710630135"></a>
+</div>

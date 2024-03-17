@@ -43,6 +43,16 @@ The reason why Lunar Sway is considered less important is mostly because it's no
 
 This is also why classpecting comes first, and figuring the Lunar Sway second. The Lunar Sway is considered more like a "flavor" of the given classpect.
 
+### Extra
+
+This is an extra note with something a friend told me about the Lunar Sway. I don't fully agree but I don't fully disagree either and I don't lose anything for writing it here.
+
+He said that the Lunar Sway is primarily determined by your locus of control. Prospit Dreamers have an external locus while Derse dreamers have an internal one.
+
+So prospitians are more likely to believe that their situation is caused by something out of their control and give more merit to others, while dersites are more likely to believe that their situation is caused by themselves and give more merit to themselves.
+
+I do like this, but I believe it goes too against the *canon* Lunar Sway descriptions to fully accept it.
+
 ## SBURB
 
 The first time the moons become relevant in a session is when a player prototipes a kernelsprite before entering the Medium. The sprite will split and go to each moon's prototyping tower, and give its powers to the queen's ring and the king's scepter.
