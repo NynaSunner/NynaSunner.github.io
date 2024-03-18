@@ -54,6 +54,7 @@ nav{
     flex: 1 1 calc(20% - 4em - 2px);
     background-color: var(--bg);
     padding: 0 1.5em;
+    padding-top: 1em;
     border: 1px solid var(--border);
     box-shadow: var(--border-shadow);
     height: fit-content;
@@ -67,7 +68,7 @@ nav ul{
     padding: 0;
 }
 
-nav p{
+nav summary{
     text-align: center;
     border-bottom: 1px solid var(--border);
 }

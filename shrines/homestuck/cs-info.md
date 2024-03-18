@@ -36,7 +36,7 @@ I'll probs move this to the SBURB section once I make it.
 
 A SUBRB session will have a lack of the Knight's aspect. The beta kids' session is rushed and they have a Knight of Time (Dave), and the beta trolls' session has a lack of unity and they have a Knight of Blood (Karkat).
 
-The knight makes up for this with their role and biggest strength, which is to exploit their Aspect. They instinctually know how to milk it and abuse it to win. Dave abuses time travel to do things faster, and to effectively make clones of himself and defeat harder enemies earlier.
+The knight makes up for this with their role and biggest strength, which is to exploit their Aspect. They instinctually know how to milk it and abuse it to win. Dave abuses time travel to do things faster, and to effectively make clones of himself and defeat harder enemies earlier; Karkat is less successful but he still uses the bonds he has with his friends to bring them all together.
 
 ### Knight and Space in SBURB
 
@@ -65,6 +65,18 @@ These are some characteristics that are shared by Aspects of the same half:
 - Lower half:
     - Lean more towards Derse.
     - Tend to have symbolisms that are more real and material.
+
+### Most common Classes and Aspects
+
+The most common classes are the ones in the commoner archetype, while the ones in the noble archetype are the rarest ones. Out of the commoner classes, though, Knight and Rogue are more common, with Knight being the most common. Prince and Bard are the rarest Classes with Bard being the rarest by far.
+
+For the Aspects it's harder to determine how common they are. Heart is definitely the most common, followed by Blood; while Doom is the rarest.
+
+Knight of Heart is, indeed, the most common Classpect.
+
+### Common misconceptions
+
+- It's commonly said that "Space is art and Time is music". This makes no sense since music is art so it'd belong to Space. This all stems from Dave making music and Aradia using music boxes (but Dave specifically makes mixes, highlighting the repetition aspect of Time, and Aradia's music boxes highlight the mechanical aspect), and from wrongfully equating creativity to art.
 
 ### Overlapping Classpect
 

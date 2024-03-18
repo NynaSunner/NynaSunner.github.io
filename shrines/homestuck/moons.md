@@ -53,6 +53,10 @@ So prospitians are more likely to believe that their situation is caused by some
 
 I do like this, but I believe it goes too against the *canon* Lunar Sway descriptions to fully accept it.
 
+It reminds me of this meme too:
+
+![A dark silhouette labeled as "weak aura" with the text "I am at peace and in charge of my own destiny", and a bright yellow silhouette labeled as "strong aura" with the text "fuck it, we ball" repeated four times](https://i.kym-cdn.com/photos/images/original/002/460/783/8d2)
+
 ## SBURB
 
 The first time the moons become relevant in a session is when a player prototipes a kernelsprite before entering the Medium. The sprite will split and go to each moon's prototyping tower, and give its powers to the queen's ring and the king's scepter.

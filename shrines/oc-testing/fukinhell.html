@@ -13,14 +13,14 @@
         <div class="left-sidebar">
             <div class="discord-card">
                 <div class="card-bg"></div>
-                <img src="/assets/img/momazos-nyna.png" alt="pfp" id="pfp">
+                <img src="https://picsum.photos/100" alt="pfp" id="pfp">
                 <div class="pride-flags">
-                    <img src="https://raw.githubusercontent.com/H077y/pride-flag-emojis/main/emojis/sexuality/flag_bisexual.png" alt="Bisexual">&nbsp;
-                    <img src="https://github.com/H077y/pride-flag-emojis/blob/main/emojis/gender/flag_agender.png?raw=true" alt="Agender">&nbsp;
-                    <img src="https://raw.githubusercontent.com/H077y/pride-flag-emojis/main/emojis/attraction/flag_ambiamorous.png" alt="Ambiamorous">
+                    <img src="https://raw.githubusercontent.com/H077y/pride-flag-emojis/main/emojis/sexuality/flag_bisexual.png" alt="Bisexual" title="Bisexual">&nbsp;
+                    <img src="https://github.com/H077y/pride-flag-emojis/blob/main/emojis/attraction/flag_polyamorous4.png?raw=true" alt="Polyamorous" title="Polyamorous">
                 </div>
                 <div class="card-desc">
-                    <p style="margin-top: 0"><span style="font-size: 1.5em; font-weight: bolder">Name</span> <span style="font-size: .8em; vertical-align: text-top">age | pro/nouns</span></p>
+                    <p style="margin: 0"><span style="font-size: 1.5em; font-weight: bolder">Name</span> <span style="font-size: .8em; vertical-align: text-top">age | he/him</span></p>
+                    <p style="margin-top: 0; opacity: .7;">@xX_Slayerzzz_Xx</p>
                     <ul>
                         <li>Lorem ipsum</li>
                         <li>Dolor sit amet</li>
@@ -29,15 +29,28 @@
                 </div>
             </div>
             <div class="main-pic">
-                <img src="https://wallpapers.com/images/featured/mobile-58g8gv3r23zg29kw.jpg" alt="ficha">
+                <img src="https://picsum.photos/500/1000" alt="ficha">
             </div>
             <div class="starter">
-                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/155.png" alt="starter">
+                <img src="https://picsum.photos/500" alt="starter">
             </div>
         </div>
         <article>
             <h1>Título</h1>
-            <p>uwu</p>
+            <div class="navbar">
+                <a href="">Top</a>·<a href="">Stats</a>·<a href="">Description</a>
+            </div>
+            <h2>Stats</h2>
+            <p><span>Introvert</span><span style="float: right;/*! text-align: right; */">Extrovert</span></p>
+            <div class="stat">
+                <div class="stat-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, pariatur cum! Iure ipsum dolorem eos commodi soluta maiores consequatur temporibus, quibusdam unde enim expedita iste quaerat? Soluta dolorem deleniti tempora.</p>
+            <h2>Description</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia inventore autem ullam facilis eos aspernatur voluptatum nulla et, temporibus, voluptatibus consequuntur maiores ipsam? Deserunt esse hic, numquam alias inventore vel.</p>
+            <h2>Backstory</h2>
+            <h2>Design</h2>
+            <h2>Moves</h2>
         </article>
     </main>
 </body>
@@ -102,6 +115,56 @@
         margin-top: 0;
     }
 
+    /* STEAL SHIT FUCK YOU BOOTSTRAP */
+
+    .progress {
+        height: 3px;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+        overflow: visible;
+    }
+    .progress-bar {
+        width: 0%;
+        height: 100%;
+        background-color: #337ab7;
+    }
+
+    /* Hhhhh */
+
+    .stat {
+        height: 3px;
+        background-color: #262325;
+        border-radius: 4px;
+        overflow: visible;
+    }
+    .stat-bar {
+        position: relative;
+    }
+    .stat .stat-bar:after{
+        content:"";
+        position: absolute;
+        top: -6px;
+        right: -6px;
+        background-color: var(--accent);
+        height:14px;
+        width: 14px;
+        border-radius: 100%;
+    }
+
+    /* Main content stuff */
+
+    .navbar{
+        width: 100%;
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        position: sticky;
+        top: 1em;
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--outer-bg);
+        z-index: 999;
+    }
+
     /* Left sidebar stuff */
 
     .left-sidebar{
@@ -125,7 +188,7 @@
 
     .discord-card .card-bg{
         height: 6em;
-        background: url('https://tenor.com/es/view/ness-bike-earthbound-mother2-gif-21509297.gif') no-repeat center;
+        background: url('https://picsum.photos/400/100') no-repeat center;
         background-size: cover;
     }
 
@@ -159,6 +222,20 @@
     .card-desc ul{
         padding-left: 1em;
     }
+
+    /* Starter box stuff */
+
+    .starter, .main-pic{
+        padding: 1em;
+        padding-bottom: calc(1em - 6px);
+        text-align: center;
+    }
+
+    .starter img, .main-pic img{
+        border: 1px solid var(--border);
+        border-radius: var(--border-radius);
+    }
+
 
     /* Media queries */
 
