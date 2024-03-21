@@ -117,11 +117,17 @@ Their inversion is the [Rogue](#rogue), where they are at their most insecure an
 - Gender: Neutral
 > One who steals Aspect or steals through Aspect to benefit others
 
-Rogues are about redistribution. A Rogue starts off by not trusting themselves with their aspect, so they give it to others. If those others are assholes this can end badly for the Rogue.
+More than a "stealing" class, Rogues are about redistribution. They take when there's an excess to give when there's insufficence.
 
-A rogue's goal is to be confident in their own abilities and start using their Aspect instead of giving it away freely.
+A Rogue starts off by not trusting themselves with their Aspect, often due to self-esteem issues, so they give it to others. They don't give it to anyone, though, they're selective and only give it to those they see fit. Being the most active of the passive Classes, the Rogue prioritizes loved ones and people they like, and are often quite protective of them.
 
-Their inversion is the [Knight](#knight), where they try to hide their flaws and be someone they're not.
+Rogues dislike their Aspect in its purest form, and specially hate experiencing that themselves, so they might appear as their opposite or a different Aspect. Because of this they often seek the balance between their own and their opposite Aspect.
+
+Despite this, failed Rogues isolate themselves, often using a symbolysm of their Aspect.
+
+A Rogue's goal is to be confident in their own abilities and start keeping some of their Aspect, instead of giving it all away.
+
+Their inversion is the [Knight](#knight), where they try to isolate themselves and hide their true self behind their opposite Aspect.
 
 ## Bard
 
@@ -130,7 +136,7 @@ Their inversion is the [Knight](#knight), where they try to hide their flaws and
 - Gender: Masculine
 > One who destroys Aspect or destroys through Aspect to benefit others
 
-I honestly don't know jack shit about destructive classes.
+Most uncomprehensible class ever. No one knows what the hell is wrong with Bards.
 
 ## Sylph
 
@@ -139,9 +145,19 @@ I honestly don't know jack shit about destructive classes.
 - Gender: Feminine
 > One who manipulates Aspect or manipulates through Aspect to benefit others
 
+The "mom friend" Class (there are only two paragraphs on this one in my docs, sorry).
+
 Sylphs are concerned about the others' wellbeing. This sounds cute, but remember that this is a manipulation Class.
 
-Basically, a Sylph believes they know what's best for the others. They will try to help
+Sylphs *love* meddling. They'll make your problems their own and try to fix them how they see fit. They believe they know what's best for the others. They're healers, but you might not like the cure.
+
+Unlike Witches, their manipulation is passive. They'll gently nudge others to where they want them to be, and they do it only because they want the best for the others. They're actually pretty good at helping and healing, however focusing on their role too much can lead to burnout.
+
+For Sylphs the end justifies the means.
+
+A Sylph's goal is to understand that they're not always right, and to stop meddling so much.
+
+Their inversion is the [Mage](#mage), where they become extremely stubborn and set in their ways, craving the knowledge of their opposite Aspect since their own isn't "helping".
 
 ## Seer
 
@@ -150,11 +166,23 @@ Basically, a Sylph believes they know what's best for the others. They will try 
 - Gender: Neutral
 > One who knows Aspect or knows through Aspect to benefit others
 
-Seers come from a background that lacks their Aspect. A Seer of Blood came from a broken family, a Seer of Life came from poverty, a Seer of Rage came from blind faith.
+🤓☝️
 
-It is this lack of their aspect that drives them to learn about it. They will study it, they can't experiment with it like Mages do since they lack it around them, and will use that knowledge to guide others to what they never had. To avoid having them make the same mistakes.
+Seers come from a background that lacks their Aspect, or even one that has great ammounts of their opposite Aspect. This lack of their own or excess of the opposite makes them uncomfortable, which drives them to learn about and pursue their Aspect.
 
-This, however, can make the Seer bitter.
+Unlike Mages, Seers learn by observing and studying. They can't experiment with it like Mages do since they lack it around them.
+
+A Seer is good at explaining their knowledge to others, they've studied the theory after all, and use it to guide others. Seers can be too passive at first, and as they grow they start applying their knowledge themselves.
+
+Seers are said to be able to "see" the multiple paths of action they can take. This is what makes them so great at guiding, but seeing all the possibilities can also leave them unable to choose a path and render them frozen or "blinded".
+
+Seers have a behavior usually known as "seersprawl" where they go full nerd mode and infodump. I think it's cute but some might find it annoying, so Seers should learn to be more concise.
+
+Seers can be pretty prideful about their knowledge and ability to learn, which manifests nastily when they're failed and refuse to guide or keep learning, turning pride into feelings of superiority.
+
+A Seer's goal is to be the best guide they can be, and to not be fully passive while not despairing and going fully active.
+
+Their inversion is the [Witch](#witch), where they ignore what they have learned to take matters into their own hands.
 
 ## Heir
 

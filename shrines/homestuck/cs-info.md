@@ -28,6 +28,18 @@ A failed player is one who has failed to succeed and fallen into the bad habits 
 
 Inversion is the act of a player acting like a failed version of their opposite Class and Aspect. Usually triggered by a big crisis, this state is extremely unhealthy and destructive, both for the player suffering it and those around them.
 
+## Master Classes: Lord and Muse
+
+There are actually two more Classes shown in Homestuck: the extremely active Lord Class and the extremely passive Muse Class.
+
+These Classes are ***not*** for humans, period. They're for ***gods***. You can't be either of these Classes. If you consider yourself one you're a self-absorbed Mary Sue, full offense.
+
+That's why I don't cover them here. They're way too extreme. Master Classes are more a force of the universe than anything, they're extremely consumed and defined by their Aspect, having ultimate control of it. You can even say they *are* their Aspect.
+
+Lords do it in a way that benefits themselves and *only* themselves. Muse is harder since the only canon Muse is a Muse of Space and it's hard to tell if the inspiration part of it comes from Muse or from Space, but we can say that Muses inspire others through their Aspect extremely passively, just by existing, in a way that only benefits others.
+
+"But can I Classpect characters as Lord/Muse?" Yes, but even if you go for godlike ones they won't be a Master Class 99.9% of the time. The only "character" I've seen be correctly assigned a Master Class is [SCP-2747](https://scp-wiki.wikidot.com/scp-2747), as a Lord of Void.
+
 ## SBURB stuff
 
 I'll probs move this to the SBURB section once I make it.
