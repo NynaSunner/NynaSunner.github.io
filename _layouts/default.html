@@ -16,7 +16,7 @@
 
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
     <link rel="stylesheet" href="/assets/css/custom.css">
-    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
     <script data-goatcounter="https://nynasunner.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
@@ -36,7 +36,6 @@
             header.style.backgroundImage = 'url(' + path + bgm[Math.floor(Math.random() * bgm.length)] + ')';
         </script>
     </header>
-
     <!-- Start of page -->
     <div>
         <hr>
@@ -101,7 +100,7 @@
     });
 </script>
 
-<!-- NOT NEEDED WITH TWEMOJI RN
+<!-- NOT NEEDED WITH TWEMOJI RN 
 <script type="module" defer> //Snippet to make flag emojis work in browsers that don't have them
     import { polyfillCountryFlagEmojis } from "https://cdn.skypack.dev/country-flag-emoji-polyfill";
     polyfillCountryFlagEmojis();
@@ -111,8 +110,18 @@
 <script> // Twemoji :D
     twemoji.parse(document.body);
 </script>
+
 <script> // Lil easter egg
     console.log("Oh god why are you looking at my mess of a code I am not good with conputer");
+</script>
+
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script>
+    tippy('abbr', {
+        content: (reference) => reference.getAttribute('title'),
+        interactive: true,
+    });
 </script>
 
 </html>

@@ -2,13 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
-    /* Line height is set to the golden ratio */
-    --line-height: 1.618;
-    
     --bg: #170d29ea;
     --outer-bg: url(../img/background.webp);
     --accent-bg: #20113C;
-    --text: #F4DFB3; /* #e6d7ae */
+    --text: #FBE6B9; /* #F4DFB3 */
     --text-light: #e7e1d0;
     --text-bg: #e6d7ae17;
     --caption: #A6D3A0;
@@ -76,7 +73,7 @@ body{
     text-shadow: -2px 2px 4px rgb(0, 0, 0);
     font-family: "Twemoji Country Flags", 'Source Code Pro', 'Roboto Mono', 'Courier Prime', monospace;
     font-weight: 400;
-    line-height: 1.75;
+    line-height: 1.75; /* Could be set to the golden ratio (1.618) but it'd be too squished */
     max-width: 60rem;
     margin: 0 auto;
     padding: 1.5em;
@@ -220,7 +217,18 @@ pre{
     width: unset;
 }
 
-/* Abbr */
+/* I GOT TIPPY.JS SO I'M COMMENTING THE TOOLTIP STUFF FOR NOW */
+
+.tippy-box{
+    background-color: #222;
+    border: 1px solid #aaa;
+    text-shadow: none;
+}
+.tippy-arrow{
+    color: #aaa;
+}
+
+/* Abbr 
 
 abbr[title] {
     position: relative;
@@ -242,7 +250,9 @@ abbr[title]:hover::after, abbr[title]:focus::after {
     padding: 0 5px;
 }
 
-/* Tooltip */
+*/
+
+/* Tooltip 
 
 .tooltip {
     position: relative;
@@ -276,6 +286,8 @@ abbr[title]:hover::after, abbr[title]:focus::after {
     visibility: visible;
     opacity: 1;
 }
+
+*/
 
 /* Tables - Idk how I want to style them yet */
 table{

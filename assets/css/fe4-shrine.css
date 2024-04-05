@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "Pixel Operator";
+    src: url(/assets/PixelOperator.ttf)
+}
+
+:root{
+    /* Line height is set to the golden ratio */
+    --line-height: 1.618;
+    
+    --bg: #a5a495;
+    --outer-bg: #00030b;
+    --text: #fff;
+    --accent: #1f8cff;
+    --accent-light: #c0dfff;
+    --border: #000000;
+
+    --border-shadow: 0 0 10px #1b1b1bad;
+}
+
+html{
+    background-color: var(--outer-bg);
+    color:var(--text);
+    padding: 1em;
+    background: url('https://www.spriters-resource.com/resources/sheets/45/47627.png') no-repeat fixed;
+    background-size: cover;
+}
+
+body{
+    font-family: 'Pixel Operator', monospace;
+    font-weight: 400;
+    line-height: var(--line-height);
+    max-width: 60rem;
+    margin: 0 auto;
+    font-size: 22px;
+
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+    /* Here's more THICC
+    -1px -2px 0 #000,
+     0   -2px 0 #000,
+     1px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px -2px 0 #000,
+
+     1px  2px 0 #000,
+     0    2px 0 #000,
+    -1px  2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+
+     2px -1px 0 #000,
+     2px -2px 0 #000,
+     2px  2px 0 #000,
+     2px  1px 0 #000,
+     2px  0   0 #000,
+
+    -2px -1px 0 #000,
+    -2px -2px 0 #000,
+    -2px  2px 0 #000,
+    -2px  1px 0 #000,
+    -2px  0   0 #000;
+    */
+}
+
+header{
+    background: url('https://www.lavanguardia.com/files/image_449_220/uploads/2021/03/15/604f8c387d064.png') no-repeat;
+    background-size: cover;
+    height: 6em;
+    border: 1px solid var(--border);
+    box-shadow: var(--border-shadow);
+    
+    text-align: center;
+    padding-top: 5em;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1em;
+}
+
+nav{
+    min-width: 7em;
+    
+    height: fit-content;
+    margin-right: 1em;
+    position: sticky;
+    top: 1em;
+}
+
+.nav-shadow{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    height: calc(100% - 23px);
+    width: calc(100% - 23px);
+
+    background-color: #000;
+    border-top-left-radius: 50px;
+
+    box-shadow: 
+    29px 8px 0 0 #000, 
+    26px 11px 0 0 #000, 
+    23px 14px 0 0 #000, 
+    20px 17px 0 0 #000, 
+    17px 20px 0 0 #000, 
+    14px 23px 0 0 #000, 
+    11px 26px 0 0 #000,
+    8px 29px 0 0 #000;
+    
+}
+
+.nav-content{
+    position: relative;
+
+    padding: 0 1em;
+    padding-top: .5em;
+
+    background-color: var(--bg);
+    background: url(/assets/img/shrines/fe4/fe4-menu.png);
+
+    border: 3px solid #e5bc00;
+    border-image-slice: 35% 31% 35% 35%;
+    border-image-width: 25px 22px 25px 25px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round;
+    border-image-source: url("/assets/img/shrines/fe4/fe4-menuborder.png");
+    border-style: solid; 
+    image-rendering: crisp-edges;
+
+    background-clip: padding-box;
+
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0; 
+    margin-top: 0;
+}
+
+nav summary{
+    text-align: center;
+}
+
+nav a{
+    position: relative;
+}
+
+/* hand stuff*/
+
+nav a:hover:before {
+    content: url(/assets/img/shrines/fe4/hand.png); /* placeholder idk */
+    position: absolute;
+    top: 0;
+    left: -30px;
+    animation: point .5s ease infinite;
+}
+@keyframes point {
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateX(-5px);}
+}
+
+main{
+    flex: 1 1 calc(70% - 3em - 6px);
+    padding: 0 1.5em;
+
+    background-color: #21414a;
+    background-image: url(/assets/img/shrines/fe4/fe4-tile-x3.png);
+    image-rendering: pixelated;
+    border: 3px solid #4a9e9c; /* It flashes on load for some reason so this is to lessen it */
+
+    border-image-slice: 24% 24% 24% 24%;
+    border-image-width: 9px 9px 9px 9px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round;
+    border-image-source: url("/assets/img/shrines/fe4/fe4-border.png");
+    border-style: solid; 
+
+    background-clip: padding-box;
+}
+
+/* Text stuff */
+
+a{
+    color: var(--accent);
+    transition: .3s;
+}
+
+a:hover{
+    text-decoration: none;
+    color: var(--accent-light);
+}
+
+hr{
+    background: var(--text);
+    border: 1px solid var(--border);
+    height: 1px;
+}
+
+nav hr{
+    margin: 0;
+}
+
+
+@media screen and (max-width: 800px) {
+    .wrapper{
+        padding-top: 0; /* The nav has some space on the top for some reason? So this fixes it*/
+    }
+    nav{
+        margin: 0;
+        position: relative;
+        margin-bottom: 2em;
+        flex: 1 1 100%;
+    }
+    body{
+		font-size: 18px;
+	}
+}

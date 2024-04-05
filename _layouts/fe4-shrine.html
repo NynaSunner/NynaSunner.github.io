@@ -1,0 +1,69 @@
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>FE4 shrine 🟊 NynaSunner</title>
+    <link rel="icon" href="/assets/img/favicon.ico" />
+    <meta name="description" content="Omg it's the hit tactical JRPG Fire Emblem Genealogy of the Holy War"/>
+    <!-- Embed shit here -->
+	<meta property="og:site_name" content="NynaSunner.space"/>
+	<meta property="og:title" content="FE4 shrine"/>
+	<meta property="og:description" content="Omg it's the hit tactical JRPG Fire Emblem Genealogy of the Holy War">
+	<meta property="og:image" content="/assets/img/momazos-nyna.png"/>
+	<meta name="theme-color" content="#a100d8">
+
+    <script data-goatcounter="https://nynasunner.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <link rel="stylesheet" href="/assets/css/fe4-shrine.css">
+
+</head>
+<body>
+    <header>jukebox or whatever goes here</header>
+    <div class="wrapper">
+        <nav>
+            <div class="nav-shadow"></div>
+            <div class="nav-content">
+                <details open>
+                    <summary>MAIN</summary>
+                    <hr>
+                    <ul>
+                        <li><a data-sound="/assets/img/shrines/fe4/fe4-click.mp3" href="/shrines/fe4/">Home</a></li>
+                        <li><a data-sound="/assets/img/shrines/fe4/fe4-click.mp3" href="/shrines/fe4/">Link 2</a></li>
+                        <li><a data-sound="/assets/img/shrines/fe4/fe4-click.mp3" href="/shrines/fe4/">Link 3</a></li>
+                    </ul>
+                </details>
+                <details open>
+                    <summary>OTHER</summary>
+                    <hr>
+                    <ul>
+                        <li><a data-sound="/assets/img/shrines/fe4/fe4-click.mp3" href="/">Go back</a></li>
+                        <li><a data-sound="/assets/img/shrines/fe4/fe4-click.mp3" href="#">To top</a></li>
+                    </ul>
+                </details>
+            </div>
+        </nav>
+        <main>
+            {{ content }}
+        </main>
+    </div>
+    <audio id="hover-sound" src="/assets/img/shrines/fe4/fe4-click.mp3"></audio>
+</body>
+<script>
+    function playSound(soundSrc) {
+        var audio = new Audio(soundSrc);
+        audio.play();
+    }
+
+    var listItems = document.querySelectorAll("nav li a");
+
+    // Having one fata-sound for each element is needed for them to "overlap"
+    listItems.forEach(function(item) {
+        item.addEventListener("mouseenter", function() {
+            var soundSrc = this.getAttribute("data-sound");
+            playSound(soundSrc);
+        });
+    });
+
+</script>
+
+</html>

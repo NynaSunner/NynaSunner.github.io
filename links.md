@@ -97,10 +97,11 @@ Some of these are not linked just in case, you should be able to find them easil
 - **<img class="svg" src="https://cdn.simpleicons.org/tumblr/black"/> [purple-aesthetica](https://www.tumblr.com/purple-aesthetica)** for most of the banner images
 - **<img class="svg" src="/assets/img/earth.svg"/> [Pure-liquid by allejo](https://pure-liquid.allejo.org)**
 - **<img class="svg" src="/assets/img/earth.svg"/> [Jekyll Codex](https://jekyllcodex.org)**
-- **<img class="svg" src="https://cdn.simpleicons.org/simpleicons/black"/> [Simple Icons](https://simpleicons.org)**
+- **<img class="svg" src="https://cdn.simpleicons.org/simpleicons/black"/> [Simple Icons](https://simpleicons.org)** for the SVG logos
 - **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Freezeframe.js](https://github.com/ctrl-freaks/freezeframe.js)**
-- **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Twemoji](https://github.com/twitter/twemoji)**
-- **<img class="svg" src="/assets/img/earth.svg"/> [Luke Lowrey's theme switcher](https://lukelowrey.com/css-variable-theme-switcher/)**
+- **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Twemoji (jdecked's branch)](https://github.com/jdecked/twemoji)** for the cooler emojis
+- **<img class="svg" src="/assets/img/earth.svg"/> [Luke Lowrey's theme switcher](https://lukelowrey.com/css-variable-theme-switcher/)** for the light/dark mode toggle
+- **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Tippy.js](https://github.com/atomiks/tippyjs)** for the tooltips
 - **<img class="svg" src="/assets/img/earth.svg"/> [GoatCounter](https://www.goatcounter.com/)**
-- **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Jekyll Posts Heatmap Calendar by cagrimmett](https://github.com/cagrimmett/jekyll-tools#posts-heatmap-calendar)**
+- **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Jekyll Posts Heatmap Calendar by cagrimmett](https://github.com/cagrimmett/jekyll-tools#posts-heatmap-calendar)** for the calendar at the [microblog](/microblog)
 - **<img class="svg" src="/assets/img/earth.svg"/> [Dateformat lib](https://blog.stevenlevithan.com/archives/javascript-date-format)**

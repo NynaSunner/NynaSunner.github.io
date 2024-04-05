@@ -41,7 +41,6 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 ## To do
 
 - Add a higher contrast dark theme for accessibility
-- Fix current tooltips overflowing to the right
 - Let the user enable or disable gifs altogether, with the current play-on-hover being the default setting. Take `prefers-reduced-motion` into account
 - Have gifs (at least dangerous ones) stop without javascript with `prefers-reduced-motion`
 - Add a font picker maybe?
