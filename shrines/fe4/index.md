@@ -8,11 +8,14 @@ WARNING: This page uses autoplaying sound effects for the navigation bar! If you
 
 <br>
 
-If you're seeing this page and you're not me then you probably shouldn't be here. Go away 🔫
+If you're seeing this page and you're not me then you probably shouldn't be here 🔫
+
+<img src="https://pbs.twimg.com/media/DmWuDhjV4AEOBRg.jpg" alt="An FE4 screenshot of Gen 2 Lewyn saying 'Leave.'" style="height: 8em; border: 1px solid">
 
 <details>
     <summary>Changelog</summary>
     <ul>
+        <li>8/4/24 - Changed the hand icon to the actual one used in-game and readjusted the positioning to fic it</li>
         <li>5/4/24 - Posted on a hidden page to see how it looks on mobile (IT LOOKS FUCKING GREAT LET'S GOOOO)</li>
         <li>4/4/24 - Added animation and sound on the navbar, using a placeholder img for now</li>
         <li>3/4/24 - Styled the navbar to match the in-game actions menu, making the shadow was AWFUL</li>
@@ -28,4 +31,4 @@ If you're seeing this page and you're not me then you probably shouldn't be here
 
 ***
 
-Made with love, do not steel
+Footer thingie idk. Do not steel or something

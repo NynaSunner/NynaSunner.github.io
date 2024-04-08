@@ -72,12 +72,12 @@ body{
 header{
     background: url('https://www.lavanguardia.com/files/image_449_220/uploads/2021/03/15/604f8c387d064.png') no-repeat;
     background-size: cover;
-    height: 6em;
+    height: 4em;
     border: 1px solid var(--border);
     box-shadow: var(--border-shadow);
     
     text-align: center;
-    padding-top: 5em;
+    padding-top: 3em;
 }
 
 .wrapper{
@@ -159,10 +159,10 @@ nav a{
 /* hand stuff*/
 
 nav a:hover:before {
-    content: url(/assets/img/shrines/fe4/hand.png); /* placeholder idk */
+    content: url(/assets/img/shrines/fe4/fe4-hand.png); /* placeholder idk */
     position: absolute;
     top: 0;
-    left: -30px;
+    left: -35px;
     animation: point .5s ease infinite;
 }
 @keyframes point {
