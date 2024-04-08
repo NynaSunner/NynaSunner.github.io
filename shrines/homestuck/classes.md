@@ -33,7 +33,17 @@ I honestly don't know jack shit about destructive classes.
 
 Very powerful but very hated (and for a good reason).
 
-If being a "manipulating" Class sounds bad it's because it kind of is. Witches believe they know what's best and will manipulate others to attain their goals. They might believe it's the best for the whole group, but most of the time they're only benefitting themselves or seeing things only through their own point of view.
+Witches start off by rebelling against their Aspect, but unlike other Classes, instead of rejecting it they manipulate and twist it to their liking as if it were a toy they can play with.
+
+Despite this rebellion, they're naturally good at their aspect and their ability to manipulate it comes easily to them, but with great power comes great responsbility.
+
+This manipulation is done with no moral sense and by not caring about the consequences. This makes Witches a force to be reckoned with, but also makes them someone who can easily hurt those around them without realizing.
+
+Witches typically tend to be energetic and volatile, which can make exercising self-control a lot harder for them. They also tend to be interested or attracted by their opposite Aspect.
+
+Their goal is to understand the consequences their manipulation have on others, and learn moderation and morality.
+
+Their inversion is the [Seer](#seer)
 
 ## Mage
 
