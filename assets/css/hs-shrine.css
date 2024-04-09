@@ -51,7 +51,7 @@ header{
 }
 
 nav{
-    flex: 1 1 calc(20% - 4em - 2px);
+    width: 6em;
     background-color: var(--bg);
     padding: 0 1.5em;
     padding-top: 1em;
@@ -74,7 +74,7 @@ nav summary{
 }
 
 main{
-    flex: 1 1 calc(80% - 3em - 2px);
+    flex: 1 1 70%;
     background-color: var(--bg);
     border: 1px solid var(--border);
     box-shadow: var(--border-shadow);
@@ -83,6 +83,7 @@ main{
 
 @media screen and (max-width: 800px) {
     nav{
+        width: 100%;
         margin: 0;
         position: static;
         margin-bottom: 1em;
@@ -138,6 +139,7 @@ blockquote{
 .emoji{
     height: 1.3em;
     vertical-align: text-bottom;
+    image-rendering: initial;
 }
 
 .center{

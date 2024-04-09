@@ -176,7 +176,7 @@ Their inversion is the [Mage](#mage), where they become extremely stubborn and s
 - Gender: Neutral
 > One who knows Aspect or knows through Aspect to benefit others
 
-🤓☝️
+☝️🤓
 
 Seers come from a background that lacks their Aspect, or even one that has great ammounts of their opposite Aspect. This lack of their own or excess of the opposite makes them uncomfortable, which drives them to learn about and pursue their Aspect.
 
@@ -200,6 +200,8 @@ Their inversion is the [Witch](#witch), where they ignore what they have learned
 - Archetype: Noble/Courtier
 - Gender: Masculine
 > One who provides Aspect or provides through Aspect to benefit others
+
+Heirs naturally gravitate towards their Aspect and have great amounts of it.
 
 A Heir embodies their aspect. They swim in that thang. However that can make them have a pretty toxic relationship with their own Aspect
 

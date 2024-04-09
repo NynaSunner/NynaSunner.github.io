@@ -14,7 +14,7 @@ Since Classpect is marked by development, they have different "states" depending
 
 ### Low/mid/high levels
 
-Some people use the term "at low levels" as a synonym to the beginning of their development, and you can guess the other two. This is because SBURB is a videogame and the Echeladder is the leveling system.
+Some people use the term "at low levels" as a synonym to the beginning of their development, and you can guess the other two. This is because SBURB is a videogame, and it does indeed feature a leveling system (the Echeladder). Though those terms are more commonly used when talking about powers rather than personal growth.
 
 ### Successful
 
@@ -88,7 +88,7 @@ Knight of Heart is, indeed, the most common Classpect.
 
 ### Common misconceptions
 
-- It's commonly said that "Space is art and Time is music". This makes no sense since music is art so it'd belong to Space. This all stems from Dave making music and Aradia using music boxes (but Dave specifically makes mixes, highlighting the repetition aspect of Time, and Aradia's music boxes highlight the mechanical aspect), and from wrongfully equating creativity to art.
+- It's commonly said that "Space is art and Time is music". This makes no sense since music is art so it'd belong to Space. This all stems from Dave making music and Aradia using music boxes (but Dave specifically makes mixes, highlighting the repetition aspect of Time, and Aradia's music boxes highlight the mechanical aspect), and from wrongfully equating creativity to art. The people who say this also incorrectly use the word "art" to refer to drawing only.
 
 ### Overlapping Classpect
 
