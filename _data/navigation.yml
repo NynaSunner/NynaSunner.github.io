@@ -7,11 +7,11 @@
 - name: Misc
   link: /misc/
   subitems:
-    - name: Tags
-      link: /tags/
-    - name: Guestbook
-      link: /misc/guestbook/
     - name: Tools
       link: /misc/tools/
+    - name: Guestbook
+      link: /misc/guestbook/
+    - name: Tags
+      link: /tags/
 - name: About
   link: /about/

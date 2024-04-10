@@ -27,6 +27,7 @@ feed:
 # Collections
 collections:
   - microblog
+  - media-logs
 # Other
 #markdown: CommonMarkGhPages
 #commonmark:
