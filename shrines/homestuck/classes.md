@@ -201,9 +201,13 @@ Their inversion is the [Witch](#witch), where they ignore what they have learned
 - Gender: Masculine
 > One who provides Aspect or provides through Aspect to benefit others
 
+(My info on this one is super cryptic? Who wrote this??)
+
 Heirs naturally gravitate towards their Aspect and have great amounts of it.
 
-A Heir embodies their aspect. They swim in that thang. However that can make them have a pretty toxic relationship with their own Aspect
+They also typically have good amounts of their aspect around them, specially in a SBURB session, which makes it easy for them to put situations in their and their allies' favor, often instinctually and sometimes even unconsciously.
+
+At first, Heirs don't have much control of what they provide. They leave traces of their Aspect wherever they go and go so far as to become a symbol of their Aspect, by surrounding themselves with it.
 
 A Heir's goal is to find the balance with their aspect and not let themselves be consumed by it.
 

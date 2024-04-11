@@ -13,7 +13,7 @@ layout: default
 {% for tag in sorted_tags %}
 {% assign t = tag | first %}
 {% assign posts = tag | last %}
-<li><a href="/tags/{{ tag[0] }}/">{{ tag[0] }}</a> [{{ tag[1] | size }}] <a href="/feeds//{{ tag[0] }}.xml"> RSS</a></li>
+<li><a href="/tags/{{ t }}/">{{ t }}</a> [{{ posts | size }}] <a href="/feeds/{{ t }}.xml"> RSS</a></li>
 {% endfor %}
 </ul>
 
@@ -28,6 +28,6 @@ layout: default
 {% assign sortedtags = tags | split:' ' | sort %}
 {% for tag in sortedtags reversed %}
 {% assign tagitems = tag | split: '#' %}
-<li><a href="/tags/{{ tagitems[1] }}/">{{ tagitems[1]}}</a> [{{ tagitems[2] }}] <a href="/feeds//{{ tagitems[1]}}.xml"> RSS</a></li>
+<li><a href="/tags/{{ tagitems[1] }}/">{{ tagitems[1]}}</a> [{{ tagitems[2] }}] <a href="/feeds/{{ tagitems[1]}}.xml"> RSS</a></li>
 {% endfor %}
 </ul>

@@ -63,3 +63,11 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
   <a href="https://kalechips.net/responsive" target="_blank" alt="Responsive Web Directory" title="Responsive Web Directory"><img src="/assets/img/rwd.png"></a>
   <a href="http://pkmn.caelestis.nu" target="_blank" rel="noopener noreferrer" style="border: 0px none; background: transparent;" title="I Choose You! :: GARCHOMP"><img src="/assets/img/garchomp.png" alt="I Choose You Pokémon clique" style="margin: auto -15px;"></a>
 </div>
+
+<!-- Microformats stuff -->
+<div class="h-card" style="display: none;">
+  <img class="u-photo" alt="the garlic from Plants Vs Zombies with a trollface and the text 'momazos nyna'" src="/assets/img/momazos-nyna.png"/>
+  <a class="p-name u-url" href="https://nynasunner.space/">Nynasunner</a>
+  <p class="p-note">Dumbass junior web developer who rambles occasionally and obsesses over mildly obscure things</p>
+  <span class="p-country-name">Spain</span>
+</div>

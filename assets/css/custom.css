@@ -8,7 +8,7 @@
     --text: #FBE6B9; /* #F4DFB3 */
     --text-light: #e7e1d0;
     --text-bg: #e6d7ae17;
-    --caption: #A6D3A0;
+    --caption: #A6D3A0; /* WHY MINT? I DON'T KNOW EITHER */
     --accent: #8c6ae8; /* #8A69D8 */
     --accent-light: #c2b2eb;
     --code: #d8dee9;
@@ -371,7 +371,6 @@ nav a, .dropdown > summary{
     text-shadow: none;
     transition: .4s;
     vertical-align:top;
-    font-size: unset;
 }
 
 .dropdown {
@@ -470,7 +469,7 @@ img.emoji{
 
 /* Details (the dropdown box thingie) */
 
-details summary{
+.bigsummary{
     font-size: 1.3em;
 }
 
