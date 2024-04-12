@@ -209,7 +209,9 @@ They also typically have good amounts of their aspect around them, specially in 
 
 At first, Heirs don't have much control of what they provide. They leave traces of their Aspect wherever they go and go so far as to become a symbol of their Aspect, by surrounding themselves with it.
 
-A Heir's goal is to find the balance with their aspect and not let themselves be consumed by it.
+A Heir's goal is to learn to control their Aspect and not let themselves be consumed by it.
+
+Their inversion is the [Prince](#prince), where they become so consumed by their Aspect that they start destroying their opposite Aspect.
 
 ## Page
 
