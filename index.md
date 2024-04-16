@@ -40,6 +40,34 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 ***
 ## To do
 
+<select id="theme-picker">
+  <option value="" disabled selected style="display:none;">Theme</option>
+  <option value="dark">Andromeda</option>
+  <option value="light">Nova</option>
+  <option value="red">Orion</option>
+</select>
+
+<script>
+    var toggle = document.getElementById("theme-picker");
+    var storedTheme = localStorage.getItem('theme') || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    if (storedTheme){
+        document.documentElement.setAttribute('data-theme', storedTheme);
+    }
+
+    toggle.onchange = function() {
+        var currentTheme = document.documentElement.getAttribute("data-theme");
+        var targetTheme = this.value;
+        console.log(targetTheme);
+
+        document.documentElement.setAttribute('data-theme', targetTheme)
+        localStorage.setItem('theme', targetTheme);
+    };
+</script>
+
+
+
+
+
 - Add a higher contrast dark theme for accessibility
 - Let the user enable or disable gifs altogether, with the current play-on-hover being the default setting. Take `prefers-reduced-motion` into account
 - Have gifs (at least dangerous ones) stop without javascript with `prefers-reduced-motion`

@@ -16,12 +16,12 @@
 }
 
 html[data-theme='red']{ /* Testing another theme here. Thhe importants are dumb but I can't touch the html rn */
-    --bg: #280f10eb !important;
-    --outer-bg: url(https://i.imgur.com/PSQWnIV.jpeg) !important;
-    --text: #dddddd !important;
-    --accent: #aa0020 !important;
-    --accent-light: #c95469 !important;
-    --accent-bg: #30070f !important;
+    --bg: #280f10eb;
+    --outer-bg: url(https://i.imgur.com/PSQWnIV.jpeg);
+    --text: #dadada;
+    --accent: #9f0c28; /* #aa0020 */
+    --accent-light: #e66178;
+    --accent-bg: #30070f;
 }
 
 /* Light mode stuff */
