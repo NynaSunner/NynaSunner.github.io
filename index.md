@@ -40,10 +40,8 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 ***
 ## To do
 
-- Add a higher contrast dark theme for accessibility
 - Let the user enable or disable gifs altogether, with the current play-on-hover being the default setting. Take `prefers-reduced-motion` into account
 - Have gifs (at least dangerous ones) stop without javascript with `prefers-reduced-motion`
-- Add a font picker maybe?
 - Better organize links page by categories
 - **Switch to PHP! Maybe with Twig?**
 - Remember this:

@@ -98,14 +98,20 @@ html[data-font='sansserif'] body{
 html[data-font='trebuchet'] body{
     font-family: 'Trebuchet MS';
 }
-html[data-font='courier'] body{
-    font-family: 'Courier New';
+html[data-font='monospace'] body{
+    font-family: monospace;
+}
+html[data-font='courierprime'] body{
+    font-family: 'Courier Prime';
 }
 html[data-font='comicsans'] body{
     font-family: comic sans ms;
 }
 html[data-font='calibri'] body{
     font-family: calibri;
+}
+html[data-font='crime-against-humanity'] body{
+    font-family: papyrus;
 }
 
 

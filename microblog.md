@@ -146,7 +146,7 @@ $(window).bind('resizeEnd', function() {
 {% assign title = microblog.date | date: "%d/%m/%Y" %}
 {% if microblog == site.microblog.last %}
 <details open>
-<summary class="anchor">{{ title }}</summary>
+<summary class="anchor bigsummary">{{ title }}</summary>
 <div>
 <h3 class="noanchor">{{ title }}{% if microblog.code-upd8 %} 🛠{% endif %}</h3>
 {{ microblog.content | markdownify }}
@@ -155,7 +155,7 @@ $(window).bind('resizeEnd', function() {
 <h2>Older entries</h2>
 {% else %}
 <details>
-<summary class="anchor">{{ title }}</summary>
+<summary class="anchor bigsummary">{{ title }}</summary>
 <div>
 <h3 class="noanchor">{{ title }}{% if microblog.code-upd8 %} 🛠{% endif %}</h3>
 {{ microblog.content | markdownify }}
