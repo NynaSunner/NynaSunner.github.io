@@ -17,7 +17,34 @@
         {% endif %}
     {% endif %}
 {% endfor %}
-<button id="theme-btn">🌓</button>
+<button id="theme-btn">🎨</button>
+<dialog id="theme-dialog">
+    <h3 class="noanchor" style="margin: .5em 0;">Theme settings</h3>
+    <label for="theme-picker">Color theme:</label>
+    <select name="theme-picker" id="theme-picker">
+        <option value="" disabled selected style="display:none;">Color theme</option>
+        <option value="dark">Andromeda - Dark purple (default)</option>
+        <option value="light">Ceres - Light purple (light theme)</option>
+        <option value="red">Orion - Dark red</option>
+        <option value="black">Eclipse - High contrast dark</option>
+        <option value="white">Nova - High contrast light</option>
+    </select>
+    <br>
+    <label for="font-picker">Font:</label>
+    <select name="font-picker" id="font-picker">
+        <option value="" disabled selected style="display:none;">Font</option>
+        <option value="scodepro">Source Code Pro (default)</option>
+        <option value="hyperlegible">Atkinson Hyperlegible</option>
+        <option value="roboto">Roboto Mono</option>
+        <option value="trebuchet">Trebuchet MS</option>
+        <option value="courier">Courier New</option>
+        <option value="sansserif">Sans Serif</option>
+        <option value="calibri">Calibri</option>
+        <option value="comicsans">Comic Sans MS</option>
+    </select>
+    <br>
+    <button id="close-theme" autofocus>Close</button>
+</dialog>
 </nav>
 
 

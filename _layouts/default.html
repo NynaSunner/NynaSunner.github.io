@@ -71,25 +71,49 @@
 
 </body>
 
-<script>
-    var toggle = document.getElementById("theme-btn");
+<script> // Theme dialog toggle
+    var dialog = document.getElementById("theme-dialog");
+    var showButton = document.getElementById("theme-btn");
+    var closeButton = document.getElementById("close-theme");
+
+    showButton.addEventListener("click", () => {
+      dialog.showModal();
+    });
+
+    closeButton.addEventListener("click", () => {
+      dialog.close();
+    });
+</script>
+
+<script> // Theme picker
+    var toggle = document.getElementById("theme-picker");
     var storedTheme = localStorage.getItem('theme') || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     if (storedTheme){
-        document.documentElement.setAttribute('data-theme', storedTheme);
+      document.documentElement.setAttribute('data-theme', storedTheme);
     }
-    toggle.onclick = function() {
-        var currentTheme = document.documentElement.getAttribute("data-theme");
-        var targetTheme = "light";
-        var btnText = "💡";
-    
-        if (currentTheme === "light") {
-            targetTheme = "dark";
-            btnText = "🌙";
-        }
-    
-        document.documentElement.setAttribute('data-theme', targetTheme)
-        localStorage.setItem('theme', targetTheme);
-        toggle.innerHTML = btnText;
+
+    toggle.onchange = function() {
+      var currentTheme = document.documentElement.getAttribute("data-theme");
+      var targetTheme = this.value;
+      console.log(targetTheme);
+
+      document.documentElement.setAttribute('data-theme', targetTheme)
+      localStorage.setItem('theme', targetTheme);
+    };
+
+    var toggle = document.getElementById("font-picker");
+    var storedFont = localStorage.getItem('font');
+    if (storedFont){
+      document.documentElement.setAttribute('data-font', storedFont);
+    }
+
+    toggle.onchange = function() {
+      var currentFont = document.documentElement.getAttribute("data-font");
+      var targetFont = this.value;
+      console.log(targetFont);
+
+      document.documentElement.setAttribute('data-font', targetFont)
+      localStorage.setItem('font', targetFont);
     };
 </script>
 

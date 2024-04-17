@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-:root{
+:root{ /* Andromeda dark purple theme (default) */
     --bg: #170d29ea;
     --outer-bg: url(../img/background.webp);
     --accent-bg: #20113C;
@@ -15,58 +16,98 @@
     --code-bg: #0c0c0c;
 }
 
-html[data-theme='red']{ /* Testing another theme here. Thhe importants are dumb but I can't touch the html rn */
+html[data-theme='red']{ /* Orion dark red theme */
     --bg: #280f10eb;
-    --outer-bg: url(https://i.imgur.com/PSQWnIV.jpeg);
+    --outer-bg: url(https://i.imgur.com/PSQWnIV.jpeg) center;
     --text: #dadada;
-    --accent: #9f0c28; /* #aa0020 */
+    --accent: #9f0c28; /* #F13255 for it to be accessible */
     --accent-light: #e66178;
     --accent-bg: #30070f;
 }
 
-/* Light mode stuff */
+html[data-theme='black']{ /* Eclipse higher contrast dark theme */
+    --bg: #181818;
+    --outer-bg: #080808;
+    --text: #e6e6e6;
+    --text-bg: #cacaca17; /* Jaja dice caca (soy una persona madura como puedes ver) */
+    --accent: #9b6cdb;
+    --accent-light: #d7caf7;
+    --accent-bg: #16121C;
 
-html[data-theme='light'] {
-    --bg: #ffffffe5;
-    --accent-bg: #fff;
-    --text: #000000;
-    --text-bg: #0000001a;
-    --caption: #007d00;
-    --accent: #794ddf;
-    --accent-light: #00988a;
+    background: var(--outer-bg);
+}
+html[data-theme='black'] body{
+    border-color: transparent;
 }
 
-html[data-theme='light'] body{
+/* Light mode stuff */
+
+html[data-theme='light'] { /* Ceres light purple theme (default light mode)*/
+    --bg: #e5e1e8ea;
+    --accent-bg: #fff;
+    --text: #151515;
+    --text-bg: #0000001a;
+    --text-light: var(--text);
+    --caption: #164d16;
+    --accent: #6D33C1;
+    --accent-light: #9470e7; 
+}
+
+html[data-theme='white']{ /* Nova higher contrast light theme */
+    --bg: #e2e2e2;
+    --accent-bg: #fff;
+    --outer-bg: #c7c7c7;
+    --text: #0f0f0f;
+    --text-bg: #2222221a;
+    --text-light: var(--text);
+    --caption: #4a4a4a;
+    --accent: #4c2bb3;
+    --accent-light: #9470e7; 
+
+    background: var(--outer-bg);
+}
+html[data-theme='white'] body{
+    border-color: transparent;
+}
+
+html[data-theme='light'] body, html[data-theme='white'] body{
     text-shadow: none;
 
-    nav a, .dropdown > summary{
-        background: var(--accent);
-        color: white !important;
-    }
-    nav a.nav-current{
-        background: var(--accent-light);
-        border-color: var(--accent-light);
-        color: var(--bg) !important;
-        font-weight: bold;
-    }
-    nav a:hover, .dropdown > summary:hover{
-        color: var(--text) !important;
-        border-color: var(--accent-light);
-        background: var(--accent-light);
-    }
     .svg{
         filter: none;
-    }
-    a button, button, input[type="submit"], input[type="reset"], input[type="button"]{
-        background: var(--accent);
-    }
-    .dropdown > ul {
-        background: var(--accent);
     }
     blockquote{
         background-color: rgba(0, 0, 0, .1);
     }
 }
+
+/* Font themes, you can tell I had fun adding them tee hee */
+
+html[data-font='hyperlegible'] body{
+    font-family: "Atkinson Hyperlegible";
+}
+html[data-font='roboto'] body{
+    font-family: "Roboto Mono";
+}
+html[data-font='courier'] body{
+    font-family: 'Courier New';
+}
+html[data-font='sansserif'] body{
+    font-family: sans-serif;
+}
+html[data-font='trebuchet'] body{
+    font-family: 'Trebuchet MS';
+}
+html[data-font='courier'] body{
+    font-family: 'Courier New';
+}
+html[data-font='comicsans'] body{
+    font-family: comic sans ms;
+}
+html[data-font='calibri'] body{
+    font-family: calibri;
+}
+
 
 /* General stuff */
 
@@ -216,6 +257,17 @@ pre{
     overflow:auto;
     line-height: 1.245rem;
     padding: 1rem;
+}
+
+dialog{
+    background-color: var(--accent-bg);
+    color: var(--text);
+    border-radius: 20px;
+}
+
+::backdrop{
+    background: black;
+    opacity: 0.5;
 }
 
 .center{
