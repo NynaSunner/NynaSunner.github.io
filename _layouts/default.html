@@ -110,7 +110,6 @@
     toggle.onchange = function() {
       var currentFont = document.documentElement.getAttribute("data-font");
       var targetFont = this.value;
-      console.log(targetFont);
 
       document.documentElement.setAttribute('data-font', targetFont)
       localStorage.setItem('font', targetFont);
@@ -118,10 +117,47 @@
 </script>
 
 <script>
-    new Freezeframe({
-        responsive: false,
-        overlay: true
-    });
+    var toggle = document.getElementById("anim-toggle");
+    var storedPreference = localStorage.getItem('anim-preference');
+    if (storedPreference){
+      document.documentElement.setAttribute('anim-toggle', storedPreference);
+    }
+    else if(window.matchMedia(`(prefers-reduced-motion: reduce)`) === true || window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true){
+        storedPreference = "click";
+        document.documentElement.setAttribute('anim-toggle', storedPreference);
+    }
+
+    toggle.onchange = function() {
+      var currentPref = document.documentElement.getAttribute("anim-toggle");
+      var targetPref = this.value;
+
+      document.documentElement.setAttribute('anim-toggle', targetPref)
+      localStorage.setItem('anim-preference', targetPref);
+    };
+
+    switch (localStorage.getItem('anim-preference')) {
+        case 'enabled': // Don't create freezeframes
+            break;
+        case 'click':
+            new Freezeframe({
+                responsive: false,
+                overlay: true,
+                trigger: 'click'
+            });
+            break;
+        case 'disabled':
+            new Freezeframe({
+                responsive: false,
+                trigger: false
+            });
+            break;
+        default:
+            new Freezeframe({
+                responsive: false,
+                overlay: true
+            });
+            break;
+    }
 </script>
 
 <!-- NOT NEEDED WITH TWEMOJI RN 

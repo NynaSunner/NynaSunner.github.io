@@ -56,6 +56,7 @@ layout: withtoc
 #### Official
 - **<img class="svg" src="/assets/img/earth.svg"/> [American website](https://www.wizard101.com/game)**
 - **<img class="svg" src="/assets/img/earth.svg"/> [European website](https://eu.wizard101.com/)**
+- **<img class="svg" src="https://cdn.simpleicons.org/discord/black"/> [Official Discord](https://discord.gg/wizard101)**
 - **<img class="svg" src="https://cdn.simpleicons.org/discord/black"/> [Official european Discord](https://discord.gg/playwizard101)**
 
 #### Fan communities

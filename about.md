@@ -18,7 +18,7 @@ I'm usually just chillin' so don't hesitate to hit me up, though I'm awful at tr
 
 ## Some of my interests
 
-**<u>Current fixation(s)</u>:** <abbr tabindex="0" title="Those are Fire Emblem Genealogy of the Holy War, and Fire Emblem Thracia 776">the Jugdral FE games</abbr>, Dungeon Meshi
+**<u>Current fixation(s)</u>:** <abbr tabindex="0" title="Those are Fire Emblem Genealogy of the Holy War, and Fire Emblem Thracia 776">the Jugdral FE games</abbr>, Dungeon Meshi, Sky: children of the Light
 
 Black star ★ means I'm currently obsessing about it<br>
 White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thus I'm more likely to obsess about it soon">than usual</abbr>

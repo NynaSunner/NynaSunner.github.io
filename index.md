@@ -40,9 +40,12 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 ***
 ## To do
 
-- Let the user enable or disable gifs altogether, with the current play-on-hover being the default setting. Take `prefers-reduced-motion` into account
-- Have gifs (at least dangerous ones) stop without javascript with `prefers-reduced-motion`
+- Add Open Dyslexic font and curate current list because it's a mess
+- Make a soft brown theme 🤎
+- Revamp about page?
+- Finish videogames page
 - Better organize links page by categories
+- Give the site credits links their own page
 - **Switch to PHP! Maybe with Twig?**
 - Remember this:
 
