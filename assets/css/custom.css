@@ -18,7 +18,7 @@
 
 html[data-theme='red']{ /* Orion dark red theme */
     --bg: #280f10eb;
-    --outer-bg: url(https://i.imgur.com/PSQWnIV.jpeg) center;
+    --outer-bg: url(../img/red-background.jpg) center;
     --text: #dadada;
     --accent: #9f0c28; /* #F13255 for it to be accessible */
     --accent-light: #e66178;
