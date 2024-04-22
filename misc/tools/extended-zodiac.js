@@ -77,7 +77,7 @@ function solve(qArr) { // How bad is it to make a switch case inside a switch ca
             default:
                 console.log("What the fuck have you done");
                 break;
-        } // Calcs are wrong. Check this post out later: https://katanahime.tumblr.com/post/168129033014/new-and-improved-extended-zodiac-aspect-quiz
+        }
         
     }
     // Moving them because having it start with hope is icking me
@@ -96,7 +96,7 @@ function solve(qArr) { // How bad is it to make a switch case inside a switch ca
     return scoresArr;
 }
 
-function ball() { // This thang has to be button onclick
+function ball() {
     var url = document.getElementById("testurl").value;
 
     fuckingGraph(solve(cleanUrl(url)));
@@ -110,14 +110,20 @@ function fuckingGraph(arr){
       datasets: [{
         data: arr,
         fill: true,
-        backgroundColor: 'rgba(255, 99, 132, 0.2)',
-        borderColor: 'rgb(255, 99, 132)',
-        pointBackgroundColor: 'rgb(255, 99, 132)',
+        backgroundColor: 'rgba(255, 75, 43, 0.2)',
+        borderColor: 'rgb(255, 75, 43)',
+        pointBackgroundColor: 'rgb(255, 75, 43)',
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgb(255, 99, 132)'
+        pointHoverBorderColor: 'rgb(255, 75, 43)'
       }]
     };
+
+    // Delete canvas graph if it already exists
+    let chartStatus = Chart.getChart(ctx);
+    if (chartStatus != undefined) {
+        chartStatus.destroy();
+    }
 
     new Chart(ctx, {
         type: 'radar',
@@ -129,10 +135,9 @@ function fuckingGraph(arr){
             }
           },
           scale: {
-            ticks: {
-                beginAtZero: true,
-                max: 30
-            }
+              beginAtZero: true,
+              min: 0,
+              max: 30,
           },
           plugins: {
             legend: {
