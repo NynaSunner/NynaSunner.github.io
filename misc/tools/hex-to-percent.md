@@ -2,7 +2,7 @@
 title: Hex to percent converter
 header: Hex to percent converter
 description: A tool to convert a hexadecimal color to a percentual one, and vice-versa.
-permalink: /misc/tools/hex-to-percent/
+permalink: /tools/hex-to-percent/
 layout: default
 ---
 (and vice-versa)

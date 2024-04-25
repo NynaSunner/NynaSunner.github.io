@@ -45,6 +45,10 @@
         <hr>
 
         {% if page.header %}<h1>{{ page.header }}</h1>{% endif %}
+        {% if page.toc %}
+            {% include toc.html html=content class="toc" item_class="toc-item" ordered=true h_max=3 %}
+            <hr>
+        {% endif %}
         <main id="content">
             {{ content }}
         </main>
@@ -101,6 +105,7 @@
       localStorage.setItem('theme', targetTheme);
     };
 
+    // Font picker
     var toggle = document.getElementById("font-picker");
     var storedFont = localStorage.getItem('font');
     if (storedFont){
@@ -116,7 +121,7 @@
     };
 </script>
 
-<script>
+<script> // Freezeframe and animation toggle
     var toggle = document.getElementById("anim-toggle");
     var storedPreference = localStorage.getItem('anim-preference');
     if (storedPreference){
@@ -178,7 +183,7 @@
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
 <script>
-    tippy('abbr', {
+    tippy('abbr, .tooltip', {
         content: (reference) => reference.getAttribute('title'),
         interactive: true,
     });

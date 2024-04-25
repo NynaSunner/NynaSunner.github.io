@@ -3,7 +3,8 @@ title: Links
 header: Links
 description: My stash of links to cool resources and sites
 permalink: /links/
-layout: withtoc
+layout: default
+toc: true
 ---
 
 ## Things I use

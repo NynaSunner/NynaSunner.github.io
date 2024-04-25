@@ -16,7 +16,7 @@ This is a collection of some games I've played
 {% if game.type == "videogame" %}
 
 <div class="grid-item">
-    <img src="{{ game.image }}" alt="{{ game.name }}" class="cover">
+    <img src="{{ game.image }}" alt="{{ game.name }}" title="{{ game.name }}" class="cover tooltip">
     {{ game.content | markdownify }}
 </div>
 
@@ -44,14 +44,5 @@ This is a collection of some games I've played
       masonry: {
         columnWidth: 200
       }
-    });
-</script>
-
-<script src="https://unpkg.com/@popperjs/core@2"></script>
-<script src="https://unpkg.com/tippy.js@6"></script>
-<script defer> // Tooltips in images
-    tippy('.cover', {
-        content: (reference) => reference.getAttribute('alt'),
-        interactive: true,
     });
 </script>

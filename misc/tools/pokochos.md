@@ -2,7 +2,7 @@
 title: Calculadora de pokochos
 header: Calculadora de pokochos
 description:
-permalink: /misc/tools/pokochos/
+permalink: /tools/pokochos/
 layout: default
 ---
 <script src="/misc/tools/pokochos.js" type="text/javascript"></script>

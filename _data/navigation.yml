@@ -8,7 +8,7 @@
   link: /misc/
   subitems:
     - name: Tools
-      link: /misc/tools/
+      link: /tools/
     - name: Guestbook
       link: /misc/guestbook/
     - name: Tags
