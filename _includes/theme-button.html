@@ -1,0 +1,44 @@
+<button id="theme-btn" title="Page settings">🛠️</button>
+<dialog id="theme-dialog">
+    <h3 class="noanchor" style="margin: .5em 0;">Page settings</h3>
+    <label for="theme-picker">Color theme:</label>
+    <select name="theme-picker" id="theme-picker">
+        <option value="" disabled selected style="display:none;">Color theme</option>
+        <option value="dark">Andromeda - Dark purple (default)</option>
+        <option value="light">Ceres - Light purple (light theme)</option>
+        <option value="red">Orion - Dark red</option>
+        <option value="black">Eclipse - High contrast dark</option>
+        <option value="white">Nova - High contrast light</option>
+    </select>
+    <br>
+    <label for="font-picker">Font:</label>
+    <select name="font-picker" id="font-picker">
+        <option value="" disabled selected style="display:none;">Font</option>
+        <option value="scodepro">Source Code Pro (default)</option>
+        <option value="hyperlegible">Atkinson Hyperlegible</option>
+        <option value="roboto">Roboto Mono</option>
+        <option value="trebuchet">Trebuchet MS</option>
+        <option value="monospace">Monospace</option>
+        <option value="courierprime">Courier Prime</option>
+        <option value="sansserif">Sans Serif</option>
+        <option value="calibri">Calibri</option>
+        <option value="comicsans">Comic Sans MS</option>
+        <option value="crime-against-humanity">Papyrus (why.)</option>
+    </select>
+    <br>
+    <label for="anim-toggle">Flashing GIFs</label>
+    <select name="anim-toggle" id="anim-toggle">
+        <option value="" disabled selected style="display:none;">Flashing GIFs</option>
+        <option value="hover">Hover (default)</option>
+        <option value="enabled">Enabled</option>
+        <option value="click">On click</option>
+        <option value="disabled">Disabled</option>
+    </select>
+    <br>
+    <br>
+    <small>Note: you'll need to reload the page for the GIFs settings to apply</small>
+    <br>
+    <small>Note 2: some of the fonts only work on Windows</small>
+    <br>
+    <button id="close-theme" autofocus>Close</button>
+</dialog>

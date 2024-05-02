@@ -36,6 +36,7 @@ layout: default
 - Sky: Children of the Light ☆
 - Hypnospace Outlaw
 - Stardew Valley
+- Plok
 - Noita
 </div>
     </td></tr></tbody>
@@ -72,6 +73,22 @@ layout: default
 - No Game No Life
 - Saiki Kusuo no Ψ-nan
 - Dungeon Meshi ☆
+</div>
+    </td></tr></tbody>
+</table>
+
+<table class="tablediv">
+    <thead><tr><th>Recurring SiIvaGunner melodies I love</th></tr></thead>
+    <tbody><tr><td>
+<div markdown="1">
+- No More Nuzzles - UNDERTALE: Halloween Hack
+- Gadget Room - Club Penguin: Elite Penguin Force DS
+- Lucid Dreamer - Touhou 16.5: Violet Detector ([x](https://youtube.com/playlist?list=PLoiVQSDpaOMxsVKUEkbTC1I30KqU2f3s1&si=zrI105m9t9xYZ-y5))
+- every generic fnf sonic.exe song with genesis instrumentation - johntayjinf
+- Stuck Inside (the FNAF fansong)
+- Fortnite Song - Misha
+- <abbr tabindex="0" title="I don't like the original but somehow the rips are always bangers">Aerodynamic - Daft Punk</abbr>
+- Touhou 6 OST in general
 </div>
     </td></tr></tbody>
 </table>

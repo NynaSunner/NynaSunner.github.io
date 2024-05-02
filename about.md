@@ -5,6 +5,7 @@ description:
 permalink: /about/
 layout: default
 ---
+{% include img.html image="/assets/img/laptop-gin.webp" class="pic l-float center" style="width:40%;max-width:20em;" alt="Gintoki from Gintama sitting with a laptop, propping his head" caption="He's just like me frfr" %}
 
 Heya! You can call me <abbr tabindex="0" title="Pronounced nee-nah">Nyna</abbr>! I go by [they/them](https://en.pronouns.page/they%26they/them/themself) pronouns ([él/ella](https://pronombr.es/%C3%A9l%26ella) in spanish)
 

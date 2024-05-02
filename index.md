@@ -49,9 +49,8 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 - **Switch to PHP! Maybe with Twig?**
 - Remember this:
 
-<div class="center">
-{% include img.html image="https://i.kym-cdn.com/photos/images/original/001/939/802/cb2.jpg" alt="The first rule of Fight Club is to have fun and be yourself :)" %}
-</div>
+
+{% include img.html image="https://i.kym-cdn.com/photos/images/original/001/939/802/cb2.jpg" class="pic center" alt="The first rule of Fight Club is to have fun and be yourself :)" %}
 
 ***
 

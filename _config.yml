@@ -26,8 +26,12 @@ feed:
     path: "feeds/"
 # Collections
 collections:
-  - microblog
-  - media-logs
+  microblog:
+    output: false
+  media-logs:
+    output: false
+  diary:
+    output: true
 # Other
 #markdown: CommonMarkGhPages
 #commonmark:

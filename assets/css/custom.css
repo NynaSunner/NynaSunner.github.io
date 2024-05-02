@@ -153,6 +153,10 @@ body{
     .flex-wrapper > div{
         width: 100% !important;
     }
+    .l-float{
+        width: 100% !important;
+        max-width: unset !important;
+    }
 }
 
 /* Text and basic stuff */
@@ -278,6 +282,7 @@ dialog{
 
 .center{
     text-align: center;
+    margin: auto;
 }
 
 .center figure{
@@ -548,6 +553,13 @@ details > div{
     padding-left: 1em;
 }
 
+/* Responsive floats */
+
+.l-float{
+    float: left;
+    margin-right: 2em;
+}
+
 /* Very specific things */
 
 iframe[src*="ads-iframe"]{ /* Fuck you disqus */
@@ -613,18 +625,15 @@ footer{
     font-size: 1.3em;
 }
 
-#backtotop{
+.bottombtns{
     position: fixed;
     right: 5vw;
     bottom: 3em;
-    font-weight: bolder;
-    cursor: pointer;
+    text-align: center;
 }
-
-#theme-btn{
-    vertical-align: top;
-    margin: .7rem .3rem;
-    font-size: .8em;
+.bottombtns button{
+    cursor: pointer;
+    margin: .3em;
 }
 
 input{
@@ -644,10 +653,14 @@ input{
 }
 
 /* Freezeframe */
-
+/*
 .ff-container .ff-overlay{
     margin-top: .5em !important;
     margin-bottom: .5em !important;
+}*/
+
+.ff-container .ff-canvas{
+    left: unset !important;
 }
 
 /* TOC list */

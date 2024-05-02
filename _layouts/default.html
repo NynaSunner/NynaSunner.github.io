@@ -21,7 +21,7 @@
     <script data-goatcounter="https://nynasunner.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
 
-    <meta http-equiv="refresh" content="0; url=https://nynasunner.space{{ page.url }}"><!--  -->
+    <!-- <meta http-equiv="refresh" content="0; url=https://nynasunner.space{{ page.url }}"> -->
 
     
 </head>
@@ -43,11 +43,15 @@
             {% include navigation.html navigation=site.data.menu %}
         </div>
         <hr>
-
         {% if page.header %}<h1>{{ page.header }}</h1>{% endif %}
         {% if page.toc %}
             {% include toc.html html=content class="toc" item_class="toc-item" ordered=true h_max=3 %}
             <hr>
+        {% endif %}
+        {% if page.nsfw %}
+        <div class="yellow-wrapper">
+            <b>🔞 THIS PAGE CONTAINS MATURE (+18) CONTENT.</b> By proceeding you agree that you're an adult and consent to viewing such content.
+        </div>
         {% endif %}
         <main id="content">
             {{ content }}
@@ -58,10 +62,14 @@
             <div class="center">This website was last updated on {{ "now" | date: "%d/%m/%Y" }}</div>
             <hr>
             <div class="center">
-                <p>©2021-{{ "now" | date: "%Y" }} NynaSunner - Site licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"   style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> unless stated otherwise</p>
+                <p>©2021-{{ "now" | date: "%Y" }} NynaSunner - Site licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License"   style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> unless stated otherwise</p>
             </div>
         </footer>
-        <button id="backtotop" title="Back to top" onclick="window.location.href='#top'">⬆</button>
+        <div class="bottombtns">
+            {% include theme-button.html %}
+            <br>
+            <button id="backtotop" title="Back to top" onclick="window.location.href='#top'">⬆️</button>
+        </div>
     </div>
 
 <script src="/assets/js/anchor.min.js"></script>
@@ -99,7 +107,6 @@
     toggle.onchange = function() {
       var currentTheme = document.documentElement.getAttribute("data-theme");
       var targetTheme = this.value;
-      console.log(targetTheme);
 
       document.documentElement.setAttribute('data-theme', targetTheme)
       localStorage.setItem('theme', targetTheme);
