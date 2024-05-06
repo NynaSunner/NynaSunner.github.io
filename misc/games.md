@@ -5,19 +5,27 @@ description: I only play cringe
 permalink: /misc/games/
 layout: default
 ---
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 PRIVATE PAGE GO THE FUCK AWAY!!!!
 
 This is a collection of some games I've played
 
-<div class="grid" data-isotope='{ "itemSelector": ".grid-item", "masonry": { "columnWidth": 200 } }'>
+<div class="f-wrapper">
 
-{% for game in site.media-logs reversed %}
+{% for game in site.media-logs %}
 {% if game.type == "videogame" %}
 
-<div class="grid-item">
+<div class="grid-item" onclick="document.querySelector('#{{ game.short-name }}').showModal();">
+{% capture pic %}{{ game.image }}{% endcapture %}
     <img src="{{ game.image }}" alt="{{ game.name }}" title="{{ game.name }}" class="cover tooltip">
-    {{ game.content | markdownify }}
+    <dialog id="{{ game.short-name }}">
+        <b style="font-size:2em">{{ game.name }}</b>
+        {% include img.html image=pic class="l-float center" style="width:40%;max-width:20em;" %}
+        {{ game.content | markdownify }}
+        <br>
+        <form method="dialog">
+            <button>Close</button>
+        </form>
+    </dialog>
 </div>
 
 {% endif %}
@@ -28,21 +36,18 @@ This is a collection of some games I've played
 
 
 <style>
+    .f-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+    }
     .cover{
         width: 10em;
+        cursor: pointer;
+    }
+    .grid-item dialog{
+      width: 100%;
+      max-width: 40em;
     }
 </style>
-
-
-
-<script>
-    // vanilla JS
-    var grid = document.querySelector('.grid');
-    var iso = new Isotope( grid, {
-      // options...
-      itemSelector: '.grid-item',
-      masonry: {
-        columnWidth: 200
-      }
-    });
-</script>

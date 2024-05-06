@@ -5,9 +5,6 @@ description: \*starts rambling\*
 permalink: /about/interests/
 layout: default
 ---
-<div></div>
-
-
 
 <div id="tablewrapper">
 
@@ -30,6 +27,7 @@ layout: default
 - Rhythm Heaven/Paradise
 - Terraria
 - Minecraft
+- Super Paper Mario
 - Don't Starve Together
 - Pikmin
 - Magicka
@@ -106,21 +104,50 @@ Fire Emblem games I've played ordered chronologically:
 8. Engage
 9. Thracia 776 (current!)
 
+
+## Games I like in a cool grid
+<br>
+<div class="f-wrapper">
+
+<img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1n24.jpg" alt="Age of Empires II" title="Age of Empires II" class="cover tooltip">
+<img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co73i2.jpg" alt="Slime Rancher" title="Slime Rancher" class="cover tooltip">
+<img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1lxh.jpg" alt="Wizard101" title="Wizard101" class="cover tooltip">
+<img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7n02.jpg" alt="Palworld" title="Palworld" class="cover tooltip">
+<img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co20u0.jpg" alt="A Dance of Fire and Ice" title="A Dance of Fire and Ice" class="cover tooltip">
+<img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbo.jpg" alt="Terraria" title="Terraria" class="cover tooltip">
+<img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co49x5.jpg" alt="Minecraft" title="Minecraft" class="cover tooltip">
+<img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1zio.jpg" alt="Pokémon Pearl" title="Pokémon Pearl" class="cover tooltip">
+
+
+<img src="" alt="" title="" class="cover tooltip">
+</div>
+
+
+
 <style>
     #tablewrapper{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
     .tablediv{
         flex: 1 1;
         min-width: 15em;
         margin: 1em;
         height: fit-content;
     }
-
     .tablediv td{
         padding: 0;
+    }
+
+    .f-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+    }
+
+    .cover{
+        width: 10em;
     }
 </style>
