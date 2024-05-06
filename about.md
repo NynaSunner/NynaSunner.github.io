@@ -104,7 +104,7 @@ You can use this button to link back to my site! You can hotlink it but I'd pref
 
 <details>
 	<summary class="bigsummary">Test results</summary>
-<div class="center">
+<div>
 	<ul>
 		<li><a href="https://www.dragonflycave.com/quizzes/what-type-are-you/dragon"><img src="https://www.dragonflycave.com/typequiz/dragon.png" alt="Dragon" title="I am a Dragon-type!"></a></li>
 		<li><a href="http://www.dragonflycave.com/quizzes/what-pokemon-are-you"><img src="http://www.dragonflycave.com/wpay/dragonite.gif" alt="I am a Dragonite!" title="Find out what Pokémon you are at The Cave of Dragonflies"></a></li>

@@ -452,10 +452,7 @@ nav a, .dropdown > summary{
 
 .dropdown > summary{
   cursor: pointer;
-}
-
-.dropdown summary:before{
-  content: "⏵";
+  display: revert;
 }
 
 .dropdown > ul {
@@ -478,10 +475,6 @@ nav a, .dropdown > summary{
     border: none;
     border-radius: 15px;
     margin: .3rem .3rem;
-}
-
-.dropdown[open] summary:before {
-  content: "⏷";
 }
 
 nav a.nav-current, .pagination a.pag-current{
