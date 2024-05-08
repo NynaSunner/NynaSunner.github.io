@@ -15,11 +15,11 @@ Some of my hobbies are playing videogames, messing with FL Studio, bashing my he
 
 My native language is spanish, I learnt english mostly on my own so please correct me if I say anything wrong
 
-I'm usually just chillin' so don't hesitate to hit me up, though I'm awful at trivial talk so please don't DM me if you don't have a conversation topic or a question, also please [don't just say "hi"](https://nohello.net/) and [don't ask to ask](https://dontasktoask.com/)
+I'm usually just chillin' so don't hesitate to hit me up, though I'm awful at trivial talk so please don't DM me if you don't have a conversation topic or a question, also please [don't just say "hi"](https://nohello.net/) (because I'll think you're a scammer and ignore you) and [don't ask to ask](https://dontasktoask.com/)
 
 ## Some of my interests
 
-**<u>Current fixation(s)</u>:** <abbr tabindex="0" title="Those are Fire Emblem Genealogy of the Holy War, and Fire Emblem Thracia 776">the Jugdral FE games</abbr>, Dungeon Meshi, Sky: children of the Light
+**<u>Current fixation(s)</u>:** <abbr tabindex="0" title="Those are Fire Emblem Genealogy of the Holy War, and Fire Emblem Thracia 776">the Jugdral FE games</abbr>, Palworld, Dungeon Meshi
 
 Black star ★ means I'm currently obsessing about it<br>
 White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thus I'm more likely to obsess about it soon">than usual</abbr>
@@ -31,11 +31,11 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 - Fire Emblem ★
 	- Genealogy of The Holy War ★
 	- Thracia 776 ★
-	- Blazing Sword ☆
+	- Blazing Sword
 - Web developing & design
 - <abbr tabindex="0" title="Early manga/season zero is my fave">Yu-gi-oh! manga</abbr>
 - VGM arrangements, <abbr tabindex="0" title="SiIvagunner, TTGD, Myskit, IkaGunner, etc">and HQ rips</abbr>
-- Pokémon
+- Pokémon ☆
 - Wizard101
 </div>
 </details>
@@ -47,6 +47,8 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 - Age of Empires II
 - A Dance Of Fire And Ice
 - Palworld ☆
+- Minecraft ☆
+- Terraria
 - Ace Attorney
 - The Sims
 - Kid Icarus
@@ -83,6 +85,8 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 
 ## Socials and stuff
 
+For contact please use Discord or email. I'm a lurker and not really a social media person so you won't see me posting or even logging in much.
+
 - **<img class="svg" src="https://cdn.simpleicons.org/discord/black"/> [Discord](https://discordapp.com/users/378953414740148228){:rel="me"}** as `@nynasunner`. You can find me at the [Gintama server](https://discord.gg/gintama)
 - **<img class="svg" src="https://cdn.simpleicons.org/tumblr/black"/> [Tumblr](https://nynasunner.tumblr.com){:rel="me"}** Full of shitty reblogs
 - **<img class="svg" src="https://cdn.simpleicons.org/gamebanana/black"/> [Gamebanana](https://gamebanana.com/members/2174941){:rel="me"}** Watch me make the worst mods known to man
@@ -92,7 +96,14 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 - **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Github](https://github.com/NynaSunner){:rel="me"}** Where you can see how awful this site is
 - **<img class="svg" src="https://cdn.simpleicons.org/gmail/black"/> [Email](mailto:nynasunner@gmail.com){:rel="me"}** If you don't wanna contact me through social media
 
-I also play Fire Emblem Heroes! My friend code is `6594639314`, [here's an image](/assets/img/feh.webp){:target="_blank"} of my lead unit
+<details>
+	<summary class="">Fire Emblem Heroes friend code and lead unit</summary>
+<div markdown="1">
+- Friend code: `6594639314`
+- Lead unit:
+{% include img.html image="/assets/img/feh.webp" style="max-width: 15em;" class="pic center" alt="Groom Roy +6" %}
+</div>
+</details>
 
 ## Button
 
@@ -108,7 +119,7 @@ You can use this button to link back to my site! You can hotlink it but I'd pref
 	<ul>
 		<li><a href="https://www.dragonflycave.com/quizzes/what-type-are-you/dragon"><img src="https://www.dragonflycave.com/typequiz/dragon.png" alt="Dragon" title="I am a Dragon-type!"></a></li>
 		<li><a href="http://www.dragonflycave.com/quizzes/what-pokemon-are-you"><img src="http://www.dragonflycave.com/wpay/dragonite.gif" alt="I am a Dragonite!" title="Find out what Pokémon you are at The Cave of Dragonflies"></a></li>
-		<li>{% include img.html image="http://hs.hiveswap.com/ezodiac/images/truesigns/sign_06_01.png" alt="True Virgo" caption="True Virgo (Jade + Prospit + Space)" link="http://hs.hiveswap.com/ezodiac/truesign.php?TS=Virgo" %}</li>
+		<li>{% include img.html image="/assets/img/hs/sign_06_01.png" alt="True Virgo" caption="True Virgo (Jade + Prospit + Space)" link="http://hs.hiveswap.com/ezodiac/truesign.php?TS=Virgo" %}</li>
 	</ul>
 </div>
 </details>

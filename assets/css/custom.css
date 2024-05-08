@@ -89,26 +89,26 @@ html[data-font='hyperlegible'] body{
 html[data-font='roboto'] body{
     font-family: "Roboto Mono";
 }
-html[data-font='courier'] body{
-    font-family: 'Courier New';
-}
 html[data-font='sansserif'] body{
     font-family: sans-serif;
 }
 html[data-font='trebuchet'] body{
-    font-family: 'Trebuchet MS';
+    font-family: 'Trebuchet MS', Tahoma, Geneva, Verdana;
 }
 html[data-font='monospace'] body{
     font-family: monospace;
 }
 html[data-font='courierprime'] body{
-    font-family: 'Courier Prime';
+    font-family: 'Courier Prime', 'Courier New', courier;
 }
 html[data-font='comicsans'] body{
-    font-family: comic sans ms;
+    font-family: 'comic sans ms';
 }
-html[data-font='calibri'] body{
-    font-family: calibri;
+html[data-font='arial'] body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html[data-font='roman'] body{
+    font-family: 'Times New Roman', Times, serif;
 }
 html[data-font='crime-against-humanity'] body{
     font-family: papyrus;
@@ -134,7 +134,7 @@ body{
     margin: 0 auto;
     padding: 1.5em;
     padding-bottom: .5em;
-    font-size: 17px;
+    font-size: 1.063rem; /* https://nekocalc.com/px-to-rem-converter */
     background-color: var(--bg);
     border: 4px solid var(--accent);
     border-radius: 20px;
@@ -145,7 +145,7 @@ body{
         padding: 0;
     }
 	body{
-		font-size: 14px;
+		font-size: 0.875rem;
 	}
     .flex-wrapper{
         flex-wrap: wrap;

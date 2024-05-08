@@ -29,7 +29,7 @@ layout: default
 
 <style>
     canvas{
-        background-image: url(http://hs.hiveswap.com/ezodiac/images/aspects.png);
+        background-image: url(/assets/img/hs/aspects.png); /* Stupid ass Hiveswap page is http so my antivirus hates it and deletes the image */
         background-position: center;
         background-size: cover;
     }

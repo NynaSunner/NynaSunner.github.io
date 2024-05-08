@@ -30,7 +30,7 @@ collections:
     output: false
   media-logs:
     output: false
-  diary:
+  journal:
     output: true
 # Other
 #markdown: CommonMarkGhPages

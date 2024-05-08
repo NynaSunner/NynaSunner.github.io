@@ -40,7 +40,6 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 ***
 ## To do
 
-- Add Open Dyslexic font and curate current list because it's a mess
 - Make a soft brown theme 🤎
 - Revamp about page?
 - Finish videogames page
