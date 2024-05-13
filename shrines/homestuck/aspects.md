@@ -7,7 +7,7 @@ permalink: /shrines/homestuck/aspects/
 layout: hs-shrine
 ---
 <div class="center">
-    <img src="http://hs.hiveswap.com/ezodiac/images/aspects.png" style="image-rendering:auto" alt="Aspect wheel">
+    <img src="/assets/img/hs/aspects.png" style="image-rendering:auto" alt="Aspect wheel">
 </div>
 
 ## Space

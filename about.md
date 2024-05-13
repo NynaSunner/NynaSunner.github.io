@@ -7,22 +7,22 @@ layout: default
 ---
 {% include img.html image="/assets/img/laptop-gin.webp" class="pic l-float center" style="width:40%;max-width:20em;" alt="Gintoki from Gintama sitting with a laptop, propping his head" caption="He's just like me frfr" %}
 
-Heya! You can call me <abbr tabindex="0" title="Pronounced nee-nah">Nyna</abbr>! I go by [they/them](https://en.pronouns.page/they%26they/them/themself) pronouns ([él/ella](https://pronombr.es/%C3%A9l%26ella) in spanish)
+Heya! You can call me <abbr tabindex="0" title="Pronounced nee-nah">Nyna</abbr>! I go by [they/them](https://en.pronouns.page/they%26they/them/themself) pronouns ([él/ella](https://pronombr.es/%C3%A9l%26ella) in spanish).
 
-I'm a lazy ass junior web dev who lives in Spain, who prefers front-end dev and does almost exclusively vanilla JS, PHP, and CSS (Bootstrap is evil). So far I've only worked doing website layouts and I want to learn more about web design because, as you can see, I suck balls at it 😔
+I'm a lazy ass junior web developer who lives in Spain. I've studied JS, PHP, CSS, and SQL, but so far my only work experience has been making website layouts so I don't have many programming skills. I prefer front-end dev and coding as vanilla as possible.
 
-Some of my hobbies are playing videogames, messing with FL Studio, bashing my head against a wall trying to learn about website design, modding, translating things for no reason, and getting into weird places online to find cool stuff
+Some of my hobbies are playing videogames, messing with FL Studio, bashing my head against a wall trying to learn about website design, modding, translating things for no reason, and getting into weird places online to find cool stuff.
 
-My native language is spanish, I learnt english mostly on my own so please correct me if I say anything wrong
+My native language is spanish. I learnt english mostly on my own, so please correct me if I say anything wrong.
 
-I'm usually just chillin' so don't hesitate to hit me up, though I'm awful at trivial talk so please don't DM me if you don't have a conversation topic or a question, also please [don't just say "hi"](https://nohello.net/) (because I'll think you're a scammer and ignore you) and [don't ask to ask](https://dontasktoask.com/)
+I'm usually just chillin' so don't hesitate to hit me up, though I'm awful at trivial talk so please don't DM me if you don't have a conversation topic or a question, also please [don't just say "hi"](https://nohello.net/) (because I'll think you're a scammer and ignore you) and [don't ask to ask](https://dontasktoask.com/).
 
 ## Some of my interests
 
 **<u>Current fixation(s)</u>:** <abbr tabindex="0" title="Those are Fire Emblem Genealogy of the Holy War, and Fire Emblem Thracia 776">the Jugdral FE games</abbr>, Palworld, Dungeon Meshi
 
-Black star ★ means I'm currently obsessing about it<br>
-White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thus I'm more likely to obsess about it soon">than usual</abbr>
+Black star ★ means I'm currently obsessing about it.<br>
+White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thus I'm more likely to obsess about it soon">than usual</abbr>.
 
 <details open="">
 	<summary class="bigsummary">Biggest interests</summary>
@@ -60,7 +60,7 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 	<summary class="bigsummary">Media</summary>
 <div markdown="1">
 - BattleBots
-- <abbr tabindex="0" title="I'm a jadeblood prospitian Knight of Space :D">Homestuck</abbr> ☆
+- <abbr tabindex="0" title="I can't escape it. Btw I'm a jadeblood prospitian Knight of Space">Homestuck</abbr>
 - Dungeon Meshi ☆
 - <abbr tabindex="0" title="Joseph best jojo and Kakyoin best jobro">JoJo's Bizarre Adventure</abbr>
 - Studio Ghibli movies
@@ -72,14 +72,16 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 <details>
 	<summary class="bigsummary">Miscellaneous things</summary>
 <div markdown="1">
-- Memes that everyone hates like amogus and morbius
-- Dragons
 - YTPs, specially YTPMVs
+- Dragons
+- Wizards
+- Knights
+- Memes that everyone hates like amogus and morbius
 - Space aesthetics
 - Piracy, tee hee :3c
 - Pyrotechnics and fire in general
-- Wizards and knights
 - Biology
+- Vexillology
 </div>
 </details>
 
@@ -107,7 +109,7 @@ For contact please use Discord or email. I'm a lurker and not really a social me
 
 ## Button
 
-You can use this button to link back to my site! You can hotlink it but I'd prefer if you didn't
+You can use this button to link back to my site! You can hotlink it but I'd prefer if you didn't.
 
 <img src="/assets/img/button.gif" style="image-rendering: crisp-edges;">
 
@@ -124,7 +126,7 @@ You can use this button to link back to my site! You can hotlink it but I'd pref
 </div>
 </details>
 
-Here's also a gamer card thingie that idk where else to put
+Here's also a gamer card thingie that idk where else to put.
 <div class="center">
 	<a href="https://www.exophase.com/user/NynaSunner/"><img src="https://card.exophase.com/2/0/255356.png?1710630135"></a>
 </div>
