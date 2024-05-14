@@ -6,7 +6,20 @@ description: This archive contains all of my posts, ordered and divided by date
 permalink: /posts/
 ---
 
-This page is for my full-fledged posts. Doesn't include the [microblog](/microblog)
+## Sections
+
+<div class="flex-wrapper">
+  <div class="yellow-wrapper">
+    <a href="/journal" style="font-size: 1.2em"><b>Journal</b></a> 🔞<br>
+    My (new!) personal little space for my rambles, thoughts, and ideas.
+  </div>
+  <div class="yellow-wrapper">
+    <a href="/updates" style="font-size: 1.2em"><b>Updates</b></a><br>
+    Where I post about site updates, and sometimes small life updates as well.
+  </div>
+</div>
+
+## Full-fledged posts
 
 <a href="{{ site.url }}/feed.xml">RSS feed</a>
 

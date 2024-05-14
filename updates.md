@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Microblog
-header: Microblog
-description: An archive of all my microblogs, including both site and life updates! Wow, wombo combo!
-permalink: /microblog/
+title: Updates
+header: Updates
+description: An archive of all my updates, including both site and life updates! Wow, wombo combo!
+permalink: /updates/
 ---
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
@@ -11,7 +11,6 @@ permalink: /microblog/
 <script type="text/javascript" src="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.min.js"></script>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.css" />
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
-<script type="text/javascript" src="/assets/js/date-format.js"></script>
 
 <style type="text/css">
 .content {
@@ -53,7 +52,7 @@ permalink: /microblog/
 <script type="text/javascript">
 
 var data = {% assign counter = 0 %}{
-{% for post in site.microblog %}{% capture day %}{{ post.date | date: '%s' }}{% endcapture %}{% capture prevday %}{{ post.previous.date | date: '%s' }}{% endcapture %}{% assign counter = counter | plus: 1 %}{% if day != prevday %}"{{ post.date | date: '%s' }}": {{ counter }}{% assign counter = 0 %}{% if forloop.last == false %},{% endif %}
+{% for post in site.updates %}{% capture day %}{{ post.date | date: '%s' }}{% endcapture %}{% capture prevday %}{{ post.previous.date | date: '%s' }}{% endcapture %}{% assign counter = counter | plus: 1 %}{% if day != prevday %}"{{ post.date | date: '%s' }}": {{ counter }}{% assign counter = 0 %}{% if forloop.last == false %},{% endif %}
 {% endif %}{% endfor %}};
 
 
@@ -109,8 +108,8 @@ caloptions = {
 		position: "top"
 	},
 	onClick: function (date, nb) {
-		var microblog = dateFormat(date.getTime(), "dd-mm-yyyy")
-		let id = '#' + microblog;
+		var update = moment(date).format('DD-MM-YYYY');
+		let id = '#' + update;
     	$(id).closest("details").prop("open", true);
 		$('html, body').animate({
         	scrollTop: $(id).offset().top
@@ -136,20 +135,19 @@ $(window).bind('resizeEnd', function() {
 
 // QUICK CREDITS BEFORE I LEAVE
 // JEKYLL HEATMAP: https://github.com/cagrimmett/jekyll-tools#posts-heatmap-calendar
-// DATEFORMAT LIB: https://blog.stevenlevithan.com/archives/javascript-date-format
 
 	
 </script>
 
 
-{% for microblog in site.microblog reversed %}
-{% assign title = microblog.date | date: "%d/%m/%Y" %}
-{% if microblog == site.microblog.last %}
+{% for update in site.updates reversed %}
+{% assign title = update.date | date: "%d/%m/%Y" %}
+{% if update == site.updates.last %}
 <details open>
 <summary class="anchor bigsummary">{{ title }}</summary>
 <div>
-<h3 class="noanchor">{{ title }}{% if microblog.code-upd8 %} 🛠{% endif %}</h3>
-{{ microblog.content | markdownify }}
+<h3 class="noanchor">{{ title }}{% if update.code-upd8 %} 🛠{% endif %}</h3>
+{{ update.content | markdownify }}
 </div>
 </details>
 <h2>Older entries</h2>
@@ -157,8 +155,8 @@ $(window).bind('resizeEnd', function() {
 <details>
 <summary class="anchor bigsummary">{{ title }}</summary>
 <div>
-<h3 class="noanchor">{{ title }}{% if microblog.code-upd8 %} 🛠{% endif %}</h3>
-{{ microblog.content | markdownify }}
+<h3 class="noanchor">{{ title }}{% if update.code-upd8 %} 🛠{% endif %}</h3>
+{{ update.content | markdownify }}
 </div>
 </details>
 {% endif %}

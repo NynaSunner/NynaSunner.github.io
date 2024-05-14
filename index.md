@@ -31,9 +31,9 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
   <div id="statuscafe" class="yellow-wrapper"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=nynasunner" defer></script>
 
   <div class="yellow-wrapper">
-{% assign microblog = site.microblog.last %}
-    <b><a href="/microblog/">{{ microblog.date | date: "%d/%m/%Y" }}</a>{% if microblog.code-upd8 %} 🛠{% endif %}</b>
-{{ microblog.content | markdownify | strip_html | truncate: 145 }} <!-- truncatewords: 25 -->
+{% assign update = site.updates.last %}
+    <b><a href="/updates/">{{ update.date | date: "%d/%m/%Y" }}</a>{% if update.code-upd8 %} 🛠{% endif %}</b>
+{{ update.content | markdownify | strip_html | truncate: 145 }} <!-- truncatewords: 25 -->
   </div>
 </div>
 

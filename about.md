@@ -60,7 +60,7 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 	<summary class="bigsummary">Media</summary>
 <div markdown="1">
 - BattleBots
-- <abbr tabindex="0" title="I can't escape it. Btw I'm a jadeblood prospitian Knight of Space">Homestuck</abbr>
+- <abbr tabindex="0" title="I can't fight it.">Homestuck</abbr>
 - Dungeon Meshi ☆
 - <abbr tabindex="0" title="Joseph best jojo and Kakyoin best jobro">JoJo's Bizarre Adventure</abbr>
 - Studio Ghibli movies
@@ -114,6 +114,18 @@ You can use this button to link back to my site! You can hotlink it but I'd pref
 <img src="/assets/img/button.gif" style="image-rendering: crisp-edges;">
 
 ## Misc
+
+<details>
+	<summary class="bigsummary">Pseudoscience stuff</summary>
+<div markdown="1">
+I don't believe in these but personality tests are fun.
+- **Zodiac**: ☀️Virgo, 🌙Aquarius, ⬆️Gemini
+- **MBTI**: INTP-A / INFP-A
+- **Enneagram**: 9w?
+- **Classpect**: Knight of Space
+- **Archetype**: Innocent self, Sage persona
+</div>
+</details>
 
 <details>
 	<summary class="bigsummary">Test results</summary>
