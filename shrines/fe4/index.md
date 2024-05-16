@@ -14,21 +14,21 @@ If you're seeing this page and you're not me then you probably shouldn't be here
 
 <details>
     <summary>Changelog</summary>
-    <ul>
-        <li>8/4/24 - Changed the hand icon to the actual one used in-game and readjusted the positioning to fic it</li>
-        <li>5/4/24 - Posted on a hidden page to see how it looks on mobile (IT LOOKS FUCKING GREAT LET'S GOOOO)</li>
-        <li>4/4/24 - Added animation and sound on the navbar, using a placeholder img for now</li>
-        <li>3/4/24 - Styled the navbar to match the in-game actions menu, making the shadow was AWFUL</li>
-        <li>2/4/24 - Styled the main content to match the in-game dialogue boxes, it looks surprisingly nice for a pattern you'd see at your grandma's house</li>
-        <li>1/4/24 - Switched font to Pixel Operator and gave it a shadow to simulate a border because the stroke property fills it and since this is a thin font it gets "consumed". Can't make the shadow thicker without it looking like ass tho</li>
-        <ul>
-            <li>Edit: I MADE IT THICKER BUT NOW IT'S TOO THICK AND I HATE IT BUT WHOOOO MORE ACCURACY HELL YEAH!!!!!!!</li>
-            <li>Edit 2: nvm I hated it too much</li>
-        </ul>
-        <li>21/3/24 - Added a papyrus texture? Idk what I'm doing</li>
-    </ul>
+<div markdown="1">
+- 16/5/24 - Made the header decent instead of a shitty incest joke. Adjusted line height a bit. Started working on the translations page
+    - If only my PC hadn't died and taken with it my exhaustive manga translations list...
+- 8/4/24 - Changed the hand icon to the actual one used in-game and readjusted the positioning to fix it
+- 5/4/24 - Posted on a hidden page to see how it looks on mobile (IT LOOKS FUCKING GREAT LET'S GOOOO)
+- 4/4/24 - Added animation and sound on the navbar, using a placeholder img for now
+- 3/4/24 - Styled the navbar to match the in-game actions menu, making the shadow was AWFUL
+- 2/4/24 - Styled the main content to match the in-game dialogue boxes, it looks surprisingly nice for a pattern you'd see at your grandma's house
+- 1/4/24 - Switched font to Pixel Operator and gave it a shadow to simulate a border because the stroke property fills it and since this is a thin font it gets "consumed". Can't make the shadow thicker without it looking like ass tho
+    - Edit: I MADE IT THICKER BUT NOW IT'S TOO THICK AND I HATE IT BUT WHOOOO MORE ACCURACY HELL YEAH!!!!!!!
+    - Edit 2: nvm I hated it too much
+- 21/3/24 - Added a papyrus texture? Idk what I'm doing
+</div>
 </details>
 
 ***
 
-Footer thingie idk. Do not steel or something
+All the assets are from the game, ripped or remade by me. I don't own shit here

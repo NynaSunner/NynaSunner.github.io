@@ -4,8 +4,7 @@
 }
 
 :root{
-    /* Line height is set to the golden ratio */
-    --line-height: 1.618;
+    --line-height: 1.4;
     
     --bg: #a5a495;
     --outer-bg: #00030b;
@@ -31,7 +30,7 @@ body{
     line-height: var(--line-height);
     max-width: 60rem;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 1.375rem;
 
     text-shadow:
     -1px -1px 0 #000,
@@ -70,14 +69,17 @@ body{
 }
 
 header{
-    background: url('https://www.lavanguardia.com/files/image_449_220/uploads/2021/03/15/604f8c387d064.png') no-repeat;
+    background: url('/assets/img/shrines/fe4/dahna.png') no-repeat center;
     background-size: cover;
-    height: 4em;
+    height: fit-content;
     border: 1px solid var(--border);
     box-shadow: var(--border-shadow);
-    
+    image-rendering: crisp-edges;
     text-align: center;
-    padding-top: 3em;
+    padding: 1em;
+}
+header img{
+    max-width: 90%;
 }
 
 .wrapper{
@@ -190,6 +192,14 @@ main{
 }
 
 /* Text stuff */
+
+p{
+    margin: .6em 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
 
 a{
     color: var(--accent);
