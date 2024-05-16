@@ -4,7 +4,7 @@ type: diary
 title: May
 header: May
 date: 2024/05/01
-permalink: journal/2024/may
+permalink: journal/2024/may/
 ---
 [Back to Journal](/journal)
 ## Tuesday 7th

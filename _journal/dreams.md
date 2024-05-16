@@ -2,7 +2,7 @@
 layout: default
 title: Dreams
 header: Dreams journal
-permalink: journal/dreams
+permalink: journal/dreams/
 ---
 [Back to Journal](/journal)
 
