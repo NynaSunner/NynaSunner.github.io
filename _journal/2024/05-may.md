@@ -29,7 +29,7 @@ And once again Finn, who appears in both generations of FE4 and in FE5, still ha
 
 I'm not even gonna talk about Ursula. It's clear that there's someone in the dev team who is down bad for her. Because what. the actual. fuck.
 
-{% include img.html image="https://media1.tenor.com/m/AikZriuJ5UIAAAAd/coping-seething.gif" alt="Coping seething and malding" freeze=true class="pic center" %}
+{% include img.html image="https://media1.tenor.com/m/AikZriuJ5UIAAAAd/coping-seething.gif" link=false alt="Coping seething and malding" freeze=true class="pic center" %}
 
 <div class="center"><img src="/assets/img/divider.gif"></div>
 

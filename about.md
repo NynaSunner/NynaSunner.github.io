@@ -113,6 +113,10 @@ You can use this button to link back to my site! You can hotlink it but I'd pref
 
 <img src="/assets/img/button.gif" style="image-rendering: crisp-edges;">
 
+```html
+<a href="https://nynasunner.space" target="_blank"><img src="/assets/img/buttons/nynasunner.gif" alt="NynaSunner's button"/></a>
+```
+
 ## Misc
 
 <details>
@@ -132,7 +136,7 @@ I don't believe in these but personality tests are fun.
 <div>
 	<ul>
 		<li><a href="https://www.dragonflycave.com/quizzes/what-type-are-you/dragon"><img src="https://www.dragonflycave.com/typequiz/dragon.png" alt="Dragon" title="I am a Dragon-type!"></a></li>
-		<li><a href="http://www.dragonflycave.com/quizzes/what-pokemon-are-you"><img src="http://www.dragonflycave.com/wpay/dragonite.gif" alt="I am a Dragonite!" title="Find out what Pokémon you are at The Cave of Dragonflies"></a></li>
+		<li><a href="https://www.dragonflycave.com/quizzes/what-pokemon-are-you"><img src="https://www.dragonflycave.com/wpay/dragonite.gif" alt="I am a Dragonite!" title="Find out what Pokémon you are at The Cave of Dragonflies"></a></li>
 		<li>{% include img.html image="/assets/img/hs/sign_06_01.png" alt="True Virgo" caption="True Virgo (Jade + Prospit + Space)" link="http://hs.hiveswap.com/ezodiac/truesign.php?TS=Virgo" %}</li>
 	</ul>
 </div>

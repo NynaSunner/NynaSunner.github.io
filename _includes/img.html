@@ -1,7 +1,7 @@
 <figure class="{{ include.class | default: 'pic' }}" {% if include.style %}style="{{ include.style }}"{% endif %}>
     <picture>
         <source srcset="{{ include.image }}" {% if include.image contains '.jpg' or include.image contains '.jpeg' %}type="image/jpeg"{% elsif include.image contains '.  png' %}type="image/png" {% elsif include.image contains '.gif' %}type="image/gif"{% elsif include.image contains '.webp' %}type="image/webp"{% endif %}>
-        <a href="{{ include. link | default: include.image}}" target="_blank">
+        <a {% if include.link==false %}{% else %}href="{{ include.link | default: include.image}}"{% endif %} target="_blank">
             <img src="{{ include.image }}" alt="{{ include.alt | default: include.caption }}" title="{{ include.title}}" {% if include.lazy %}loading="lazy"{% endif %} {% if include.freeze %}class="freezeframe"{% endif %}>
         </a>
     </picture>

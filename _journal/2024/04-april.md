@@ -38,7 +38,7 @@ Didn't sleep well last night, it wasn't awful but definitely not good. I feel li
 
 Anyway nothing happened between today and yesterday so here's Mr. Babygirl himself.
 
-{% include img.html image="https://media1.tenor.com/m/8Xu5aB58IP4AAAAd/fire-emblem-sigurd-fire-emblem.gif" style="width:50%" alt="GIF of Emblem Sigurd from Fire Emblem Engage with the caption 'babygirl'" freeze=true class="pic center" %}
+{% include img.html image="https://media1.tenor.com/m/8Xu5aB58IP4AAAAd/fire-emblem-sigurd-fire-emblem.gif" style="max-width:30em" link=false alt="GIF of Emblem Sigurd from Fire Emblem Engage with the caption 'babygirl'" freeze=true class="pic center" %}
 
 ***
 <p class="center"><span style="float:left">Previous</span><span><a href="/journal">Back to Journal</a></span><span style="float:right"><a href="/journal/2024/may">Next</a></span></p>
