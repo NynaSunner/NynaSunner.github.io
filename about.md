@@ -111,19 +111,24 @@ For contact please use Discord or email. I'm a lurker and not really a social me
 
 You can use this button to link back to my site! You can hotlink it but I'd prefer if you didn't.
 
-<img src="/assets/img/button.gif" style="image-rendering: crisp-edges;">
+<img src="/assets/img/button.gif" style="image-rendering: crisp-edges">
 
 ```html
-<a href="https://nynasunner.space" target="_blank"><img src="/assets/img/buttons/nynasunner.gif" alt="NynaSunner's button"/></a>
+<a href="https://nynasunner.space" target="_blank"><img src="/assets/img/buttons/nynasunner.gif" style="image-rendering:crisp-edges" alt="NynaSunner's button"/></a>
 ```
+
+Static (.png) version:
+
+<img src="/assets/img/button-static.png" style="image-rendering: crisp-edges">
 
 ## Misc
 
 <details>
 	<summary class="bigsummary">Pseudoscience stuff</summary>
 <div markdown="1">
-I don't believe in these but personality tests are fun.
+I don't believe in these but personality tests are fun
 - **Zodiac**: ☀️Virgo, 🌙Aquarius, ⬆️Gemini
+- **Chinese zodiac**: Metal snake
 - **MBTI**: INTP-A / INFP-A
 - **Enneagram**: 9w?
 - **Classpect**: Knight of Space

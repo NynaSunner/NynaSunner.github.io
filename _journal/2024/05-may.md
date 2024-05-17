@@ -121,5 +121,39 @@ But back to FE4, the lack of the remake when it has supposedly been finished for
 {% include img.html image="https://pbs.twimg.com/media/FaMWchKVEAE5Be4.jpg" style="max-width:20em" alt="Derangedly biting through wood" class="pic center" %}
 
 ***
+## Friday 17th
+- Mood: ☺️ Way less allergic than the past days
+- Weather: ⛅ Cool
+- Video OTD: [Minecraft Bling-Bang-Bang-Born]()
+
+[Today I dreamt.](/journal/dreams#20240517)
+
+Minecraft Minecraft I love Minecraft I'm a Minecraft liker I like playing Minecraft with my friends ([/ref](https://knowyourmeme.com/memes/im-a-boy-liker-i-like-kissing-men-on-the-lips))
+
+I wanna go home and play Minecraft so baaaaad
+
+Idk why I want to play it so much if what I'm doing right now in the game is trudging through the jungle trying to get a jangmo-o to spawn, which is an ultra rare so it's definitely going to take me a while. I also want a turtwig and that one is even rarer.
+
+The other day I saw, by pure chance, a video about cloyster getting banned in competitive Gen 5. Cobblemon is Gen 9 but none of my friends play competitive, including myself, so I wanted to try it. Luckily the first shellder I got had Skill Link, the ability I needed, and though it took me a while to level it up (I hadn't built the healing machine yet so I had to sleep to heal) spamming Icicle Spear is so ridiculously fun. The fact that I live in a forest where nearly all mons are weak to Ice also helps.
+
+<div class="center"><img src="/assets/img/divider.gif"></div>
+
+Here's another Stuck Inside rip that's driving me insane. I love EricBound. I haven't even played EarthBound. Nor FNAF.
+
+<div class="center"><iframe class="ytvideo" loading="lazy" src="https://www.youtube-nocookie.com/embed/YeYcVhdTJPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<div class="center"><img src="/assets/img/divider.gif"></div>
+
+I also got to toying with FL Studio again. The only thing I've made since my PC died was recreating the No More Nuzzles project I was working on. I did finish recreating what I had, added another layer, and now I'm working on the bass.
+
+Since Google spies me, I got [this video about panning](https://youtu.be/kpwA4NDRyjA) on my Youtube recommendations. I'm using the default FL Keys plugin for everything but the bass right now so all parts "fight" each other a lot. I originally alleviated it a bit by messing with the volume but panning should also help. It isn't easy to notice so I'll have to keep fucking around and finding out.
+
+I don't want to upload a bigass .wav in here so maybe I'll redo it in BeepBox. I had already started to but lost the link to my old hard drive. I'm still not over it.
+
+<div class="center"><img src="/assets/img/divider.gif"></div>
+
+I JUST SAW ON DISCORD THAT [LA CANCIÓN DE ALICIA WAS FOUND](https://www.reddit.com/r/Lostwave/comments/1cttng2/we_found_la_cancion_de_alicia/)?? WHAT IS GOING ON WITH ALL THESE LOST MEDIA SONGS BEING FOUND NOW??
+
+***
 
 <p class="center"><span style="float:left"><a href="/journal/2024/april">Previous</a></span><span><a href="/journal">Back to Journal</a></span><span style="float:right">Next</span></p>
