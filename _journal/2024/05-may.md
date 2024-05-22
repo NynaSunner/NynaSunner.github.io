@@ -15,7 +15,7 @@ permalink: journal/2024/may/
 
 [Today I dreamt.](/journal/dreams#20240507)
 
-There's a [new fallen heroes banner in FEH](). I generally don't care about fallen alts, the theme is cool but the only character I like who got one of these is Ninian and I wouldn't even call it "fallen" because she's just being mind controlled. So yeah, IDC because they're characters IDC about.
+There's a [new fallen heroes banner in FEH](https://youtu.be/gy2K4_7xo8s). I generally don't care about fallen alts, the theme is cool but the only character I like who got one of these is Ninian and I wouldn't even call it "fallen" because she's just being mind controlled. So yeah, IDC because they're characters IDC about.
 
 I cheered when I saw Nergal, immediately got disappointed when I realized that he was announced the third so he was the demote, cheered again when I saw his skills and saw that he wasn't, then got disappointed again at the fact that... He's getting a fallen alt. Instead of being a mythic hero. A main villain. Weird.
 
@@ -168,7 +168,7 @@ I had went out with my parents while my sister, being the killjoy that she is, s
 
 It's definitely someone's pet that escaped, because while there are some parakeets that can live "in the wild" in the city, this little guy is definitely not one of them. And because my sis got it to perch on her finger and chill on her legs with no issue.
 
-[pic]
+{% include img.html image="/assets/img/journal/2024-05-she-not-like-the-lettuce.webp" caption="My sis tried to feed it lettuce… it looks so offended lmao" alt="Photo of the bird in front of a leaf of lettuce, followed by another photo of it turning its nose away from the lettuce" style="max-width:35em" class="pic center" %}
 
 The birb was very lucky to have managed to get into a house, specially since it was pretty late. My mother told me that she had two budgies as a kid and one of them died because she left the window open and they're so fragile that they literally die with a little wind for too long. Imagine being a creature made for FLYING and dying when the wind blows a little too much.
 
@@ -178,11 +178,20 @@ My parents and I played some youtube videos about budgie care on the tv while ha
 
 Then the next day I get home to the birb watching youtube on the tv. Yeah.
 
-[pic]
+{% include img.html image="/assets/img/journal/2024-05-they-treat-het-better-than-me.webp" caption="Oh no, she's an iPad kid" alt="The living room with the bird's cage and the TV playing budgie videos on youtube" style="max-width:20em" class="pic center" %}
 
 She gets excited with the bird videos, though I heard that since budgies can't recognize themselves in a mirror they believe there's another one of them and develop parasocial relationships, getting distressed when their reflection doesn't chirp back, so I don't think that letting her watch other budgies on tv for hours is good for her.
 
 So anyway, we made some signs to find her owner and hung them around. My mother says that if they don't contact us by the weekend then she's removing the sings and keeping the birb. She clearly just wants to keep her so badly lmao.
+
+{% include img.html image="/assets/img/journal/2024-05-little-fancy-lass.webp" caption="Girl stop standing on one leg, you're not a flamingo!!" alt="The bird in her cage, perched on one leg" style="max-width:20em" class="pic center" %}
+
+And here are some opinions about the topic:
+
+<div class="flex-wrapper">
+{% include img.html image="/assets/img/journal/2024-05-pensive.png" caption=":pensive:" style="max-width:25em" class="pic center" %}
+{% include img.html image="/assets/img/journal/2024-05-thanks-summaries.png" caption="Discord Summaries™ being peak as usual" style="max-width:25em" class="pic center" %}
+</div>
 
 <div class="center"><img src="/assets/img/divider.gif"></div>
 
