@@ -155,5 +155,63 @@ I don't want to upload a bigass .wav in here so maybe I'll redo it in BeepBox. I
 I JUST SAW ON DISCORD THAT [LA CANCIÓN DE ALICIA WAS FOUND](https://www.reddit.com/r/Lostwave/comments/1cttng2/we_found_la_cancion_de_alicia/)?? WHAT IS GOING ON WITH ALL THESE LOST MEDIA SONGS BEING FOUND NOW??
 
 ***
+## Wednesday 22nd
+- Mood: 🫄 Tummy hurts
+- Weather: ⛅ Cold but starting to warm up
+- Video OTD: [Rainbow Road (Final Lap) (In-Game Version) - Mario Kart DS (SiIva)](https://youtu.be/JbFuOHDUrhY)
+
+First things first, first things second, first second third things third (seven!) [/ref](https://youtube.com/shorts/K5jk1Fua-V4)
+
+Shit aside what I want to share first is that I have a pet bird now, apparently. Lol
+
+I had went out with my parents while my sister, being the killjoy that she is, stayed at home. We went to a restaurant to dine early and my sister calls my mother saying that a bird snuck into the kitchen and isn't leaving. She then sends a photo and it's a little blue budgie.
+
+It's definitely someone's pet that escaped, because while there are some parakeets that can live "in the wild" in the city, this little guy is definitely not one of them. And because my sis got it to perch on her finger and chill on her legs with no issue.
+
+[pic]
+
+The birb was very lucky to have managed to get into a house, specially since it was pretty late. My mother told me that she had two budgies as a kid and one of them died because she left the window open and they're so fragile that they literally die with a little wind for too long. Imagine being a creature made for FLYING and dying when the wind blows a little too much.
+
+Anyway, by the time we got there it was late so the budgie was super sleepy. We got it some food and water and let it sleep in the bathroom. Googling we discovered that it is a female, and a very young adult. The next day we bought her a cage and moved it to the living room.
+
+My parents and I played some youtube videos about budgie care on the tv while having lunch and she did calling noises to some parts of the video, it was cute but it made us think that maybe she had a companion and was feeling lonely. My mother wants to get another bird to keep her company lol
+
+Then the next day I get home to the birb watching youtube on the tv. Yeah.
+
+[pic]
+
+She gets excited with the bird videos, though I heard that since budgies can't recognize themselves in a mirror they believe there's another one of them and develop parasocial relationships, getting distressed when their reflection doesn't chirp back, so I don't think that letting her watch other budgies on tv for hours is good for her.
+
+So anyway, we made some signs to find her owner and hung them around. My mother says that if they don't contact us by the weekend then she's removing the sings and keeping the birb. She clearly just wants to keep her so badly lmao.
+
+<div class="center"><img src="/assets/img/divider.gif"></div>
+
+I don't want to play Minecraft anymore lmao. Well, I do, but not in our current world.
+
+I got the mons I wanted, evolved them to their last stage aaaand that's it. My friends aren't even half my level so I can't battle with them. I already finished building my house. I have no interest in defeating the Ender Dragon as usual.
+
+So I went back to looking for cool mods for the next server. I found some really cool Origins ones, I want to play them and roleplay so bad...
+
+... Wait a minute. I hate roleplaying!
+
+<div class="center"><img src="/assets/img/divider.gif"></div>
+
+Woah an [Awkward Zombie strip about FE Engage](https://www.awkwardzombie.com/awkward-zombie/war-footing) with Sigurd in it, holy shit
+
+{% include img.html image="https://www.awkwardzombie.com/comics/1716174746-comic876.png" link="https://www.awkwardzombie.com/awkward-zombie/war-footing" caption="So this is why all the fighting in FE4 is done outdoors..." lazy=true style="max-width:20em" class="pic center" %}
+
+> Sigurd, please, alternate sprites are expensive.
+
+Yeah, so much that only Seliph got the ability to dismount and it's completely broken kek
+
+That reminds me about this quote from [FE4's playing guide](https://serenesforest.net/general/designers-notes/holy-war/playing-guide/):
+
+> [...] ...we guessed there would be many female fans who see Leaf, for example, and think “he looks so handsome in battle, I don’t want to promote him!”.
+
+"I don't want to promote Leif", said NO ONE EVER? Why would anyone willingly miss on that Master Knight rizz?? And though Leif is indeed a handsome little lad, the battle sprites in that game aren't in any way good looking lmaooo
+
+{% include img.html image="https://i.ytimg.com/vi/I1TkJnGB76U/mqdefault.jpg" alt="What was he cooking?" class="pic center" %}
+
+***
 
 <p class="center"><span style="float:left"><a href="/journal/2024/april">Previous</a></span><span><a href="/journal">Back to Journal</a></span><span style="float:right">Next</span></p>

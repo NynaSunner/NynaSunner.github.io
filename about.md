@@ -1,13 +1,13 @@
 ---
 title: About me
 header: About me
-description: 
+description: I'm so skibidi, I'm so fanum tax
 permalink: /about/
 layout: default
 ---
 {% include img.html image="/assets/img/laptop-gin.webp" class="pic l-float center" style="width:40%;max-width:20em;" alt="Gintoki from Gintama sitting with a laptop, propping his head" caption="He's just like me frfr" %}
 
-Heya! You can call me <abbr tabindex="0" title="Pronounced nee-nah">Nyna</abbr>! I go by [they/them](https://en.pronouns.page/they%26they/them/themself) pronouns ([él/ella](https://pronombr.es/%C3%A9l%26ella) in spanish).
+Heya! You can call me Nyna! I go by [they/them](https://en.pronouns.page/they%26they/them/themself) pronouns ([él/ella](https://pronombr.es/%C3%A9l%26ella) in spanish).
 
 I'm a lazy ass junior web developer who lives in Spain. I've studied JS, PHP, CSS, and SQL, but so far my only work experience has been making website layouts so I don't have many programming skills. I prefer front-end dev and coding as vanilla as possible.
 
@@ -19,7 +19,7 @@ I'm usually just chillin' so don't hesitate to hit me up, though I'm awful at tr
 
 ## Some of my interests
 
-**<u>Current fixation(s)</u>:** <abbr tabindex="0" title="Those are Fire Emblem Genealogy of the Holy War, and Fire Emblem Thracia 776">the Jugdral FE games</abbr>, Palworld, Dungeon Meshi
+**<u>Current fixation(s)</u>:** <abbr tabindex="0" title="Those are Fire Emblem Genealogy of the Holy War, and Fire Emblem Thracia 776">the Jugdral FE games</abbr>, Dungeon Meshi
 
 Black star ★ means I'm currently obsessing about it.<br>
 White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thus I'm more likely to obsess about it soon">than usual</abbr>.
@@ -46,7 +46,7 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 - Drawn to Life
 - Age of Empires II
 - A Dance Of Fire And Ice
-- Palworld ☆
+- Palworld
 - Minecraft ☆
 - Terraria
 - Ace Attorney
@@ -92,7 +92,7 @@ For contact please use Discord or email. I'm a lurker and not really a social me
 - **<img class="svg" src="https://cdn.simpleicons.org/discord/black"/> [Discord](https://discordapp.com/users/378953414740148228){:rel="me"}** as `@nynasunner`. You can find me at the [Gintama server](https://discord.gg/gintama)
 - **<img class="svg" src="https://cdn.simpleicons.org/tumblr/black"/> [Tumblr](https://nynasunner.tumblr.com){:rel="me"}** Full of shitty reblogs
 - **<img class="svg" src="https://cdn.simpleicons.org/gamebanana/black"/> [Gamebanana](https://gamebanana.com/members/2174941){:rel="me"}** Watch me make the worst mods known to man
-- **<img class="svg" src="https://cdn.simpleicons.org/bluesky/black"/> [Bluesky](https://bsky.app/profile/nynasunner.bsky.social){:rel="me"}** Idk how to use this thang, also no I don't use twitter
+- **<img class="svg" src="https://cdn.simpleicons.org/bluesky/black"/> [Bluesky](https://bsky.app/profile/nynasunner.bsky.social){:rel="me"}** I barely log in but making custom feeds is fun
 - **<img class="svg" src="https://cdn.simpleicons.org/youtube/black"/> [YouTube](https://www.youtube.com/channel/UC0N-oSjxH0Rkqlf8Rc6HGEg){:rel="me"}** I only upload Bad Quality Rips™
 - **<img class="svg" src="https://cdn.simpleicons.org/steam/black"/> [Steam](https://steamcommunity.com/id/nynasunner){:rel="me"}** Add me and I'll invite spam you to play Chicken Invaders 3
 - **<img class="svg" src="https://cdn.simpleicons.org/github/black"/> [Github](https://github.com/NynaSunner){:rel="me"}** Where you can see how awful this site is

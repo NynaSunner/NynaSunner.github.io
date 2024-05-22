@@ -1,5 +1,5 @@
 ---
-title: Home
+title:
 header:
 description: My awful homepage
 permalink: /
