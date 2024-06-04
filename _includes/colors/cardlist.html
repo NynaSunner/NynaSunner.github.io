@@ -1,0 +1,86 @@
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/filter.js"></script>
+
+<input type="checkbox" id="Red" class="color" checked>
+<label for="Red">Red</label>
+<input type="checkbox" id="Orange" class="color" checked>
+<label for="Orange">Orange</label>
+<input type="checkbox" id="Yellow" class="color" checked>
+<label for="Yellow">Yellow</label>
+<input type="checkbox" id="Green" class="color" checked>
+<label for="Green">Green</label>
+<input type="checkbox" id="Blue" class="color" checked>
+<label for="Blue">Blue</label>
+<input type="checkbox" id="Purple" class="color" checked>
+<label for="Purple">Purple</label>
+<input type="checkbox" id="Brown" class="color" checked>
+<label for="Brown">Brown</label>
+<input type="checkbox" id="Gray" class="color" checked>
+<label for="Gray">Gray</label>
+<input type="checkbox" id="Special" class="color" checked>
+<label for="Special">Special</label>
+
+<textarea name="searchbar" id="searchbar" placeholder="Search by card, deck, or series" cols="30" rows="5"></textarea>
+
+{% assign datalist = include.list | sort: "name" %}
+
+<details>
+<summary>Text-only list</summary>
+{% for cardie in datalist %}
+{% assign card = cardie.name %}
+
+{% assign length = card | size %}
+{% assign new_length = length | minus: 2 %}
+{% assign deck = card | slice: 0, new_length %}
+
+{% assign deckinfo = site.data.colors.database[deck] %}
+
+{% assign space = " " %}
+
+{% capture classes %}
+{% for data in deckinfo %}{{ data }}{{ space }}{% endfor %}{{ card }}
+{% endcapture %}
+
+<span class="{{ classes | xml_escape }}">{{ card }}{% if forloop.last %}{% else %}, {% endif %}</span>
+{% endfor %}
+</details>
+
+***
+
+<div id="card-container">
+{% for cardie in datalist %}
+{% assign card = cardie.name %}
+
+{% assign length = card | size %}
+{% assign new_length = length | minus: 2 %}
+{% assign deck = card | slice: 0, new_length %}
+
+{% assign deckinfo = site.data.colors.database[deck] %}
+
+{% assign space = " " %}
+
+{% capture classes %}
+{% for data in deckinfo %}{{ data }}{{ space }}{% endfor %}{{ card }}
+{% endcapture %}
+
+
+<img src="https://colors-tcg.eu/cards/{{ card }}.gif" class="{{ classes | xml_escape }}" alt="{{ card }}" title="{{ card }}" loading="lazy">
+
+
+{% endfor %}
+</div>
+
+<style>
+    .hidden{
+        display:none;
+    }
+    .hidden-two{ /* They have to be two different classes */
+        display:none;
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        filterColor();
+        filterText();
+    });
+</script>

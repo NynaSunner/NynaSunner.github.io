@@ -1,0 +1,38 @@
+[
+    {
+      "name": "red",
+      "amount": 0
+    },
+    {
+      "name": "orange",
+      "amount": 0
+    },
+    {
+      "name": "yellow",
+      "amount": 0
+    },
+    {
+      "name": "green",
+      "amount": 0
+    },
+    {
+      "name": "blue",
+      "amount": 0
+    },
+    {
+      "name": "purple",
+      "amount": 0
+    },
+    {
+      "name": "brown",
+      "amount": 0
+    },
+    {
+      "name": "gray",
+      "amount": 1
+    },
+    {
+      "name": "trades",
+      "amount": 0
+    }
+  ]
