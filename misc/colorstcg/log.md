@@ -4,6 +4,22 @@ title: Log
 permalink: /colors/log/
 ---
 # Activity log
+2024/06/16
+- Obtained in [Lady Luck Slots 160](https://colors-tcg.dreamwidth.org/3838574.html?thread=195358318#cmt195358318): robots09, deities12, cousins20, solistia02, lightclub18, orange19, marks14, neoarcadia08, accessories05, isshu05, enjoysummer10, replacement17, riders08, irontail19, strangemen04, oninonaku03, caduceus09, ultima01, twintails14, shugo12, kimurar09, class1-a19, ships19, hosoyan15, 1 red crayon, 1 yellow crayon, 1 purple crayon, 1 brown crayon
+
+2024/06/13
+- Obtained in [Booster Bundle 179](https://colors-tcg.dreamwidth.org/3838978.html?thread=195248642#cmt195248642): pluglariat06, meramera15, shingyo15, shaman06, seishin01, vessel16, midorikaru05, illegal09
+
+2024/06/09
+- Obtained in [Deck Lover 422](https://colors-tcg.dreamwidth.org/3835808.html?thread=195085216#cmt195085216): tharsis08, hocchan03, mechapilots17, precure09, shiroiwa13, tsukumogami04
+- Obtained in [No Context Theater 371](https://colors-tcg.dreamwidth.org/3836375.html?thread=195077335#cmt195077335): littlegui07, intetsu11, fairly02, daughters06, feng13
+- Obtained in [Reading Between the Lines 398](https://colors-tcg.dreamwidth.org/3841570.html?thread=195046690#cmt195046690): halfmight20, thesea03, vigilante17, maki09, parlortricks13, wrath01, miraculous16, inquisitor01
+
+2024/06/06
+- Obtained in [Pick a Color 263](https://colors-tcg.dreamwidth.org/3832223.html?thread=194934175#cmt194934175): can19, bodymirror20, frasco16, littlegui20, phonograph07, buttons03, alarmclock05, frasco09, fuller01, buttons12, texting08, otherme02, q0106, bigg13, buttons20, decimation20, snakewoman05, instrument11, ironarm01, prettiestboy12
+
+2024/06/05
+- Gift from [Lex](https://nynasunner.dreamwidth.org/442.html?thread=1466#cmt1466): perm02, grannvale03, lenster11, ninisgrace04, empty07, 5 red crayons, 2 orange crayons, 3 yellow crayons, 4 green crayons, 5 blue crayons, 1 purple crayon, 2 brown crayons, 3 gray crayons
 
 2024/06/04
 - Obtained in [Colors TCG 14th Anniversary - day 02](https://colors-tcg.dreamwidth.org/3844977.html?thread=194886257#cmt194886257): issachar07, naturally02, fourteenate02

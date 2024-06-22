@@ -1,35 +1,35 @@
 [
     {
       "name": "red",
-      "amount": 0
+      "amount": 6
     },
     {
       "name": "orange",
-      "amount": 0
+      "amount": 2
     },
     {
       "name": "yellow",
-      "amount": 0
+      "amount": 4
     },
     {
       "name": "green",
-      "amount": 0
+      "amount": 4
     },
     {
       "name": "blue",
-      "amount": 0
+      "amount": 5
     },
     {
       "name": "purple",
-      "amount": 0
+      "amount": 2
     },
     {
       "name": "brown",
-      "amount": 0
+      "amount": 3
     },
     {
       "name": "gray",
-      "amount": 1
+      "amount": 4
     },
     {
       "name": "trades",

@@ -17,7 +17,7 @@ permalink: /colors/
 <div markdown="1" class="flexing" style="border: 3px dotted; padding: 0 1em; margin-bottom:1em">
 <img src="https://i.imgur.com/aYVApfm.png" alt="icon" id="pfp">
 - **Player:** Nyna ([NynaSunner](https://nynasunner.dreamwidth.org/))
-- **Level:** Orange ({{ totalcards }}/200)
+- **Level:** Yellow ({{ totalcards }}/300)
 - **Birthday:** August
 - **Join date:** 2024/05/24
 - **Last updated:** {{ "now" | date: "%Y/%m/%d" }}
@@ -25,7 +25,7 @@ permalink: /colors/
 </div>
 </div>
 <div class="center">
-    <img src="https://colors-tcg.eu/banners/level_january04_02.gif" alt="level orange">
+    <img src="https://colors-tcg.eu/banners/level_january04_03.gif" alt="level yellow">
 </div>
 
 ***
