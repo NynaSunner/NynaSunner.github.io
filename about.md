@@ -7,7 +7,7 @@ layout: default
 ---
 {% include img.html image="/assets/img/laptop-gin.webp" class="pic l-float center" style="width:40%;max-width:20em;" alt="Gintoki from Gintama sitting with a laptop, propping his head" caption="He's just like me frfr" %}
 
-Heya! You can call me Nyna! I go by [they/them](https://en.pronouns.page/they%26they/them/themself) pronouns ([él/ella](https://pronombr.es/%C3%A9l%26ella) in spanish).
+Heya! You can call me Nyna!
 
 I'm a lazy ass junior web developer who lives in Spain. I've studied JS, PHP, CSS, and SQL, but so far my only work experience has been making website layouts so I don't have many programming skills. I prefer front-end dev and coding as vanilla as possible.
 
@@ -19,7 +19,7 @@ I'm usually just chillin' so don't hesitate to hit me up, though I'm awful at tr
 
 ## Some of my interests
 
-**<u>Current fixation(s)</u>:** <abbr tabindex="0" title="Those are Fire Emblem Genealogy of the Holy War, and Fire Emblem Thracia 776">the Jugdral FE games</abbr>, Dungeon Meshi
+**<u>Current fixation(s)</u>:** <abbr tabindex="0" title="Those are Fire Emblem Genealogy of the Holy War, and Fire Emblem Thracia 776">the Jugdral FE games</abbr>, Terraria
 
 Black star ★ means I'm currently obsessing about it.<br>
 White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thus I'm more likely to obsess about it soon">than usual</abbr>.
@@ -47,8 +47,8 @@ White star ☆ means I'm more interested in it <abbr tabindex="0" title="And thu
 - Age of Empires II
 - A Dance Of Fire And Ice
 - Palworld
-- Minecraft ☆
-- Terraria
+- Minecraft
+- Terraria ☆
 - Ace Attorney
 - The Sims
 - Kid Icarus
