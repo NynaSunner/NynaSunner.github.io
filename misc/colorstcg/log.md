@@ -4,6 +4,17 @@ title: Log
 permalink: /colors/log/
 ---
 # Activity log
+2024/07/15
+- Obtained in [Little Spell Academia 322](https://colors-tcg.dreamwidth.org/3891459.html?thread=196601347#cmt196601347): lenster18, perm04, perm15, perm06, grannvale19, perm16, grannvale17, lenster02, njorun07, perm08, grannvale08, lenster16
+- Obtained in [Crazy Colors 299](https://colors-tcg.dreamwidth.org/3890733.html?thread=196500013#cmt196500013): x-clips16, imitating18, petite19, pherae14, silverspoon01, duckcurse09, thumbwar09, myunit06
+
+2024/07/14
+- Obtained in [Little Spell Academia 321](https://colors-tcg.dreamwidth.org/3885642.html?thread=196483402#cmt196483402): bravelance06, perm10, bravelance03, zura20, empty19, perm01, grannvale11, lenster03, bravelance15, njorun03, lenster06
+- Lost in [Crazy Colors 299](https://colors-tcg.dreamwidth.org/3890733.html?thread=196482093#cmt196482093): inquisitor01
+- Obtained from [release 170 claims](https://colors-tcg.dreamwidth.org/3872826.html?thread=196481338#cmt196481338): inscribed19, knightdream06, sharpsoldier01, cluelessone09, demondragon06, wrycomrade18, seetheworld04, orchids18, aureola13, snidebow09, badminton02, badminton06, badminton10, hisui14
+- Gift from [Adelicya](https://nynasunner.dreamwidth.org/442.html?thread=1978#cmt1978): perm07, perm09, perm18, perm19
+- Traded with [Adelicya](https://nynasunner.dreamwidth.org/442.html?thread=1978#cmt1978): divination18, littlegui07, littlegui20, instrument11, decimation20, otherme02, precure09, capricorn09, orange19, tableware17 **for** android01, android05, android11, android20, badminton11, badminton13, badminton18, badminton19, bloodscythe20, lenster17
+
 2024/06/16
 - Obtained in [Lady Luck Slots 160](https://colors-tcg.dreamwidth.org/3838574.html?thread=195358318#cmt195358318): robots09, deities12, cousins20, solistia02, lightclub18, orange19, marks14, neoarcadia08, accessories05, isshu05, enjoysummer10, replacement17, riders08, irontail19, strangemen04, oninonaku03, caduceus09, ultima01, twintails14, shugo12, kimurar09, class1-a19, ships19, hosoyan15, 1 red crayon, 1 yellow crayon, 1 purple crayon, 1 brown crayon
 
