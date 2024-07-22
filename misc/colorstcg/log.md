@@ -4,6 +4,14 @@ title: Log
 permalink: /colors/log/
 ---
 # Activity log
+2024/07/22
+- Obtained in [Little Spell Academia 323](https://colors-tcg.dreamwidth.org/3898357.html?thread=196824053#cmt196824053): ninisgrace05, grannvale02, perm03, x-rayvision08, ninisgrace10, njorun14, lenster04, grannvale12, bravelance14, lenster07, perm14
+
+2024/07/21
+- Obtained in [Hi-5 Radio 261](https://colors-tcg.dreamwidth.org/3891073.html?thread=196774017#cmt196774017): asapin15, densecaress03, geta06, littlegirl02, fingernails11, invention17, k2r09, vahnaboris10, hairpin05, brutalswing14, creampuff05, mononoke02
+- Obtained in [Lady Luck Slots 166](https://colors-tcg.dreamwidth.org/3887519.html?thread=196768415#cmt196768415): babybottle19, feasting14, messiah10, rodeo-star05, sunset13, eyeignite17, elven03, firstson07, bathroom03, psyqualia07, spouse02, errors17, protected03, foulplay04, vicious14, docodemo08, usamin04, aiaigasa09, talentshow14, foulmouthed09, honeybuddha18, totalassault10, tokioka18, durandal18, 2 red crayons
+- Obtained in [Reading Between the Lines 404](https://colors-tcg.dreamwidth.org/3890392.html?thread=196751320#cmt196751320): bigfall06, here14, shinya08, dwn-01101, kalos16, animals06, swords17, borrow16
+
 2024/07/15
 - Obtained in [Little Spell Academia 322](https://colors-tcg.dreamwidth.org/3891459.html?thread=196601347#cmt196601347): lenster18, perm04, perm15, perm06, grannvale19, perm16, grannvale17, lenster02, njorun07, perm08, grannvale08, lenster16
 - Obtained in [Crazy Colors 299](https://colors-tcg.dreamwidth.org/3890733.html?thread=196500013#cmt196500013): x-clips16, imitating18, petite19, pherae14, silverspoon01, duckcurse09, thumbwar09, myunit06
