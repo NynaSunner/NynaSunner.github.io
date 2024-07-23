@@ -4,7 +4,11 @@ title: Log
 permalink: /colors/log/
 ---
 # Activity log
+2024/07/23
+- Obtained in [Crazy Colors 300](https://colors-tcg.dreamwidth.org/3897655.html?thread=196842551#cmt196842551): kids10, muru08, drinklink18, dannoura09, lightblue07, yukimin10, salvation13, easternmyth06, overload07, evilmonk13, meganest13, repetitive15, mrstrong20, hari18, riddles11, wehrwolf04, informant17, skycolor20, suzunaan18, darkmay04, ancienttimes02, voi07, nightshade18, shutter16
+
 2024/07/22
+- Lost in [Crazy Colors 300](https://colors-tcg.dreamwidth.org/3897655.html?thread=196822583#cmt196822583): outgoing15
 - Obtained in [Little Spell Academia 323](https://colors-tcg.dreamwidth.org/3898357.html?thread=196824053#cmt196824053): ninisgrace05, grannvale02, perm03, x-rayvision08, ninisgrace10, njorun14, lenster04, grannvale12, bravelance14, lenster07, perm14
 
 2024/07/21
