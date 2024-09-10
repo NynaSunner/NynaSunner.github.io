@@ -4,6 +4,21 @@ title: Log
 permalink: /colors/log/
 ---
 # Activity log
+2024/09/03
+- Traded with [Netbug](https://nynasunner.dreamwidth.org/442.html?thread=2746#cmt2746): crowanima11, patissiere04 **for** ninisgrace12, ninisgrace14
+
+2024/08/04
+- Obtained in [Lady Luck Slots 168](https://colors-tcg.dreamwidth.org/3900960.html?thread=197299488#cmt197299488): cold17, littlesister18, fourthson02, contestidol13, aurastorm16, mypleasure18, direthunder02, luna19, clotting17, keyblade09, kerchief04, choromi17, galactic09, recitals12, egosa07, tol06, doodles16, purgatory13, blackfang17, ricewine16, mess05, redhare16, horn03, ensemble02, 2 blue crayons
+
+2024/08/01
+- Obtained in [Pick a Color 267](https://colors-tcg.dreamwidth.org/3894836.html?thread=197164596#cmt197164596): gooddoctor15, ungagged05, kruga08, toyparade01, ungagged09, momotaro04, jadetiles18, founded01, tareme09, filthypig20, beech13, filthypig12, primadonna04, spying02, ryous18, microwavin18, unknownhero01, spiritsense13, triten15, toyparade11
+
+2024/07/29
+- Obtained in [Hi-5 Radio 262](https://colors-tcg.dreamwidth.org/3898097.html?thread=197031665#cmt197031665): kremling10, nee-san02, cursedseal01, eightchi12, virgo17, luckless16
+
+2024/07/26
+- Obtained in [Booster Bundle 182](https://colors-tcg.dreamwidth.org/3888004.html?thread=196932740#cmt196932740): foxes20, knife-throw03, familiars11, goats19, amiable15, heroes20, bloodshot17, cutetype16
+
 2024/07/23
 - Obtained in [Crazy Colors 300](https://colors-tcg.dreamwidth.org/3897655.html?thread=196842551#cmt196842551): kids10, muru08, drinklink18, dannoura09, lightblue07, yukimin10, salvation13, easternmyth06, overload07, evilmonk13, meganest13, repetitive15, mrstrong20, hari18, riddles11, wehrwolf04, informant17, skycolor20, suzunaan18, darkmay04, ancienttimes02, voi07, nightshade18, shutter16
 

@@ -17,7 +17,7 @@
     },
     {
       "name": "blue",
-      "amount": 5
+      "amount": 7
     },
     {
       "name": "purple",
@@ -33,6 +33,6 @@
     },
     {
       "name": "trades",
-      "amount": 10
+      "amount": 12
     }
   ]
