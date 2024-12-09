@@ -12,12 +12,9 @@ Array.prototype.move = function (from, to) { // https://stackoverflow.com/questi
     this.splice(to, 0, this.splice(from, 1)[0]);
 };
 
-function solve(qArr) { // How bad is it to make a switch case inside a switch case
-    // First aspect is the "top" one (A-B), second is the "bottom" one (D-E):
+function solve(qArr) {
+    // First Aspect is the "top" one (A-B), second is the "bottom" one (D-E):
     // BreathBlood, BreathBlood, LightVoid, LightVoid, TimeSpace, TimeSpace, HeartMind, HeartMind, HopeRage, HopeRage, LifeDoom, LifeDoom
-
-    var aspectsArr = ["Hope","Breath","Life","Light","Time","Heart","Rage","Blood","Doom","Void","Space","Mind"];
-
     // HOPE BREATH LIFE LIGHT TIME HEART RAGE. NEED TO REORGANIZE QUESTIONS (RAGE IS WHAT I FEEL RN).
     // breath breath light light time time heart heart hope hope life life
     // Moves hoperage questions to pos 1
@@ -48,14 +45,14 @@ function solve(qArr) { // How bad is it to make a switch case inside a switch ca
                 scoresArr[(pair+11) % 12] = scoresArr[(pair+11) % 12]+2;
                 break;
             case "3": // ughhhhhh
-                // Remove first and adjacents
+                // Remove first and add to adjacents
                 scoresArr[pair] = scoresArr[pair]-1;
-                scoresArr[(pair+1) % 12] = scoresArr[(pair+1) % 12]-1;
-                scoresArr[(pair+11) % 12] = scoresArr[(pair+11) % 12]-1;
-                // Remove second and adjacents
+                scoresArr[(pair+1) % 12] = scoresArr[(pair+1) % 12]+1;
+                scoresArr[(pair+11) % 12] = scoresArr[(pair+11) % 12]+1;
+                // Remove second and add to adjacents
                 scoresArr[(pair+6) % 12] = scoresArr[(pair+6) % 12]-1;
-                scoresArr[(pair+5) % 12] = scoresArr[(pair+5) % 12]-2;
-                scoresArr[(pair+7) % 12] = scoresArr[(pair+7) % 12]-2;
+                scoresArr[(pair+5) % 12] = scoresArr[(pair+5) % 12]+1;
+                scoresArr[(pair+7) % 12] = scoresArr[(pair+7) % 12]+1;
                 // Add to others
                 scoresArr[(pair+2) % 12] = scoresArr[(pair+2) % 12]+3;
                 scoresArr[(pair+3) % 12] = scoresArr[(pair+3) % 12]+3;
@@ -82,24 +79,36 @@ function solve(qArr) { // How bad is it to make a switch case inside a switch ca
     }
     // Moving them because having it start with hope is icking me
     scoresArr.move(0,11);
-    aspectsArr.move(0,11);
-
-    let list = document.getElementById("results");
-    list.innerHTML = ""; // Empty the list
-    for (let i = 0; i < scoresArr.length; i++) {
-        console.log(aspectsArr[i] + ": " + scoresArr[i]);
-        let li = document.createElement('li');
-        li.innerText = (aspectsArr[i] + ": " + scoresArr[i]);
-        list.appendChild(li);
-    }
     
     return scoresArr;
 }
 
+function sortAndPrint(scoresArr){
+    var aspectsArr = ["Breath","Life","Light","Time","Heart","Rage","Blood","Doom","Void","Space","Mind","Hope"];
+    // Fake associative array (js why are you a bitch)
+    let results = new Object();
+    for(let i = 0; i < aspectsArr.length; i++){
+        results[aspectsArr[i]] = scoresArr[i];
+    }
+    console.log(results);
+
+    // Sort Aspects by score
+    var sortedAsp = Object.keys(results).sort(function(a,b){return results[b]-results[a]});
+    // Print
+    let list = document.getElementById("results");
+    list.innerHTML = ""; // Empty the list
+    for(var i = 0; i < aspectsArr.length; i++){
+        let li = document.createElement('li');
+        li.innerText = (sortedAsp[i] + ": " + results[sortedAsp[i]]);
+        list.appendChild(li);
+    }
+}
+
 function ball() {
     var url = document.getElementById("testurl").value;
-
-    fuckingGraph(solve(cleanUrl(url)));
+    let results = solve(cleanUrl(url));
+    sortAndPrint(results);
+    fuckingGraph(results);
 }
 
 function fuckingGraph(arr){
