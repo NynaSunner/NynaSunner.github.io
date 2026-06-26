@@ -12,17 +12,13 @@ layout: default
 
 ***
 
-# Welcome to my mess of a site
+# Under renovations
 
-- Do you come from nynasunner.**github.io**? My new URL is nynasunner.**space**!
+Hello, I've been meaning for a long time to redo my whole site because I don't like it anymore. Also, yes I am still alive (barely).
 
-Heya! Welcome to my site!
+I'm planning on using 11ty this time instead of Jekyll. Don't worry, I'll try to keep the URLs of my tools like the [Extended Zodiac chart](/tools/extended-zodiac) the same so it won't break if you have it bookmarked.
 
-This is the place where I plan to share and post stuff I come across while sailing the internet, along with any projects I might work in. If you find something that might interest me don't hesitate to message me! 💜
-
-This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.org/jekyll/black"/>Jekyll, and it's mobile-friendly! It's a WIP, so please message me if something is wrong or if you have a suggestion ^^
-
-<a href="https://hillhouse.neocities.org/journal/notes/palestine"><img src="/assets/img/standwith.png" alt="88x31 button with the flag of Palestine and the text 'Stand with Palestine'" title="Free Palestine!"></a>
+<a href="https://hillhouse.neocities.org/journal/notes/palestine"><img src="/assets/img/standwith.png" alt="Stand with Palestine" title="Free Palestine!"></a>
 
 ***
 ## Status & updates
@@ -40,12 +36,6 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
 ***
 ## To do
 
-- Make a soft brown theme 🤎
-- Revamp about page?
-- Finish videogames page
-- Better organize links page by categories
-- Give the site credits links their own page
-- **Switch to PHP! Maybe with Twig?**
 - Remember this:
 
 
@@ -60,12 +50,13 @@ This site was coded by hand using <img class="svg" src="https://cdn.simpleicons.
   </div>
   <a href="https://fire.norvrandt.org/fan" target="_blank" alt="Fire Emblem Fanlisting" title="Pick A God And Pray fanlisting"><img src="/assets/img/pagap.png"></a>
   <a href="https://kalechips.net/responsive" target="_blank" alt="Responsive Web Directory" title="Responsive Web Directory"><img src="/assets/img/rwd.png"></a>
-  <a href="http://pkmn.caelestis.nu" target="_blank" rel="noopener noreferrer" style="border: 0px none; background: transparent;" title="I Choose You! :: GARCHOMP"><img src="/assets/img/garchomp.png" alt="I Choose You Pokémon clique" style="margin: auto -15px;"></a>
+  <a href="https://duo.dual-weekend.com/index.php" target="_blank" alt="Duo Fanlisting" title="Duo Fanlisting"><img src="/assets/img/diadop.png"></a>
+  <a href="https://pkmn.aquarel.nu/" target="_blank" title="I Choose You! :: GARCHOMP"><img src="/assets/img/garchomp.png" alt="I Choose You Pokémon clique" style="margin: auto -15px;"></a>
 </div>
 
 <!-- Microformats stuff -->
 <div class="h-card" style="display: none;">
-  <img class="u-photo" alt="the garlic from Plants Vs Zombies with a trollface and the text 'momazos nyna'" src="/assets/img/momazos-nyna.png"/>
+  <img class="u-photo" alt="momazos nyna" src="/assets/img/momazos-nyna.png"/>
   <a class="p-name u-url" href="https://nynasunner.space/">Nynasunner</a>
   <p class="p-note">Dumbass junior web developer who rambles occasionally and obsesses over mildly obscure things</p>
   <span class="p-country-name">Spain</span>

@@ -11,6 +11,9 @@ gem "rouge"
 # gem 'jemoji'
 gem 'tzinfo'
 gem 'tzinfo-data'
+# For some reason Jekyll won't work now without these?
+gem "csv"
+gem "base64"
 
 # Plugins
 group :jekyll_plugins do

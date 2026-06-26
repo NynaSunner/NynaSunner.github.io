@@ -627,7 +627,8 @@ footer{
 }
 .bottombtns button{
     cursor: pointer;
-    margin: .3em;
+    margin: .2em;
+    padding: .6rem .7rem;
 }
 
 input{
